@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchHeading /> renders correctly 1`] = `
+<span>
+  Search
+</span>
+`;
+
+exports[`<SearchHeading /> renders correctly with defaultHeading 1`] = `
+<span>
+  Furnishings
+</span>
+`;

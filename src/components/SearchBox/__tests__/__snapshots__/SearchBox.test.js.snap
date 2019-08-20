@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchBox /> renders correctly 1`] = `
+<div
+  className="dh-search-box"
+>
+  <form
+    action=""
+    className="dh-search-box-form"
+    noValidate={true}
+    onReset={[Function]}
+    onSubmit={[Function]}
+    role="search"
+  >
+    <div
+      className="dh-search-box-input-container"
+    >
+      <input
+        autoCapitalize="off"
+        autoComplete="off"
+        autoCorrect="off"
+        className="dh-search-box-input"
+        onChange={[Function]}
+        placeholder={null}
+        spellCheck="false"
+        type="search"
+        value=""
+      />
+      <button
+        className="dh-search-box-input-button"
+        hidden={true}
+        type="reset"
+      >
+        <Reset
+          className="dh-search-box-input-icon"
+        />
+      </button>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`<SearchBox /> renders correctly with custom classname 1`] = `
+<div
+  className="dh-search-box my-custom-classname"
+>
+  <form
+    action=""
+    className="dh-search-box-form"
+    noValidate={true}
+    onReset={[Function]}
+    onSubmit={[Function]}
+    role="search"
+  >
+    <div
+      className="dh-search-box-input-container"
+    >
+      <input
+        autoCapitalize="off"
+        autoComplete="off"
+        autoCorrect="off"
+        className="dh-search-box-input"
+        onChange={[Function]}
+        placeholder={null}
+        spellCheck="false"
+        type="search"
+        value=""
+      />
+      <button
+        className="dh-search-box-input-button"
+        hidden={true}
+        type="reset"
+      >
+        <Reset
+          className="dh-search-box-input-icon"
+        />
+      </button>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`<SearchBox /> treats its query prop as its input value 1`] = `
+<div
+  className="dh-search-box"
+>
+  <form
+    action=""
+    className="dh-search-box-form"
+    noValidate={true}
+    onReset={[Function]}
+    onSubmit={[Function]}
+    role="search"
+  >
+    <div
+      className="dh-search-box-input-container"
+    >
+      <input
+        autoCapitalize="off"
+        autoComplete="off"
+        autoCorrect="off"
+        className="dh-search-box-input"
+        onChange={[Function]}
+        placeholder={null}
+        spellCheck="false"
+        type="search"
+        value="QUERY1"
+      />
+      <button
+        className="dh-search-box-input-button"
+        hidden={false}
+        type="reset"
+      >
+        <Reset
+          className="dh-search-box-input-icon"
+        />
+      </button>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`<SearchBox /> treats its query prop as its input value 2`] = `
+<div
+  className="dh-search-box"
+>
+  <form
+    action=""
+    className="dh-search-box-form"
+    noValidate={true}
+    onReset={[Function]}
+    onSubmit={[Function]}
+    role="search"
+  >
+    <div
+      className="dh-search-box-input-container"
+    >
+      <input
+        autoCapitalize="off"
+        autoComplete="off"
+        autoCorrect="off"
+        className="dh-search-box-input"
+        onChange={[Function]}
+        placeholder={null}
+        spellCheck="false"
+        type="search"
+        value="QUERY1"
+      />
+      <button
+        className="dh-search-box-input-button"
+        hidden={false}
+        type="reset"
+      >
+        <Reset
+          className="dh-search-box-input-icon"
+        />
+      </button>
+    </div>
+  </form>
+</div>
+`;

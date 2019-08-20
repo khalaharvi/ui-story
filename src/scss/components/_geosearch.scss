@@ -1,0 +1,40 @@
+.#{$namespace}-geosearch {
+  display: flex;
+
+  @include mq($until: small) {
+    display: block;
+  }
+
+  &-autocomplete {
+    width: 285px;
+
+    @include mq($until: small) {
+      width: 100%;
+    }
+
+    input {
+      border-top-left-radius: 0;
+
+      @include mq($from: small) {
+        border-left: 0;
+        border-bottom-left-radius: 0;
+      }
+
+      @include mq($until: small) {
+        border-top: 0;
+        border-top-right-radius: 0;
+      }
+    }
+  }
+
+  &-select {
+    @include customSelect();
+
+    width: 220px;
+    border-radius: 0;
+
+    @include mq($until: small) {
+      width: 100%;
+    }
+  }
+}

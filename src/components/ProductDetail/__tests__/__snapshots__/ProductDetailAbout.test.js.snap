@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductDetailAbout /> renders correctly 1`] = `
+<div
+  className="dh-product-detail-about columns"
+>
+  <h2
+    className="dh-product-detail-title"
+  >
+    About 
+    Seller Name
+  </h2>
+</div>
+`;
+
+exports[`<ProductDetailAbout /> renders correctly with description 1`] = `
+<div
+  className="dh-product-detail-about columns"
+>
+  <h2
+    className="dh-product-detail-title"
+  >
+    About 
+    Seller Name
+  </h2>
+  <div
+    className="dh-designer-about-description col"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus delectus autem deserunt blanditiis nam commodi nobis quidem ullam, laboriosam rerum debitis quo reprehenderit error aperiam dolore sapiente molestias atque cupiditate.",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ProductDetailAbout /> renders correctly with description and image 1`] = `
+<div
+  className="dh-product-detail-about columns"
+>
+  <h2
+    className="dh-product-detail-title"
+  >
+    About 
+    Seller Name
+  </h2>
+  <img
+    alt="Seller Name"
+    className="dh-designer-about-img col"
+    src="https://placehold.it/370x150"
+  />
+  <div
+    className="dh-designer-about-description col"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus delectus autem deserunt blanditiis nam commodi nobis quidem ullam, laboriosam rerum debitis quo reprehenderit error aperiam dolore sapiente molestias atque cupiditate.",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ProductDetailAbout /> renders correctly with image 1`] = `
+<div
+  className="dh-product-detail-about columns"
+>
+  <h2
+    className="dh-product-detail-title"
+  >
+    About 
+    Seller Name
+  </h2>
+  <img
+    alt="Seller Name"
+    className="dh-designer-about-img col"
+    src="https://placehold.it/370x150"
+  />
+</div>
+`;

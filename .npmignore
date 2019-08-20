@@ -1,0 +1,15 @@
+__mocks__
+.storybook
+storybook-static
+stories
+coverage
+!dist
+.babelrc
+.eslintignore
+.eslintrc
+.stylelintrc
+rollup.config.*.js
+test-config.js
+yarn.lock
+*.log
+.env*

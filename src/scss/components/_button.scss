@@ -1,0 +1,66 @@
+$baseClassname: '.#{$namespace}-btn';
+
+#{$baseClassname} {
+  @include cleanBtn;
+  padding: 0 20px;
+
+  border-radius: 2px;
+
+  &[disabled],
+  &#{$baseClassname}--loading {
+    cursor: not-allowed;
+  }
+
+  &-primary {
+    background-color: $btn-primary-color__bg;
+    color: $btn-primary-color__text;
+    line-height: 50px;
+
+    &:not([disabled]):not(#{$baseClassname}--loading):hover {
+      background-color: $btn-primary-color__bg--hover;
+    }
+
+    &[disabled],
+    &#{$baseClassname}--loading {
+      color: rgba($btn-primary-color__text, .5);
+    }
+
+    &#{$baseClassname}-outline {
+      background-color: transparent;
+      border: 1px solid $color_primary;
+      color: $color_primary;
+      line-height: 48px;
+
+      &:not([disabled]):not(#{$baseClassname}--loading):hover {
+        background-color: transparent;
+        color: $color_primary--hover;
+        border-color: $color_primary--hover;
+      }
+
+      &[disabled],
+      &#{$baseClassname}--loading {
+        color: $color__text__secondary;
+        border-color: $color__text__secondary;
+      }
+    }
+  }
+
+  &-secondary {
+    border: 1px solid $color_secondary;
+    line-height: 48px;
+    background-color: $btn-secondary-color__bg;
+    color: $color_secondary;
+
+    &:not([disabled]):not(#{$baseClassname}--loading):hover {
+      background-color: $color_secondary;
+      border-color: $color_secondary;
+      color: $btn-secondary-color__text--hover;
+    }
+
+    &[disabled],
+    &#{$baseClassname}--loading {
+      color: $color__text__secondary;
+      border-color: $color__text__secondary;
+    }
+  }
+}

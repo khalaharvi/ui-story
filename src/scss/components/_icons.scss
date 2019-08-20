@@ -1,0 +1,59 @@
+.#{$namespace}-icon {
+  &-search {
+    width: 19px;
+    height: 22.75px;
+  }
+
+  &-reset {
+    width: 15px;
+    height: 15px;
+  }
+
+  &-facebook {
+    width: 10px;
+    height: 20px;
+  }
+
+  &-twitter {
+    width: 17px;
+    height: 15px;
+  }
+
+  &-pinterest {
+    width: 17px;
+    height: 17px;
+  }
+
+  &-instagram {
+    width: 16px;
+    height: 16px;
+  }
+
+  &-new-window {
+    width: 14px;
+    height: 14px;
+
+    path[fill="none"] {
+      stroke: currentColor;
+    }
+  }
+
+  &-email {
+    width: 19px;
+    height: 14px;
+  }
+
+  &-print {
+    width: 20px;
+    height: 17px;
+  }
+
+  &-download {
+    width: 19px;
+    height: 15.5px;
+
+    path[fill="none"] {
+      stroke: currentColor;
+    }
+  }
+}

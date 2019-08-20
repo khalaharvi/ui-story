@@ -1,0 +1,12 @@
+export * from './CommerceModule';
+export { default as FacetsTemplate } from './Facets';
+export { default as HeaderTemplate } from './Header';
+export { default as ProductDetailTemplate } from './ProductDetail';
+export { default as ProductsResultsTemplate } from './ProductsResults';
+export { default as ProductsSearchTemplate } from './ProductsSearch';
+export { default as RelatedModuleTemplate } from './RelatedModule';
+export { default as SearchResultsHeaderTemplate } from './SearchResultsHeader';
+export { default as SectionHeaderTemplate } from './SectionHeader';
+export { default as SellerProfileTemplate } from './SellerProfile';
+export { default as SellersResultsTemplate } from './SellersResults';
+export { default as SellersSearchTemplate } from './SellersSearch';

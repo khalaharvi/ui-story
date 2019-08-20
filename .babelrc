@@ -1,0 +1,38 @@
+{
+  "presets": [
+    ["env", {
+      "modules": false
+    }],
+    "react"
+  ],
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./"],
+      "cwd": "./",
+      "alias": {
+        "utils": "./src/utils",
+        "hocs": "./src/hocs",
+        "connectors": "./src/connectors",
+        "components": "./src/components",
+        "icons": "./src/components/Icons",
+        "templates": "./src/templates",
+        "styles": "./src/styles"
+      }
+    }],
+    ["transform-object-rest-spread", { "useBuiltIns": true }],
+    "transform-class-properties"
+  ],
+  "env": {
+    "test": {
+      "plugins": ["transform-es2015-modules-commonjs", "emotion"]
+    },
+    "production": {
+      "plugins": [["emotion", { "hoist": true }]]
+    },
+    "development": {
+      "plugins": [
+        ["emotion", { "sourceMap": true, "autoLabel": true }]
+      ]
+    }
+  }
+}

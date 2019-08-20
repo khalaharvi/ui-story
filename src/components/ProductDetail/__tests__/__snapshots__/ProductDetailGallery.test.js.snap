@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductDetailGallery /> renders correctly 1`] = `
+<div
+  className="dh-product-detail-gallery"
+>
+  <ImageGallery
+    autoPlay={false}
+    disableArrowKeys={false}
+    disableSwipe={false}
+    disableThumbnailScroll={false}
+    flickThreshold={0.4}
+    indexSeparator=" / "
+    infinite={true}
+    items={
+      Array [
+        Object {
+          "original": "https://placehold.it/600x600",
+          "thumbnail": "https://placehold.it/100x100",
+        },
+        Object {
+          "original": "https://placehold.it/600x600",
+          "thumbnail": "https://placehold.it/100x100",
+        },
+      ]
+    }
+    lazyLoad={false}
+    preventDefaultTouchmoveEvent={false}
+    renderFullscreenButton={[Function]}
+    renderLeftNav={[Function]}
+    renderPlayPauseButton={[Function]}
+    renderRightNav={[Function]}
+    showBullets={false}
+    showFullscreenButton={false}
+    showIndex={false}
+    showNav={false}
+    showPlayButton={false}
+    showThumbnails={true}
+    slideDuration={450}
+    slideInterval={3000}
+    startIndex={0}
+    stopPropagation={false}
+    swipeThreshold={30}
+    swipingTransitionDuration={0}
+    thumbnailPosition="bottom"
+    useBrowserFullscreen={true}
+    useTranslate3D={true}
+  />
+</div>
+`;

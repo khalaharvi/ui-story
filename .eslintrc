@@ -1,0 +1,44 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "plugin:flowtype/recommended"],
+  "plugins": ["flowtype", "jest"],
+  "rules": {
+    "eol-last": ["error", "always"],
+    "semi": [2, "always"],
+    "comma-dangle": ["error", "never"],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/prop-types": [1, { "ignore": ["children", "className", "htmlFor", "theme"] }],
+    "react/require-default-props": 0,
+    "jsx-a11y/label-has-for": [2, {
+      "components": [ "Label" ],
+      "required": {
+        "every": [ "nesting", "id" ]
+      },
+      "allowChildren": true
+    }],
+    "jsx-a11y/anchor-is-valid": ["error", { "components": ["Link"], "specialLink": ["to"] }],
+    "new-cap": ["error", { "properties": false }],
+    "no-underscore-dangle": ["error", { "allowAfterThis": true }],
+    "no-param-reassign": [2, { "props": false }],
+    "import/no-extraneous-dependencies": ["error", {"peerDependencies": true}],
+    "function-paren-newline": ["error", "consistent"],
+    "prefer-destructuring": ["error", {
+      "AssignmentExpression": {
+        "array": true,
+        "object": false
+      }
+    }]
+  },
+  "env": {
+    "jest/globals": true,
+    "browser": true
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-module": {}
+    },
+    "flowtype": {
+      "onlyFilesWithFlowAnnotation": true
+    }
+  }
+}

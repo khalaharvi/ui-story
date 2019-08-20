@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ClearFacets /> has a disabled mode 1`] = `
+<div
+  className="dh-clear-facets"
+>
+  <button
+    className="dh-clear-facets-button dh-clear-facets-button--disabled"
+    disabled={true}
+    onClick={[Function]}
+  >
+    Clear All
+  </button>
+</div>
+`;
+
+exports[`<ClearFacets /> renders correctly 1`] = `
+<div
+  className="dh-clear-facets"
+>
+  <button
+    className="dh-clear-facets-button"
+    disabled={false}
+    onClick={[Function]}
+  >
+    Clear All
+  </button>
+</div>
+`;
+
+exports[`<ClearFacets /> renders correctly with className 1`] = `
+<div
+  className="dh-clear-facets custom-clear-facets"
+>
+  <button
+    className="dh-clear-facets-button"
+    disabled={false}
+    onClick={[Function]}
+  >
+    Clear All
+  </button>
+</div>
+`;
+
+exports[`<ClearFacets /> should have a disabled mode 1`] = `
+<div
+  className="dh-clear-facets"
+>
+  <button
+    className="dh-clear-facets-button dh-clear-facets-button--disabled"
+    disabled={true}
+    onClick={[Function]}
+  >
+    Clear All
+  </button>
+</div>
+`;

@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Select /> renders correctly 1`] = `
+<Styled(div)
+  className="dh-custom-select"
+>
+  <Styled(select)
+    className="dh-custom-select-select"
+    onChange={[Function]}
+    value="index1"
+  >
+    <option
+      className="dh-custom-select-option"
+      key="index1"
+      value="index1"
+    >
+      index name 1
+    </option>
+    <option
+      className="dh-custom-select-option"
+      key="index2"
+      value="index2"
+    >
+      index name 2
+    </option>
+    <option
+      className="dh-custom-select-option"
+      key="index3"
+      value="index3"
+    >
+      index name 3
+    </option>
+    <option
+      className="dh-custom-select-option"
+      key="index4"
+      value="index4"
+    >
+      index name 4
+    </option>
+  </Styled(select)>
+  <Caret />
+</Styled(div)>
+`;
+
+exports[`<Select /> renders correctly with className 1`] = `
+<Styled(div)
+  className="dh-custom-select custom-select-classname"
+>
+  <Styled(select)
+    className="dh-custom-select-select"
+    onChange={[Function]}
+    value="index1"
+  >
+    <option
+      className="dh-custom-select-option"
+      key="index1"
+      value="index1"
+    >
+      index name 1
+    </option>
+    <option
+      className="dh-custom-select-option"
+      key="index2"
+      value="index2"
+    >
+      index name 2
+    </option>
+    <option
+      className="dh-custom-select-option"
+      key="index3"
+      value="index3"
+    >
+      index name 3
+    </option>
+    <option
+      className="dh-custom-select-option"
+      key="index4"
+      value="index4"
+    >
+      index name 4
+    </option>
+  </Styled(select)>
+  <Caret />
+</Styled(div)>
+`;

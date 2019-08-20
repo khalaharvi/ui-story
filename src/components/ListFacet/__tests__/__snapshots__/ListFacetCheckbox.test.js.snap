@@ -1,0 +1,955 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListFacetCheckbox /> renders correctly 1`] = `
+.emotion-12 {
+  position: relative;
+}
+
+.emotion-8 {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.emotion-8 ul {
+  padding-left: 15px;
+  margin-bottom: 0;
+}
+
+.emotion-2 {
+  display: block;
+  position: relative;
+  color: #242424;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.emotion-2:hover {
+  color: #242424;
+}
+
+.emotion-2 > a {
+  color: #242424;
+}
+
+.emotion-2 > a + ul {
+  display: block;
+}
+
+.emotion-0 {
+  position: relative;
+  cursor: pointer;
+  color: #242424;
+  display: block;
+}
+
+.emotion-0:hover {
+  color: #242424;
+}
+
+.emotion-0 input[type="checkbox"] {
+  position: absolute;
+  left: -9999px;
+}
+
+.emotion-0 span {
+  display: block;
+}
+
+.emotion-6 {
+  display: block;
+  position: relative;
+  color: #6d6d6a;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.emotion-6:hover {
+  color: #242424;
+}
+
+.emotion-4 {
+  position: relative;
+  cursor: pointer;
+  color: #6d6d6a;
+  display: block;
+}
+
+.emotion-4:hover {
+  color: #242424;
+}
+
+.emotion-4 input[type="checkbox"] {
+  position: absolute;
+  left: -9999px;
+}
+
+.emotion-4 span {
+  display: block;
+}
+
+.emotion-10 {
+  padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  outline: 0;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  color: #cdcbc5;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.emotion-10:hover {
+  color: #242424;
+}
+
+.emotion-10[disabled] {
+  display: none;
+}
+
+<ListFacetCheckbox
+  canRefine={true}
+  items={
+    Array [
+      Object {
+        "count": 10,
+        "isRefined": true,
+        "label": "white",
+        "value": Array [
+          "white",
+        ],
+      },
+      Object {
+        "count": 20,
+        "isRefined": false,
+        "label": "black",
+        "value": Array [
+          "black",
+        ],
+      },
+      Object {
+        "count": 30,
+        "isRefined": false,
+        "label": "blue",
+        "value": Array [
+          "blue",
+        ],
+      },
+    ]
+  }
+  limit={2}
+  refine={[Function]}
+  showMore={true}
+  showMoreLimit={4}
+>
+  <WithTheme(ListFacetOptions)
+    canRefine={true}
+    cx={[Function]}
+    items={
+      Array [
+        Object {
+          "count": 10,
+          "isRefined": true,
+          "label": "white",
+          "value": Array [
+            "white",
+          ],
+        },
+        Object {
+          "count": 20,
+          "isRefined": false,
+          "label": "black",
+          "value": Array [
+            "black",
+          ],
+        },
+        Object {
+          "count": 30,
+          "isRefined": false,
+          "label": "blue",
+          "value": Array [
+            "blue",
+          ],
+        },
+      ]
+    }
+    limit={2}
+    renderItem={[Function]}
+    showMore={true}
+    showMoreLimit={4}
+  >
+    <ListFacetOptions
+      canRefine={true}
+      cx={[Function]}
+      items={
+        Array [
+          Object {
+            "count": 10,
+            "isRefined": true,
+            "label": "white",
+            "value": Array [
+              "white",
+            ],
+          },
+          Object {
+            "count": 20,
+            "isRefined": false,
+            "label": "black",
+            "value": Array [
+              "black",
+            ],
+          },
+          Object {
+            "count": 30,
+            "isRefined": false,
+            "label": "blue",
+            "value": Array [
+              "blue",
+            ],
+          },
+        ]
+      }
+      limit={2}
+      renderItem={[Function]}
+      showMore={true}
+      showMoreLimit={4}
+    >
+      <Styled(div)
+        canRefine={true}
+        className="dh-list-facet"
+      >
+        <div
+          className="dh-list-facet emotion-12 emotion-13"
+        >
+          <Styled(ul)
+            canRefine={true}
+          >
+            <ul
+              className="emotion-8 emotion-9"
+            >
+              <Styled(li)
+                className="dh-list-facet-option dh-list-facet-option--active"
+                isRefined={true}
+                key="white"
+                parent={false}
+              >
+                <li
+                  className="dh-list-facet-option dh-list-facet-option--active emotion-2 emotion-3"
+                >
+                  <Styled(label)
+                    className="dh-list-facet-option--checkbox"
+                    isRefined={true}
+                  >
+                    <label
+                      className="dh-list-facet-option--checkbox emotion-0 emotion-1"
+                    >
+                      <input
+                        checked={true}
+                        onChange={[Function]}
+                        type="checkbox"
+                      />
+                      <span
+                        className="dh-list-facet-option-label"
+                      >
+                        white
+                      </span>
+                    </label>
+                  </Styled(label)>
+                </li>
+              </Styled(li)>
+              <Styled(li)
+                className="dh-list-facet-option"
+                isRefined={false}
+                key="black"
+                parent={false}
+              >
+                <li
+                  className="dh-list-facet-option emotion-6 emotion-3"
+                >
+                  <Styled(label)
+                    className="dh-list-facet-option--checkbox"
+                    isRefined={false}
+                  >
+                    <label
+                      className="dh-list-facet-option--checkbox emotion-4 emotion-1"
+                    >
+                      <input
+                        checked={false}
+                        onChange={[Function]}
+                        type="checkbox"
+                      />
+                      <span
+                        className="dh-list-facet-option-label"
+                      >
+                        black
+                      </span>
+                    </label>
+                  </Styled(label)>
+                </li>
+              </Styled(li)>
+            </ul>
+          </Styled(ul)>
+          <Styled(button)
+            className="dh-list-facet-option--show-more"
+            disabled={false}
+            onClick={[Function]}
+          >
+            <button
+              className="dh-list-facet-option--show-more emotion-10 emotion-11"
+              disabled={false}
+              onClick={[Function]}
+            >
+              View 
+              More
+            </button>
+          </Styled(button)>
+        </div>
+      </Styled(div)>
+    </ListFacetOptions>
+  </WithTheme(ListFacetOptions)>
+</ListFacetCheckbox>
+`;
+
+exports[`<ListFacetCheckbox /> renders correctly with className 1`] = `
+.emotion-12 {
+  position: relative;
+}
+
+.emotion-8 {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.emotion-8 ul {
+  padding-left: 15px;
+  margin-bottom: 0;
+}
+
+.emotion-2 {
+  display: block;
+  position: relative;
+  color: #242424;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.emotion-2:hover {
+  color: #242424;
+}
+
+.emotion-2 > a {
+  color: #242424;
+}
+
+.emotion-2 > a + ul {
+  display: block;
+}
+
+.emotion-0 {
+  position: relative;
+  cursor: pointer;
+  color: #242424;
+  display: block;
+}
+
+.emotion-0:hover {
+  color: #242424;
+}
+
+.emotion-0 input[type="checkbox"] {
+  position: absolute;
+  left: -9999px;
+}
+
+.emotion-0 span {
+  display: block;
+}
+
+.emotion-6 {
+  display: block;
+  position: relative;
+  color: #6d6d6a;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.emotion-6:hover {
+  color: #242424;
+}
+
+.emotion-4 {
+  position: relative;
+  cursor: pointer;
+  color: #6d6d6a;
+  display: block;
+}
+
+.emotion-4:hover {
+  color: #242424;
+}
+
+.emotion-4 input[type="checkbox"] {
+  position: absolute;
+  left: -9999px;
+}
+
+.emotion-4 span {
+  display: block;
+}
+
+.emotion-10 {
+  padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  outline: 0;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  color: #cdcbc5;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.emotion-10:hover {
+  color: #242424;
+}
+
+.emotion-10[disabled] {
+  display: none;
+}
+
+<ListFacetCheckbox
+  canRefine={true}
+  className="custom-list-facet-checkbox"
+  items={
+    Array [
+      Object {
+        "count": 10,
+        "isRefined": true,
+        "label": "white",
+        "value": Array [
+          "white",
+        ],
+      },
+      Object {
+        "count": 20,
+        "isRefined": false,
+        "label": "black",
+        "value": Array [
+          "black",
+        ],
+      },
+      Object {
+        "count": 30,
+        "isRefined": false,
+        "label": "blue",
+        "value": Array [
+          "blue",
+        ],
+      },
+    ]
+  }
+  limit={2}
+  refine={[Function]}
+  showMore={true}
+  showMoreLimit={4}
+>
+  <WithTheme(ListFacetOptions)
+    canRefine={true}
+    className="custom-list-facet-checkbox"
+    cx={[Function]}
+    items={
+      Array [
+        Object {
+          "count": 10,
+          "isRefined": true,
+          "label": "white",
+          "value": Array [
+            "white",
+          ],
+        },
+        Object {
+          "count": 20,
+          "isRefined": false,
+          "label": "black",
+          "value": Array [
+            "black",
+          ],
+        },
+        Object {
+          "count": 30,
+          "isRefined": false,
+          "label": "blue",
+          "value": Array [
+            "blue",
+          ],
+        },
+      ]
+    }
+    limit={2}
+    renderItem={[Function]}
+    showMore={true}
+    showMoreLimit={4}
+  >
+    <ListFacetOptions
+      canRefine={true}
+      className="custom-list-facet-checkbox"
+      cx={[Function]}
+      items={
+        Array [
+          Object {
+            "count": 10,
+            "isRefined": true,
+            "label": "white",
+            "value": Array [
+              "white",
+            ],
+          },
+          Object {
+            "count": 20,
+            "isRefined": false,
+            "label": "black",
+            "value": Array [
+              "black",
+            ],
+          },
+          Object {
+            "count": 30,
+            "isRefined": false,
+            "label": "blue",
+            "value": Array [
+              "blue",
+            ],
+          },
+        ]
+      }
+      limit={2}
+      renderItem={[Function]}
+      showMore={true}
+      showMoreLimit={4}
+    >
+      <Styled(div)
+        canRefine={true}
+        className="dh-list-facet custom-list-facet-checkbox"
+      >
+        <div
+          className="dh-list-facet custom-list-facet-checkbox emotion-12 emotion-13"
+        >
+          <Styled(ul)
+            canRefine={true}
+          >
+            <ul
+              className="emotion-8 emotion-9"
+            >
+              <Styled(li)
+                className="dh-list-facet-option dh-list-facet-option--active"
+                isRefined={true}
+                key="white"
+                parent={false}
+              >
+                <li
+                  className="dh-list-facet-option dh-list-facet-option--active emotion-2 emotion-3"
+                >
+                  <Styled(label)
+                    className="dh-list-facet-option--checkbox"
+                    isRefined={true}
+                  >
+                    <label
+                      className="dh-list-facet-option--checkbox emotion-0 emotion-1"
+                    >
+                      <input
+                        checked={true}
+                        onChange={[Function]}
+                        type="checkbox"
+                      />
+                      <span
+                        className="dh-list-facet-option-label"
+                      >
+                        white
+                      </span>
+                    </label>
+                  </Styled(label)>
+                </li>
+              </Styled(li)>
+              <Styled(li)
+                className="dh-list-facet-option"
+                isRefined={false}
+                key="black"
+                parent={false}
+              >
+                <li
+                  className="dh-list-facet-option emotion-6 emotion-3"
+                >
+                  <Styled(label)
+                    className="dh-list-facet-option--checkbox"
+                    isRefined={false}
+                  >
+                    <label
+                      className="dh-list-facet-option--checkbox emotion-4 emotion-1"
+                    >
+                      <input
+                        checked={false}
+                        onChange={[Function]}
+                        type="checkbox"
+                      />
+                      <span
+                        className="dh-list-facet-option-label"
+                      >
+                        black
+                      </span>
+                    </label>
+                  </Styled(label)>
+                </li>
+              </Styled(li)>
+            </ul>
+          </Styled(ul)>
+          <Styled(button)
+            className="dh-list-facet-option--show-more"
+            disabled={false}
+            onClick={[Function]}
+          >
+            <button
+              className="dh-list-facet-option--show-more emotion-10 emotion-11"
+              disabled={false}
+              onClick={[Function]}
+            >
+              View 
+              More
+            </button>
+          </Styled(button)>
+        </div>
+      </Styled(div)>
+    </ListFacetOptions>
+  </WithTheme(ListFacetOptions)>
+</ListFacetCheckbox>
+`;
+
+exports[`<ListFacetCheckbox /> renders correctly without refinement 1`] = `
+.emotion-12 {
+  position: relative;
+}
+
+.emotion-8 {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.emotion-8 ul {
+  padding-left: 15px;
+  margin-bottom: 0;
+}
+
+.emotion-2 {
+  display: block;
+  position: relative;
+  color: #242424;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.emotion-2:hover {
+  color: #242424;
+}
+
+.emotion-2 > a {
+  color: #242424;
+}
+
+.emotion-2 > a + ul {
+  display: block;
+}
+
+.emotion-0 {
+  position: relative;
+  cursor: pointer;
+  color: #242424;
+  display: block;
+}
+
+.emotion-0:hover {
+  color: #242424;
+}
+
+.emotion-0 input[type="checkbox"] {
+  position: absolute;
+  left: -9999px;
+}
+
+.emotion-0 span {
+  display: block;
+}
+
+.emotion-6 {
+  display: block;
+  position: relative;
+  color: #6d6d6a;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.emotion-6:hover {
+  color: #242424;
+}
+
+.emotion-4 {
+  position: relative;
+  cursor: pointer;
+  color: #6d6d6a;
+  display: block;
+}
+
+.emotion-4:hover {
+  color: #242424;
+}
+
+.emotion-4 input[type="checkbox"] {
+  position: absolute;
+  left: -9999px;
+}
+
+.emotion-4 span {
+  display: block;
+}
+
+.emotion-10 {
+  padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  outline: 0;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  color: #cdcbc5;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.emotion-10:hover {
+  color: #242424;
+}
+
+.emotion-10[disabled] {
+  display: none;
+}
+
+<ListFacetCheckbox
+  canRefine={false}
+  items={
+    Array [
+      Object {
+        "count": 10,
+        "isRefined": true,
+        "label": "white",
+        "value": Array [
+          "white",
+        ],
+      },
+      Object {
+        "count": 20,
+        "isRefined": false,
+        "label": "black",
+        "value": Array [
+          "black",
+        ],
+      },
+      Object {
+        "count": 30,
+        "isRefined": false,
+        "label": "blue",
+        "value": Array [
+          "blue",
+        ],
+      },
+    ]
+  }
+  limit={2}
+  refine={[Function]}
+  showMore={true}
+  showMoreLimit={4}
+>
+  <WithTheme(ListFacetOptions)
+    canRefine={false}
+    cx={[Function]}
+    items={
+      Array [
+        Object {
+          "count": 10,
+          "isRefined": true,
+          "label": "white",
+          "value": Array [
+            "white",
+          ],
+        },
+        Object {
+          "count": 20,
+          "isRefined": false,
+          "label": "black",
+          "value": Array [
+            "black",
+          ],
+        },
+        Object {
+          "count": 30,
+          "isRefined": false,
+          "label": "blue",
+          "value": Array [
+            "blue",
+          ],
+        },
+      ]
+    }
+    limit={2}
+    renderItem={[Function]}
+    showMore={true}
+    showMoreLimit={4}
+  >
+    <ListFacetOptions
+      canRefine={false}
+      cx={[Function]}
+      items={
+        Array [
+          Object {
+            "count": 10,
+            "isRefined": true,
+            "label": "white",
+            "value": Array [
+              "white",
+            ],
+          },
+          Object {
+            "count": 20,
+            "isRefined": false,
+            "label": "black",
+            "value": Array [
+              "black",
+            ],
+          },
+          Object {
+            "count": 30,
+            "isRefined": false,
+            "label": "blue",
+            "value": Array [
+              "blue",
+            ],
+          },
+        ]
+      }
+      limit={2}
+      renderItem={[Function]}
+      showMore={true}
+      showMoreLimit={4}
+    >
+      <Styled(div)
+        canRefine={false}
+        className="dh-list-facet"
+      >
+        <div
+          className="dh-list-facet emotion-12 emotion-13"
+        >
+          <Styled(ul)
+            canRefine={false}
+          >
+            <ul
+              className="emotion-8 emotion-9"
+            >
+              <Styled(li)
+                className="dh-list-facet-option dh-list-facet-option--active"
+                isRefined={true}
+                key="white"
+                parent={false}
+              >
+                <li
+                  className="dh-list-facet-option dh-list-facet-option--active emotion-2 emotion-3"
+                >
+                  <Styled(label)
+                    className="dh-list-facet-option--checkbox"
+                    isRefined={true}
+                  >
+                    <label
+                      className="dh-list-facet-option--checkbox emotion-0 emotion-1"
+                    >
+                      <input
+                        checked={true}
+                        onChange={[Function]}
+                        type="checkbox"
+                      />
+                      <span
+                        className="dh-list-facet-option-label"
+                      >
+                        white
+                      </span>
+                    </label>
+                  </Styled(label)>
+                </li>
+              </Styled(li)>
+              <Styled(li)
+                className="dh-list-facet-option"
+                isRefined={false}
+                key="black"
+                parent={false}
+              >
+                <li
+                  className="dh-list-facet-option emotion-6 emotion-3"
+                >
+                  <Styled(label)
+                    className="dh-list-facet-option--checkbox"
+                    isRefined={false}
+                  >
+                    <label
+                      className="dh-list-facet-option--checkbox emotion-4 emotion-1"
+                    >
+                      <input
+                        checked={false}
+                        onChange={[Function]}
+                        type="checkbox"
+                      />
+                      <span
+                        className="dh-list-facet-option-label"
+                      >
+                        black
+                      </span>
+                    </label>
+                  </Styled(label)>
+                </li>
+              </Styled(li)>
+            </ul>
+          </Styled(ul)>
+          <Styled(button)
+            className="dh-list-facet-option--show-more"
+            disabled={false}
+            onClick={[Function]}
+          >
+            <button
+              className="dh-list-facet-option--show-more emotion-10 emotion-11"
+              disabled={false}
+              onClick={[Function]}
+            >
+              View 
+              More
+            </button>
+          </Styled(button)>
+        </div>
+      </Styled(div)>
+    </ListFacetOptions>
+  </WithTheme(ListFacetOptions)>
+</ListFacetCheckbox>
+`;

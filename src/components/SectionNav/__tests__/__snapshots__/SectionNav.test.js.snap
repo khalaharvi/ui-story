@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SectionNav /> renders correctly 1`] = `
+<nav
+  className="dh-section-nav"
+>
+  <ul
+    className="dh-section-nav-list"
+  >
+    <li
+      className="dh-section-nav-list-item"
+      key=".0"
+    >
+      <a
+        href="/"
+      >
+        Item 1
+      </a>
+    </li>
+    <li
+      className="dh-section-nav-list-item"
+      key=".1"
+    >
+      <a
+        href="/"
+      >
+        Item 2
+      </a>
+    </li>
+    <li
+      className="dh-section-nav-list-item"
+      key=".2"
+    >
+      <a
+        href="/"
+      >
+        Item 3
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`<SectionNav /> renders correctly with custom className 1`] = `
+<nav
+  className="dh-section-nav custom-section-nav"
+>
+  <ul
+    className="dh-section-nav-list"
+  >
+    <li
+      className="dh-section-nav-list-item"
+      key=".0"
+    >
+      <a
+        href="/"
+      >
+        Item 1
+      </a>
+    </li>
+    <li
+      className="dh-section-nav-list-item"
+      key=".1"
+    >
+      <a
+        href="/"
+      >
+        Item 2
+      </a>
+    </li>
+    <li
+      className="dh-section-nav-list-item"
+      key=".2"
+    >
+      <a
+        href="/"
+      >
+        Item 3
+      </a>
+    </li>
+  </ul>
+</nav>
+`;

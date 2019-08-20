@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchAutocompleteInput /> renders correctly 1`] = `
+<div
+  className="dh-search-autocomplete-input-container"
+>
+  <input
+    type="search"
+  />
+  <button
+    className="dh-search-autocomplete-input-button"
+    type="submit"
+  >
+    <Search
+      className="dh-search-autocomplete-input-icon"
+    />
+  </button>
+</div>
+`;

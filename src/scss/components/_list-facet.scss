@@ -1,0 +1,153 @@
+$baseClassname: '.#{$namespace}-list-facet';
+
+#{$baseClassname} {
+  position: relative;
+
+  &-list {
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+  }
+
+  &-options {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    #{$baseClassname}-options {
+      padding-top: 5px;
+      padding-left: 20px;
+      margin-bottom: 0;
+    }
+  }
+
+  &-option {
+    position: relative;
+    margin-bottom: 10px;
+
+    color: $color__text__secondary;
+
+    &:hover,
+    &#{$baseClassname}-option--active {
+      color: $color__text;
+    }
+  }
+
+  &-option--disabled {
+    display: none;
+  }
+
+  &-option--active {
+    & > #{$baseClassname}-option-link {
+      color: $color__text;
+    }
+
+    & > #{$baseClassname}-option-link + #{$baseClassname}-options {
+      display: block;
+    }
+  }
+
+  &-option--parent {
+    & > #{$baseClassname}-option-link {
+      position: relative;
+
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        transform-origin: top center;
+        pointer-events: none;
+        opacity: .25;
+
+        background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2211%22%20height%3D%227%22%20viewBox%3D%220%200%2011%207%22%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%221.8%22%20d%3D%22M1%20.9l4.5%204.5L10%20.9%22%2F%3E%3C%2Fsvg%3E');
+        background-repeat: no-repeat;
+        min-width: 11px;
+        min-height: 7px;
+      }
+    }
+
+    &#{$baseClassname}-option--active > #{$baseClassname}-option-link:after {
+      transform: rotate(-180deg) translateY(-50%);
+    }
+  }
+
+  &-option-link {
+    display: block;
+
+    color: $color__text__secondary;
+    cursor: pointer;
+
+    &:hover {
+      color: $color__text;
+    }
+
+    & + #{$baseClassname}-options {
+      display: none;
+    }
+  }
+
+  &-option--checkbox {
+    position: relative;
+    padding-left: 25px;
+
+    cursor: pointer;
+
+    input[type="checkbox"] {
+      position: absolute;
+      left: -9999px;
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      bottom: 0;
+      width: 14px;
+      height: 14px;
+      line-height: 12px;
+      font-size: 14px;
+      text-align: center;
+      border: 1px solid $color__text__secondary;
+      border-radius: 2px;
+      transform: translateY(-50%);
+    }
+
+    &:not(#{$baseClassname}-option--active):hover:before {
+      border-color: $color__text;
+    }
+
+    #{$baseClassname}-option--active & {
+      &:before {
+        content: '✓';
+        border-color: $color__text;
+      }
+    }
+  }
+
+  &-option-count {
+    font-style: normal;
+    color: $color__text__secondary;
+  }
+
+  &-option--show-more {
+    @include cleanBtn;
+    padding-left: 25px;
+    margin: 0;
+
+    color: $color__links;
+
+    &:hover {
+      color: $color__links--hover;
+    }
+
+    &[disabled],
+    &#{$baseClassname}-option--show-more--disabled {
+      display: none;
+    }
+  }
+}

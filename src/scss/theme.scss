@@ -1,0 +1,76 @@
+@import 'variables';
+
+// https://github.com/sass-mq/sass-mq
+@import 'sass-mq/mq';
+
+@import 'placeholders';
+@import 'mixins';
+@import 'functions';
+@import 'columns';
+
+// Templates
+@import 'templates/commerce-module';
+@import 'templates/facets';
+@import 'templates/header';
+@import 'templates/product-detail';
+@import 'templates/products-results';
+@import 'templates/products-search';
+@import 'templates/related-module';
+@import 'templates/search-results-header';
+@import 'templates/seller-profile';
+@import 'templates/sellers-results';
+@import 'templates/sellers-search';
+
+// Components
+@import 'components/active-facets';
+@import 'components/breadcrumb';
+@import 'components/button';
+@import 'components/clear-facets';
+@import 'components/commerce-module';
+@import 'components/conversion-buttons';
+@import 'components/error';
+@import 'components/facets-toggler';
+@import 'components/geosearch';
+@import 'components/icons';
+@import 'components/links';
+@import 'components/list-facet';
+@import 'components/nav-bar';
+@import 'components/panel';
+// @import 'components/place-autocomplete';
+@import 'components/powered-by';
+@import 'components/product-detail';
+@import 'components/products-hits';
+@import 'components/range-facet';
+@import 'components/search-autocomplete';
+@import 'components/search-box';
+@import 'components/section-header';
+@import 'components/section-nav';
+@import 'components/seller-profile';
+@import 'components/seller-profile-memberships';
+@import 'components/seller-profile-news';
+@import 'components/seller-profile-portfolios';
+@import 'components/sellers-hits';
+@import 'components/sortby-facet';
+@import 'components/toggler-facet';
+
+// Block page scroll when facets are visible
+body.#{$namespace}-facets-visible {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+::placeholder {
+  color: $color__placeholder;
+}

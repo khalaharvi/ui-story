@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ConversionButtons /> renders correctly 1`] = `
+<div
+  className="dh-conversion-buttons"
+>
+  <ConversionButton
+    icon={<Facebook />}
+    key="dh-conversion-button-facebook"
+    type="facebook"
+  />
+  <ConversionButton
+    icon={<Pinterest />}
+    key="dh-conversion-button-pinterest"
+    type="pinterest"
+  />
+  <ConversionButton
+    icon={<Twitter />}
+    key="dh-conversion-button-twitter"
+    type="twitter"
+  />
+  <ConversionButton
+    icon={<Print />}
+    key="dh-conversion-button-print"
+    type="print"
+  />
+  <ConversionButton
+    icon={<Email />}
+    key="dh-conversion-button-email"
+    type="email"
+  />
+  <ConversionButton
+    icon={<Download />}
+    key="dh-conversion-button-download"
+    type="download"
+  />
+</div>
+`;
+
+exports[`<ConversionButtons /> renders correctly with custom button's attributes 1`] = `
+<div
+  className="dh-conversion-buttons"
+>
+  <ConversionButton
+    attributes={
+      Object {
+        "data-attribute": "attribute",
+      }
+    }
+    icon={<Facebook />}
+    key="dh-conversion-button-facebook"
+    type="facebook"
+  />
+</div>
+`;
+
+exports[`<ConversionButtons /> renders correctly with custom className 1`] = `
+<div
+  className="dh-conversion-buttons my-conversion-buttons"
+>
+  <ConversionButton
+    icon={<Facebook />}
+    key="dh-conversion-button-facebook"
+    type="facebook"
+  />
+  <ConversionButton
+    icon={<Pinterest />}
+    key="dh-conversion-button-pinterest"
+    type="pinterest"
+  />
+  <ConversionButton
+    icon={<Twitter />}
+    key="dh-conversion-button-twitter"
+    type="twitter"
+  />
+  <ConversionButton
+    icon={<Print />}
+    key="dh-conversion-button-print"
+    type="print"
+  />
+  <ConversionButton
+    icon={<Email />}
+    key="dh-conversion-button-email"
+    type="email"
+  />
+  <ConversionButton
+    icon={<Download />}
+    key="dh-conversion-button-download"
+    type="download"
+  />
+</div>
+`;
+
+exports[`<ConversionButtons /> renders correctly with share 1`] = `
+<div
+  className="dh-conversion-buttons"
+>
+  <ConversionButton
+    icon={<Facebook />}
+    key="dh-conversion-button-facebook"
+    type="facebook"
+  />
+  <ConversionButton
+    icon={<Pinterest />}
+    key="dh-conversion-button-pinterest"
+    type="pinterest"
+  />
+  <ConversionButton
+    icon={<Twitter />}
+    key="dh-conversion-button-twitter"
+    type="twitter"
+  />
+  <ConversionButton
+    icon={<Print />}
+    key="dh-conversion-button-print"
+    type="print"
+  />
+  <ConversionButton
+    icon={<Email />}
+    key="dh-conversion-button-email"
+    type="email"
+  />
+  <ConversionButton
+    icon={<Download />}
+    key="dh-conversion-button-download"
+    type="download"
+  />
+</div>
+`;

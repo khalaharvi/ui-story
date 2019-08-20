@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PoweredBy /> renders correctly 1`] = `
+<div
+  className="dh-poweredby"
+>
+  <Link
+    className="dh-poweredby-link"
+    external={false}
+    noFollow={false}
+    to="https://deringhall.com?ref=ui-kit"
+  >
+    <small>
+      Powered By
+    </small>
+    <DeringHallLogo />
+  </Link>
+</div>
+`;
+
+exports[`<PoweredBy /> renders correctly with custom to prop 1`] = `
+<div
+  className="dh-poweredby"
+>
+  <Link
+    className="dh-poweredby-link"
+    external={false}
+    noFollow={false}
+    to="https://encrypted.google.com"
+  >
+    <small>
+      Powered By
+    </small>
+    <DeringHallLogo />
+  </Link>
+</div>
+`;

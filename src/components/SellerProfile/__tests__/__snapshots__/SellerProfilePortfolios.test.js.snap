@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SellerProfilePortfolios /> renders correctly 1`] = `
+<RelatedModuleTemplate
+  className="dh-seller-profile-portfolios"
+  title="Featured Portfolio"
+>
+  <div
+    className="dh-seller-profile-portfolios-grid"
+  >
+    <div
+      className="dh-seller-profile-portfolios-grid-item"
+      key="1"
+    >
+      <portfolioComponent
+        portfolio={
+          Object {
+            "caption": "Caption",
+            "id": 1,
+            "image": "https://cdn.deringhall.com/portfolio_image/image/heather.wells.inc.portfolio.interiors.family.room.1501108236.5191004.jpg?auto=format&fit=clip&q=60&w=670",
+          }
+        }
+      />
+    </div>
+    <div
+      className="dh-seller-profile-portfolios-grid-item"
+      key="2"
+    >
+      <portfolioComponent
+        portfolio={
+          Object {
+            "caption": "Caption",
+            "id": 2,
+            "image": "https://cdn.deringhall.com/portfolio_image/image/heather.wells.inc.portfolio.interiors.family.room.1501108239.2473252.jpg?auto=format&fit=clip&q=60&w=670",
+          }
+        }
+      />
+    </div>
+    <div
+      className="dh-seller-profile-portfolios-grid-item"
+      key="3"
+    >
+      <portfolioComponent
+        portfolio={
+          Object {
+            "caption": "Caption",
+            "id": 3,
+            "image": "https://cdn.deringhall.com/portfolio_image/image/heather.wells.inc.portfolio.interiors.outdoor.room.1491576804.5543432.jpg?auto=format&fit=clip&q=60&w=670",
+          }
+        }
+      />
+    </div>
+    <div
+      className="dh-seller-profile-portfolios-grid-item"
+      key="4"
+    >
+      <portfolioComponent
+        portfolio={
+          Object {
+            "caption": "Caption",
+            "id": 4,
+            "image": "https://cdn.deringhall.com/portfolio_image/image/heather.wells.inc.portfolio.interiors.kitchen.1491576661.6619911.jpg?auto=format&fit=clip&q=60&w=670",
+          }
+        }
+      />
+    </div>
+    <div
+      className="dh-seller-profile-portfolios-grid-item"
+      key="5"
+    >
+      <portfolioComponent
+        portfolio={
+          Object {
+            "caption": "Caption",
+            "id": 5,
+            "image": "https://cdn.deringhall.com/portfolio_image/image/heather.wells.inc.portfolio.interiors.living.1491576648.5075328.jpg?auto=format&fit=clip&q=60&w=670",
+          }
+        }
+      />
+    </div>
+    <div
+      className="dh-seller-profile-portfolios-grid-item"
+      key="6"
+    >
+      <portfolioComponent
+        portfolio={
+          Object {
+            "caption": "Caption",
+            "id": 6,
+            "image": "https://cdn.deringhall.com/portfolio_image/image/heather.wells.inc.portfolio.interiors.foyer.1501108239.790634.jpg?auto=format&fit=clip&q=60&w=670",
+          }
+        }
+      />
+    </div>
+    <div
+      className="dh-seller-profile-portfolios-grid-item"
+      key="7"
+    >
+      <portfolioComponent
+        portfolio={
+          Object {
+            "caption": "Caption",
+            "id": 7,
+            "image": "https://cdn.deringhall.com/portfolio_image/image/heather.wells.inc.portfolio.interiors.outdoor.room.1491576575.5107028.jpg?auto=format&fit=clip&q=60&w=670",
+          }
+        }
+      />
+    </div>
+  </div>
+</RelatedModuleTemplate>
+`;
+
+exports[`<SellerProfilePortfolios /> renders correctly with portfolioComponent 1`] = `
+<RelatedModuleTemplate
+  className="dh-seller-profile-portfolios"
+  title="Featured Portfolio"
+>
+  <div
+    className="dh-seller-profile-portfolios-grid"
+  >
+    <div
+      className="dh-seller-profile-portfolios-grid-item"
+      key="1"
+    >
+      <portfolioComponent
+        portfolio={
+          Object {
+            "caption": "Caption",
+            "id": 1,
+            "image": "https://cdn.deringhall.com/portfolio_image/image/heather.wells.inc.portfolio.interiors.family.room.1501108236.5191004.jpg?auto=format&fit=clip&q=60&w=670",
+          }
+        }
+      />
+    </div>
+    <div
+      className="dh-seller-profile-portfolios-grid-item"
+      key="2"
+    >
+      <portfolioComponent
+        portfolio={
+          Object {
+            "caption": "Caption",
+            "id": 2,
+            "image": "https://cdn.deringhall.com/portfolio_image/image/heather.wells.inc.portfolio.interiors.family.room.1501108239.2473252.jpg?auto=format&fit=clip&q=60&w=670",
+          }
+        }
+      />
+    </div>
+    <div
+      className="dh-seller-profile-portfolios-grid-item"
+      key="3"
+    >
+      <portfolioComponent
+        portfolio={
+          Object {
+            "caption": "Caption",
+            "id": 3,
+            "image": "https://cdn.deringhall.com/portfolio_image/image/heather.wells.inc.portfolio.interiors.outdoor.room.1491576804.5543432.jpg?auto=format&fit=clip&q=60&w=670",
+          }
+        }
+      />
+    </div>
+    <div
+      className="dh-seller-profile-portfolios-grid-item"
+      key="4"
+    >
+      <portfolioComponent
+        portfolio={
+          Object {
+            "caption": "Caption",
+            "id": 4,
+            "image": "https://cdn.deringhall.com/portfolio_image/image/heather.wells.inc.portfolio.interiors.kitchen.1491576661.6619911.jpg?auto=format&fit=clip&q=60&w=670",
+          }
+        }
+      />
+    </div>
+    <div
+      className="dh-seller-profile-portfolios-grid-item"
+      key="5"
+    >
+      <portfolioComponent
+        portfolio={
+          Object {
+            "caption": "Caption",
+            "id": 5,
+            "image": "https://cdn.deringhall.com/portfolio_image/image/heather.wells.inc.portfolio.interiors.living.1491576648.5075328.jpg?auto=format&fit=clip&q=60&w=670",
+          }
+        }
+      />
+    </div>
+    <div
+      className="dh-seller-profile-portfolios-grid-item"
+      key="6"
+    >
+      <portfolioComponent
+        portfolio={
+          Object {
+            "caption": "Caption",
+            "id": 6,
+            "image": "https://cdn.deringhall.com/portfolio_image/image/heather.wells.inc.portfolio.interiors.foyer.1501108239.790634.jpg?auto=format&fit=clip&q=60&w=670",
+          }
+        }
+      />
+    </div>
+    <div
+      className="dh-seller-profile-portfolios-grid-item"
+      key="7"
+    >
+      <portfolioComponent
+        portfolio={
+          Object {
+            "caption": "Caption",
+            "id": 7,
+            "image": "https://cdn.deringhall.com/portfolio_image/image/heather.wells.inc.portfolio.interiors.outdoor.room.1491576575.5107028.jpg?auto=format&fit=clip&q=60&w=670",
+          }
+        }
+      />
+    </div>
+  </div>
+</RelatedModuleTemplate>
+`;

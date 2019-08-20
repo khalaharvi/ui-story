@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SellerProfilePortfolio /> renders correctly 1`] = `
+<Image
+  alt="Caption"
+  src="https://cdn.deringhall.com/portfolio_image/image/heather.wells.inc.portfolio.interiors.kitchen.1491576661.6619911.jpg?auto=format&fit=clip&q=60&w=670"
+/>
+`;

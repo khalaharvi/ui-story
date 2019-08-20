@@ -1,0 +1,16 @@
+@function col-span($n:1,$breakpoint:'xlarge') {
+  @if map-has-key($columns_widths, $breakpoint) {
+    @if $breakpoint == 'xlarge' {
+      @return ($n * 70) + (($n - 1) * $gutter);
+    }
+    @if $breakpoint == 'large' {
+      @return ($n * 50) + (($n - 1) * $gutter);
+    }
+    @if $breakpoint == 'medium' {
+      @return ($n * 30) + (($n - 1) * $gutter);
+    }
+    @if $breakpoint == 'small' {
+      @return ($n * 30) + (($n - 1) * $gutter--small);
+    }
+  }
+}

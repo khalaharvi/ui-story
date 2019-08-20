@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TogglerFacetItem /> renders correctly 1`] = `
+<li
+  className="dh-toggler-facet-list-item"
+>
+  <input
+    checked="checked"
+    id="dh-toggler-vintage"
+    name="dh-toggler"
+    onChange={[Function]}
+    type="radio"
+    value="vintage"
+  />
+  <label
+    htmlFor="dh-toggler-vintage"
+  >
+    Vintage
+  </label>
+</li>
+`;
+
+exports[`<TogglerFacetItem /> renders correctly when not checked 1`] = `
+<li
+  className="dh-toggler-facet-list-item"
+>
+  <input
+    id="dh-toggler-vintage"
+    name="dh-toggler"
+    onChange={[Function]}
+    type="radio"
+    value="vintage"
+  />
+  <label
+    htmlFor="dh-toggler-vintage"
+  >
+    Vintage
+  </label>
+</li>
+`;

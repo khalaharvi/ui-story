@@ -1,0 +1,7 @@
+.#{$namespace}-products-results {
+  width: calc(75% - #{($gutter / 2)});
+
+  @include mq($until: medium) {
+    width: 100%;
+  }
+}

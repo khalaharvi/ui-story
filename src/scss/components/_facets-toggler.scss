@@ -1,0 +1,56 @@
+.#{$namespace}-facets-toggler {
+  position: fixed;
+  z-index: 5;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 30px;
+  display: none;
+
+  text-align: center;
+  border-top: 1px solid $color__stroke--facets-toggler;
+  background-color: $color__bg--facets-toggler;
+
+  @include mq($until: medium) {
+    display: block;
+
+    @include mq($from: small, $until: medium) {
+      .#{$namespace}-facets-visible & {
+        background: none;
+        border: 0;
+        padding: 0;
+      }
+    }
+  }
+
+  @include mq($until: small) {
+    padding: 10px;
+  }
+
+  &-toggle {
+    width: 210px;
+
+    @include mq($from: small, $until: medium) {
+      .#{$namespace}-facets-visible & {
+        position: fixed;
+        z-index: 4;
+        top: 0;
+        bottom: 0;
+        left: $facets-overlay-width;
+        right: 0;
+        width: calc(100% - #{$facets-overlay-width});
+        height: auto;
+        padding: 0;
+
+        cursor: default;
+        opacity: 0;
+        border: 0;
+        background: none;
+      }
+    }
+
+    @include mq($until: small) {
+      width: 100%;
+    }
+  }
+}

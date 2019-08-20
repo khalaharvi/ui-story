@@ -1,0 +1,429 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SellerProfileInfo /> renders correctly 1`] = `
+<div
+  className="dh-seller-profile-info"
+>
+  <img
+    alt="Catlin Design"
+    className="dh-seller-profile-info-image"
+    sizes="(min-width: 1240px) 1170px, (min-width: 970px) 930px, (min-width: 730px) 690px, calc(100vw - 40px)"
+    src="https://cdn.deringhall.com/seller/primary_image/03dd84b2-2f99-40e3-9013-8158f4f1f542_riverbirch.00092..hdr.jpg?auto=format&fit=max&h=531&q=60&w=1170"
+  />
+  <div
+    className="columns"
+  >
+    <div
+      className="col columns"
+    >
+      <div
+        className="col"
+      >
+        <img
+          alt="Catlin Design"
+          sizes="170px"
+          src="https://cdn.deringhall.com/user/logo/bb82f493-9f8a-4df2-81db-068e357dc20b_miyuki.logo.color.transparent.web.png?auto=format&fit=max&h=170&q=60&w=170"
+          style={
+            Object {
+              "maxWidth": "100%",
+            }
+          }
+        />
+      </div>
+      <div
+        className="col"
+      >
+        <h2
+          className="dh-seller-profile-info-name"
+        >
+          Catlin Design
+        </h2>
+      </div>
+    </div>
+    <div
+      className="col"
+    >
+      <div
+        className="dh-seller-profile-info-summary"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi veritatis reiciendis itaque, vel iusto suscipit, illo in accusantium nulla dignissimos est mollitia ea eius dolores laborum libero aut, corporis ipsam.",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<SellerProfileInfo /> renders correctly with HTML summary 1`] = `
+<div
+  className="dh-seller-profile-info"
+>
+  <img
+    alt="Catlin Design"
+    className="dh-seller-profile-info-image"
+    sizes="(min-width: 1240px) 1170px, (min-width: 970px) 930px, (min-width: 730px) 690px, calc(100vw - 40px)"
+    src="https://cdn.deringhall.com/seller/primary_image/03dd84b2-2f99-40e3-9013-8158f4f1f542_riverbirch.00092..hdr.jpg?auto=format&fit=max&h=531&q=60&w=1170"
+  />
+  <div
+    className="columns"
+  >
+    <div
+      className="col columns"
+    >
+      <div
+        className="col"
+      >
+        <img
+          alt="Catlin Design"
+          sizes="170px"
+          src="https://cdn.deringhall.com/user/logo/bb82f493-9f8a-4df2-81db-068e357dc20b_miyuki.logo.color.transparent.web.png?auto=format&fit=max&h=170&q=60&w=170"
+          style={
+            Object {
+              "maxWidth": "100%",
+            }
+          }
+        />
+      </div>
+      <div
+        className="col"
+      >
+        <h2
+          className="dh-seller-profile-info-name"
+        >
+          Catlin Design
+        </h2>
+        <SellerProfileSocialLinks
+          links={
+            Array [
+              Object {
+                "label": "Official Website",
+                "type": "website",
+                "url": "https://deringhall.com",
+              },
+              Object {
+                "type": "facebook",
+                "url": "https://facebook.com",
+              },
+            ]
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="col"
+    >
+      <div
+        className="dh-seller-profile-info-summary"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi veritatis reiciendis itaque, vel iusto suscipit, illo in accusantium nulla dignissimos est mollitia ea eius dolores laborum libero aut, corporis ipsam.</p>
+      ",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<SellerProfileInfo /> should have a contact button when provided with 'links' prop 1`] = `
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-2 span:first-child {
+  display: inline-block;
+  width: 17px;
+  margin-right: 12px;
+}
+
+.emotion-2 svg {
+  fill: currentColor;
+  display: block;
+  margin: 0 auto;
+}
+
+.emotion-0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-0 span:first-child {
+  display: inline-block;
+  width: 17px;
+  margin-right: 12px;
+}
+
+.emotion-0 svg {
+  fill: currentColor;
+  display: block;
+  margin: 0 auto;
+}
+
+.emotion-8 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+<SellerProfileInfo
+  links={
+    Array [
+      Object {
+        "label": "Official Website",
+        "type": "website",
+        "url": "https://deringhall.com",
+      },
+      Object {
+        "type": "facebook",
+        "url": "https://facebook.com",
+      },
+      Object {
+        "type": "contact",
+        "url": "https://deringhall.com",
+      },
+    ]
+  }
+  seller={
+    Object {
+      "image": "https://cdn.deringhall.com/seller/primary_image/03dd84b2-2f99-40e3-9013-8158f4f1f542_riverbirch.00092..hdr.jpg?auto=format&fit=max&h=531&q=60&w=1170",
+      "location": "Jacksonville, CA",
+      "logo": "https://cdn.deringhall.com/user/logo/bb82f493-9f8a-4df2-81db-068e357dc20b_miyuki.logo.color.transparent.web.png?auto=format&fit=max&h=170&q=60&w=170",
+      "name": "Catlin Design",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi veritatis reiciendis itaque, vel iusto suscipit, illo in accusantium nulla dignissimos est mollitia ea eius dolores laborum libero aut, corporis ipsam.",
+      "website": "https://encrypted.google.com",
+    }
+  }
+>
+  <div
+    className="dh-seller-profile-info"
+  >
+    <img
+      alt="Catlin Design"
+      className="dh-seller-profile-info-image"
+      sizes="(min-width: 1240px) 1170px, (min-width: 970px) 930px, (min-width: 730px) 690px, calc(100vw - 40px)"
+      src="https://cdn.deringhall.com/seller/primary_image/03dd84b2-2f99-40e3-9013-8158f4f1f542_riverbirch.00092..hdr.jpg?auto=format&fit=max&h=531&q=60&w=1170"
+    />
+    <div
+      className="columns"
+    >
+      <div
+        className="col columns"
+      >
+        <div
+          className="col"
+        >
+          <img
+            alt="Catlin Design"
+            sizes="170px"
+            src="https://cdn.deringhall.com/user/logo/bb82f493-9f8a-4df2-81db-068e357dc20b_miyuki.logo.color.transparent.web.png?auto=format&fit=max&h=170&q=60&w=170"
+            style={
+              Object {
+                "maxWidth": "100%",
+              }
+            }
+          />
+        </div>
+        <div
+          className="col"
+        >
+          <h2
+            className="dh-seller-profile-info-name"
+          >
+            Catlin Design
+          </h2>
+          <SellerProfileSocialLinks
+            links={
+              Array [
+                Object {
+                  "label": "Official Website",
+                  "type": "website",
+                  "url": "https://deringhall.com",
+                },
+                Object {
+                  "type": "facebook",
+                  "url": "https://facebook.com",
+                },
+              ]
+            }
+          >
+            <ul
+              className="dh-seller-profile-info-social-links"
+            >
+              <li
+                key="website"
+              >
+                <LinkWithIcon
+                  external={true}
+                  icon={<NewWindow />}
+                  label="Official Website"
+                  to="https://deringhall.com"
+                >
+                  <Link
+                    className="dh-link--icon emotion-2"
+                    external={true}
+                    noFollow={false}
+                    to="https://deringhall.com"
+                  >
+                    <Styled(a)
+                      className="dh-link dh-link--icon emotion-2"
+                      href="https://deringhall.com"
+                      onClick={null}
+                      rel="external noopener"
+                      target="_blank"
+                    >
+                      <a
+                        className="dh-link dh-link--icon emotion-0 emotion-1"
+                        href="https://deringhall.com"
+                        onClick={null}
+                        rel="external noopener"
+                        target="_blank"
+                      >
+                        <span>
+                          <NewWindow>
+                            <svg
+                              className="dh-icon-new-window"
+                              viewBox="0 0 16 16"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <title>
+                                New Window
+                              </title>
+                              <path
+                                d="M13 15H1V3h6V2H1c-.5 0-1 .5-1 1v12c0 .5.5 1 1 1h12c.5 0 1-.5 1-1V9h-1v6zM11.3 0H16v4.7"
+                              />
+                              <path
+                                d="M14.8 1.2L9 7"
+                                fill="none"
+                                strokeWidth="1.5"
+                              />
+                            </svg>
+                          </NewWindow>
+                        </span>
+                        <span>
+                          Official Website
+                        </span>
+                      </a>
+                    </Styled(a)>
+                  </Link>
+                </LinkWithIcon>
+              </li>
+              <li
+                key="facebook"
+              >
+                <LinkWithIcon
+                  external={true}
+                  icon={<Facebook />}
+                  label="Facebook"
+                  to="https://facebook.com"
+                >
+                  <Link
+                    className="dh-link--icon emotion-2"
+                    external={true}
+                    noFollow={false}
+                    to="https://facebook.com"
+                  >
+                    <Styled(a)
+                      className="dh-link dh-link--icon emotion-2"
+                      href="https://facebook.com"
+                      onClick={null}
+                      rel="external noopener"
+                      target="_blank"
+                    >
+                      <a
+                        className="dh-link dh-link--icon emotion-0 emotion-1"
+                        href="https://facebook.com"
+                        onClick={null}
+                        rel="external noopener"
+                        target="_blank"
+                      >
+                        <span>
+                          <Facebook>
+                            <svg
+                              className="dh-icon-facebook"
+                              viewBox="0 0 10 20"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <title>
+                                Facebook
+                              </title>
+                              <path
+                                d="M6.36 20H2.12V9.999H0V6.553h2.12v-2.07C2.12 1.674 3.314 0 6.715 0h2.83v3.447H7.777c-1.324 0-1.411.482-1.411 1.38L6.36 6.554h3.205L9.19 9.999H6.36V20z"
+                                fillRule="evenodd"
+                              />
+                            </svg>
+                          </Facebook>
+                        </span>
+                        <span>
+                          Facebook
+                        </span>
+                      </a>
+                    </Styled(a)>
+                  </Link>
+                </LinkWithIcon>
+              </li>
+            </ul>
+          </SellerProfileSocialLinks>
+        </div>
+      </div>
+      <div
+        className="col"
+      >
+        <div
+          className="dh-seller-profile-info-summary"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi veritatis reiciendis itaque, vel iusto suscipit, illo in accusantium nulla dignissimos est mollitia ea eius dolores laborum libero aut, corporis ipsam.",
+            }
+          }
+        />
+        <p
+          className="dh-seller-profile-info-contact"
+        >
+          <Link
+            className="dh-btn dh-btn-primary dh-btn-outline"
+            external={true}
+            noFollow={true}
+            to="https://deringhall.com"
+          >
+            <Styled(a)
+              className="dh-link dh-btn dh-btn-primary dh-btn-outline"
+              href="https://deringhall.com"
+              onClick={null}
+              rel="external noopener nofollow"
+              target="_blank"
+            >
+              <a
+                className="dh-link dh-btn dh-btn-primary dh-btn-outline emotion-8 emotion-1"
+                href="https://deringhall.com"
+                onClick={null}
+                rel="external noopener nofollow"
+                target="_blank"
+              >
+                Contact on Dering Hall
+              </a>
+            </Styled(a)>
+          </Link>
+        </p>
+      </div>
+    </div>
+  </div>
+</SellerProfileInfo>
+`;

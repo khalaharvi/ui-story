@@ -1,0 +1,92 @@
+$img-max-height-xlarge: 270px;
+$img-max-height-large: 210px;
+$img-max-height-small: 130px;
+
+.#{$namespace}-products-hits {
+  &-list {
+    @extend %columns;
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+  }
+
+  &-list-item {
+    @extend %col;
+    @extend %col-one-third;
+    text-align: center;
+
+    @include mq($until: small) {
+      width: 50%;
+    }
+
+    &-link {
+      display: block;
+
+      color: $color__text;
+      text-decoration: none;
+    }
+
+    &-img {
+      display: flex;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+      justify-content: center;
+      margin-bottom: 12px;
+      height: $img-max-height-xlarge;
+
+      @include mq($until: large) {
+        height: $img-max-height-large;
+      }
+
+      @include mq($until: small) {
+        height: $img-max-height-small;
+      }
+
+      img {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        object-fit: contain;
+        max-width: $img-max-height-xlarge;
+        max-height: $img-max-height-xlarge;
+
+        @include mq($until: large) {
+          max-width: $img-max-height-large;
+          max-height: $img-max-height-large;
+        }
+
+        @include mq($until: small) {
+          max-width: $img-max-height-small;
+          max-height: $img-max-height-small;
+        }
+      }
+    }
+
+    &-title {
+      display: block;
+
+      font-weight: normal;
+    }
+
+    &-brand {
+      display: block;
+
+      color: $color__text__secondary;
+      font-style: normal;
+      text-transform: uppercase;
+    }
+
+    &-price {
+      display: block;
+
+      color: $color_secondary;
+    }
+  }
+
+  &-load-more {
+    margin: 80px auto 0;
+    display: block;
+  }
+}

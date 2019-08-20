@@ -1,0 +1,15 @@
+.#{$namespace}-poweredby {
+  &-link {
+    display: inline-block;
+
+    text-decoration: none;
+    color: $color__text__secondary;
+    text-align: right;
+  }
+
+  &-logo {
+    width: map-get($poweredby-size, width);
+    height: map-get($poweredby-size, height);
+    display: block;
+  }
+}

@@ -1,0 +1,42 @@
+$baseClassname: '.#{$namespace}-seller-profile-news';
+
+#{$baseClassname} {
+  margin-bottom: 0;
+
+  &-item {
+    &.col {
+      @include mq($from: small, $until: medium) {
+        width: col-span(6, medium);
+        margin-bottom: 40px;
+
+        &:nth-child(odd) {
+          clear: left;
+        }
+      }
+    }
+  }
+
+  &-image {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 17px;
+
+    @include mq($until: small) {
+      width: inherit;
+    }
+  }
+
+  &-type {
+    display: inline-block;
+    font-style: normal;
+    color: $color__text__secondary;
+    padding-bottom: 11px;
+  }
+
+  &-title {
+    // @include font--adobe-caslon--xs;
+    color: $color__text;
+  }
+}

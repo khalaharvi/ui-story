@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Panel /> renders correctly 1`] = `
+<Styled(div)
+  hidden={false}
+>
+  <Styled(div)
+    onClick={[Function]}
+  >
+    <span>
+      Panel Header
+    </span>
+    <Styled(button)
+      aria-label="Toggle Panel Header panel"
+      type="button"
+    >
+      <Plus
+        rotate={false}
+      />
+    </Styled(button)>
+  </Styled(div)>
+  <Styled(div)
+    visible={false}
+  >
+    <div>
+      This is the panel body.
+    </div>
+  </Styled(div)>
+</Styled(div)>
+`;
+
+exports[`<Panel /> renders correctly when setCanRefine is called 1`] = `
+<Styled(div)
+  hidden={false}
+>
+  <Styled(div)
+    onClick={[Function]}
+  >
+    <span>
+      Panel Header
+    </span>
+    <Styled(button)
+      aria-label="Toggle Panel Header panel"
+      type="button"
+    >
+      <Plus
+        rotate={false}
+      />
+    </Styled(button)>
+  </Styled(div)>
+  <Styled(div)
+    visible={false}
+  >
+    <div>
+      This is the panel body.
+    </div>
+  </Styled(div)>
+</Styled(div)>
+`;
+
+exports[`<Panel /> renders correctly when setCanRefine is called 2`] = `
+<Styled(div)
+  hidden={true}
+>
+  <Styled(div)
+    onClick={[Function]}
+  >
+    <span>
+      Panel Header
+    </span>
+    <Styled(button)
+      aria-label="Toggle Panel Header panel"
+      type="button"
+    >
+      <Plus
+        rotate={false}
+      />
+    </Styled(button)>
+  </Styled(div)>
+  <Styled(div)
+    visible={false}
+  >
+    <div>
+      This is the panel body.
+    </div>
+  </Styled(div)>
+</Styled(div)>
+`;
+
+exports[`<Panel /> renders correctly with className 1`] = `
+<Styled(div)
+  hidden={false}
+>
+  <Styled(div)
+    onClick={[Function]}
+  >
+    <span>
+      Panel Header
+    </span>
+    <Styled(button)
+      aria-label="Toggle Panel Header panel"
+      type="button"
+    >
+      <Plus
+        rotate={false}
+      />
+    </Styled(button)>
+  </Styled(div)>
+  <Styled(div)
+    visible={false}
+  >
+    <div>
+      This is the panel body.
+    </div>
+  </Styled(div)>
+</Styled(div)>
+`;
+
+exports[`<Panel /> renders correctly with headerAction 1`] = `
+<Styled(div)
+  hidden={false}
+>
+  <Styled(div)
+    onClick={[Function]}
+  >
+    <span>
+      Panel Header
+    </span>
+    <Styled(button)
+      aria-label="Toggle Panel Header panel"
+      type="button"
+    >
+      <Plus
+        rotate={false}
+      />
+    </Styled(button)>
+  </Styled(div)>
+  <Styled(div)
+    visible={false}
+  >
+    <div>
+      This is the panel body.
+    </div>
+  </Styled(div)>
+</Styled(div)>
+`;
+
+exports[`<Panel /> renders correctly without refinement 1`] = `
+<Styled(div)
+  hidden={true}
+>
+  <Styled(div)
+    onClick={[Function]}
+  >
+    <span>
+      Panel Header
+    </span>
+    <Styled(button)
+      aria-label="Toggle Panel Header panel"
+      type="button"
+    >
+      <Plus
+        rotate={false}
+      />
+    </Styled(button)>
+  </Styled(div)>
+  <Styled(div)
+    visible={false}
+  >
+    <div>
+      This is the panel body.
+    </div>
+  </Styled(div)>
+</Styled(div)>
+`;

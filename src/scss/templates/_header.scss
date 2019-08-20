@@ -1,0 +1,28 @@
+.#{$namespace}-header {
+  position: relative;
+  padding: 30px 0 45px;
+
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    display: block;
+    background-color: $color__stroke;
+  }
+
+  &-inner {
+    @extend %container;
+  }
+
+  &-heading {
+    margin: 0;
+    display: inline-block;
+  }
+
+  .#{$namespace}-breadcrumb {
+    margin-bottom: 10px;
+  }
+}

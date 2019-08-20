@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SellerProfileNews /> renders correctly 1`] = `
+<RelatedModuleTemplate
+  className="dh-seller-profile-news"
+  title="News"
+>
+  <ul
+    className="columns columns--4x"
+  >
+    <li
+      className="col dh-seller-profile-news-item"
+      key="1"
+    >
+      <newsComponent
+        news={
+          Object {
+            "id": 1,
+            "image": "https://cdn.deringhall.com/announcement/image/aa327cae-518b-489a-bf6b-ff1c040c5fa0_elle.decor.jpg?auto=format&fit=max&q=60&w=670",
+            "title": "Elle Decor",
+            "type": "Announcement",
+          }
+        }
+      />
+    </li>
+    <li
+      className="col dh-seller-profile-news-item"
+      key="2"
+    >
+      <newsComponent
+        news={
+          Object {
+            "id": 2,
+            "image": "https://cdn.deringhall.com/images/2302/original/image.jpg?auto=format&fit=max&q=60&w=670",
+            "title": "Architectural Digest",
+            "type": "Announcement",
+          }
+        }
+      />
+    </li>
+    <li
+      className="col dh-seller-profile-news-item"
+      key="3"
+    >
+      <newsComponent
+        news={
+          Object {
+            "id": 3,
+            "image": "https://cdn.deringhall.com/images/718/original/cover.jpg?auto=format&fit=max&q=60&w=670",
+            "title": "Shining Through",
+            "type": "Press",
+          }
+        }
+      />
+    </li>
+    <li
+      className="col dh-seller-profile-news-item"
+      key="4"
+    >
+      <newsComponent
+        news={
+          Object {
+            "id": 4,
+            "image": "https://cdn.deringhall.com/images/681/original/cover.jpg?auto=format&fit=max&q=60&w=670",
+            "title": "Remote Possibilities",
+            "type": "Press",
+          }
+        }
+      />
+    </li>
+  </ul>
+</RelatedModuleTemplate>
+`;
+
+exports[`<SellerProfileNews /> renders correctly with newsComponent 1`] = `
+<RelatedModuleTemplate
+  className="dh-seller-profile-news"
+  title="News"
+>
+  <ul
+    className="columns columns--4x"
+  >
+    <li
+      className="col dh-seller-profile-news-item"
+      key="1"
+    >
+      <newsComponent
+        news={
+          Object {
+            "id": 1,
+            "image": "https://cdn.deringhall.com/announcement/image/aa327cae-518b-489a-bf6b-ff1c040c5fa0_elle.decor.jpg?auto=format&fit=max&q=60&w=670",
+            "title": "Elle Decor",
+            "type": "Announcement",
+          }
+        }
+      />
+    </li>
+    <li
+      className="col dh-seller-profile-news-item"
+      key="2"
+    >
+      <newsComponent
+        news={
+          Object {
+            "id": 2,
+            "image": "https://cdn.deringhall.com/images/2302/original/image.jpg?auto=format&fit=max&q=60&w=670",
+            "title": "Architectural Digest",
+            "type": "Announcement",
+          }
+        }
+      />
+    </li>
+    <li
+      className="col dh-seller-profile-news-item"
+      key="3"
+    >
+      <newsComponent
+        news={
+          Object {
+            "id": 3,
+            "image": "https://cdn.deringhall.com/images/718/original/cover.jpg?auto=format&fit=max&q=60&w=670",
+            "title": "Shining Through",
+            "type": "Press",
+          }
+        }
+      />
+    </li>
+    <li
+      className="col dh-seller-profile-news-item"
+      key="4"
+    >
+      <newsComponent
+        news={
+          Object {
+            "id": 4,
+            "image": "https://cdn.deringhall.com/images/681/original/cover.jpg?auto=format&fit=max&q=60&w=670",
+            "title": "Remote Possibilities",
+            "type": "Press",
+          }
+        }
+      />
+    </li>
+  </ul>
+</RelatedModuleTemplate>
+`;

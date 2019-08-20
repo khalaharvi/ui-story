@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Image /> renders correctly 1`] = `
+<img
+  alt="Placeholder"
+  src="https://placehold.it/120x20"
+/>
+`;
+
+exports[`<Image /> renders correctly with a className prop 1`] = `
+<img
+  alt="Placeholder"
+  className="image"
+  src="https://placehold.it/120x20"
+/>
+`;

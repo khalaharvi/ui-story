@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ConversionButton /> renders correctly 1`] = `
+<React.Fragment>
+  <button
+    className="dh-conversion-buttons-btn dh-conversion-buttons-btn-facebook"
+    type="button"
+  >
+    <Facebook />
+  </button>
+</React.Fragment>
+`;
+
+exports[`<ConversionButton /> renders correctly has a link 1`] = `
+<React.Fragment>
+  <a
+    className="dh-conversion-buttons-btn dh-conversion-buttons-btn-facebook"
+    href="#"
+  >
+    <Facebook />
+  </a>
+</React.Fragment>
+`;
+
+exports[`<ConversionButton /> renders correctly with a label 1`] = `
+<React.Fragment>
+  <button
+    aria-label="Share on Facebook"
+    className="dh-conversion-buttons-btn dh-conversion-buttons-btn-facebook"
+    type="button"
+  >
+    <Facebook />
+  </button>
+</React.Fragment>
+`;
+
+exports[`<ConversionButton /> renders correctly with attributes 1`] = `
+<React.Fragment>
+  <button
+    aria-label="Share on Facebook"
+    className="dh-conversion-buttons-btn dh-conversion-buttons-btn-facebook"
+    data-test="test"
+    type="button"
+  >
+    <Facebook />
+  </button>
+</React.Fragment>
+`;

@@ -1,0 +1,239 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchAutocomplete /> renders correctly 1`] = `
+<form
+  action=""
+  noValidate={true}
+  onSubmit={[Function]}
+  role="search"
+>
+  <Autosuggest
+    alwaysRenderSuggestions={false}
+    focusInputOnSuggestionClick={false}
+    getSectionSuggestions={[Function]}
+    getSuggestionValue={[Function]}
+    highlightFirstSuggestion={false}
+    id="1"
+    inputProps={
+      Object {
+        "onChange": [Function],
+        "placeholder": "Search...",
+        "value": "",
+      }
+    }
+    multiSection={false}
+    onSuggestionSelected={[Function]}
+    onSuggestionsClearRequested={[Function]}
+    onSuggestionsFetchRequested={[Function]}
+    renderInputComponent={[Function]}
+    renderSuggestion={[Function]}
+    renderSuggestionsContainer={[Function]}
+    shouldRenderSuggestions={[Function]}
+    suggestions={Array []}
+  />
+</form>
+`;
+
+exports[`<SearchAutocomplete /> renders correctly with a custom placeholder 1`] = `
+<form
+  action=""
+  noValidate={true}
+  onSubmit={[Function]}
+  role="search"
+>
+  <Autosuggest
+    alwaysRenderSuggestions={false}
+    focusInputOnSuggestionClick={false}
+    getSectionSuggestions={[Function]}
+    getSuggestionValue={[Function]}
+    highlightFirstSuggestion={false}
+    id="1"
+    inputProps={
+      Object {
+        "onChange": [Function],
+        "placeholder": "Search products...",
+        "value": "",
+      }
+    }
+    multiSection={false}
+    onSuggestionSelected={[Function]}
+    onSuggestionsClearRequested={[Function]}
+    onSuggestionsFetchRequested={[Function]}
+    renderInputComponent={[Function]}
+    renderSuggestion={[Function]}
+    renderSuggestionsContainer={[Function]}
+    shouldRenderSuggestions={[Function]}
+    suggestions={Array []}
+  />
+</form>
+`;
+
+exports[`<SearchAutocomplete /> renders correctly with className 1`] = `
+<form
+  action=""
+  noValidate={true}
+  onSubmit={[Function]}
+  role="search"
+>
+  <Autosuggest
+    alwaysRenderSuggestions={false}
+    focusInputOnSuggestionClick={false}
+    getSectionSuggestions={[Function]}
+    getSuggestionValue={[Function]}
+    highlightFirstSuggestion={false}
+    id="1"
+    inputProps={
+      Object {
+        "onChange": [Function],
+        "placeholder": "Search...",
+        "value": "",
+      }
+    }
+    multiSection={false}
+    onSuggestionSelected={[Function]}
+    onSuggestionsClearRequested={[Function]}
+    onSuggestionsFetchRequested={[Function]}
+    renderInputComponent={[Function]}
+    renderSuggestion={[Function]}
+    renderSuggestionsContainer={[Function]}
+    shouldRenderSuggestions={[Function]}
+    suggestions={Array []}
+  />
+</form>
+`;
+
+exports[`<SearchAutocomplete /> renders correctly with onHitSelected 1`] = `
+<form
+  action=""
+  noValidate={true}
+  onSubmit={[Function]}
+  role="search"
+>
+  <Autosuggest
+    alwaysRenderSuggestions={false}
+    focusInputOnSuggestionClick={false}
+    getSectionSuggestions={[Function]}
+    getSuggestionValue={[Function]}
+    highlightFirstSuggestion={false}
+    id="1"
+    inputProps={
+      Object {
+        "onChange": [Function],
+        "placeholder": "Search...",
+        "value": "",
+      }
+    }
+    multiSection={false}
+    onSuggestionSelected={[Function]}
+    onSuggestionsClearRequested={[Function]}
+    onSuggestionsFetchRequested={[Function]}
+    renderInputComponent={[Function]}
+    renderSuggestion={[Function]}
+    renderSuggestionsContainer={[Function]}
+    shouldRenderSuggestions={[Function]}
+    suggestions={Array []}
+  />
+</form>
+`;
+
+exports[`<SearchAutocomplete /> renders correctly with onSubmit 1`] = `
+<form
+  action=""
+  noValidate={true}
+  onSubmit={[Function]}
+  role="search"
+>
+  <Autosuggest
+    alwaysRenderSuggestions={false}
+    focusInputOnSuggestionClick={false}
+    getSectionSuggestions={[Function]}
+    getSuggestionValue={[Function]}
+    highlightFirstSuggestion={false}
+    id="1"
+    inputProps={
+      Object {
+        "onChange": [Function],
+        "placeholder": "Search...",
+        "value": "",
+      }
+    }
+    multiSection={false}
+    onSuggestionSelected={[Function]}
+    onSuggestionsClearRequested={[Function]}
+    onSuggestionsFetchRequested={[Function]}
+    renderInputComponent={[Function]}
+    renderSuggestion={[Function]}
+    renderSuggestionsContainer={[Function]}
+    shouldRenderSuggestions={[Function]}
+    suggestions={Array []}
+  />
+</form>
+`;
+
+exports[`<SearchAutocomplete /> renders correctly with transformHit 1`] = `
+<form
+  action=""
+  noValidate={true}
+  onSubmit={[Function]}
+  role="search"
+>
+  <Autosuggest
+    alwaysRenderSuggestions={false}
+    focusInputOnSuggestionClick={false}
+    getSectionSuggestions={[Function]}
+    getSuggestionValue={[Function]}
+    highlightFirstSuggestion={false}
+    id="1"
+    inputProps={
+      Object {
+        "onChange": [Function],
+        "placeholder": "Search...",
+        "value": "",
+      }
+    }
+    multiSection={false}
+    onSuggestionSelected={[Function]}
+    onSuggestionsClearRequested={[Function]}
+    onSuggestionsFetchRequested={[Function]}
+    renderInputComponent={[Function]}
+    renderSuggestion={[Function]}
+    renderSuggestionsContainer={[Function]}
+    shouldRenderSuggestions={[Function]}
+    suggestions={Array []}
+  />
+</form>
+`;
+
+exports[`<SearchAutocomplete /> treats its currentRefinement prop as its input value 1`] = `
+<form
+  action=""
+  noValidate={true}
+  onSubmit={[Function]}
+  role="search"
+>
+  <Autosuggest
+    alwaysRenderSuggestions={false}
+    focusInputOnSuggestionClick={false}
+    getSectionSuggestions={[Function]}
+    getSuggestionValue={[Function]}
+    highlightFirstSuggestion={false}
+    id="1"
+    inputProps={
+      Object {
+        "onChange": [Function],
+        "placeholder": "Search...",
+        "value": "product",
+      }
+    }
+    multiSection={false}
+    onSuggestionSelected={[Function]}
+    onSuggestionsClearRequested={[Function]}
+    onSuggestionsFetchRequested={[Function]}
+    renderInputComponent={[Function]}
+    renderSuggestion={[Function]}
+    renderSuggestionsContainer={[Function]}
+    shouldRenderSuggestions={[Function]}
+    suggestions={Array []}
+  />
+</form>
+`;

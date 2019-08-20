@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SellerProfileNewsItem /> renders correctly 1`] = `
+<React.Fragment>
+  <Image
+    alt="Remote Possibilities"
+    className="dh-seller-profile-news-image"
+    src="https://cdn.deringhall.com/images/681/original/cover.jpg?auto=format&fit=max&q=60&w=670"
+  />
+  <i
+    className="dh-seller-profile-news-type"
+  >
+    Press
+  </i>
+  <br />
+  <b
+    className="dh-seller-profile-news-title"
+  >
+    Remote Possibilities
+  </b>
+</React.Fragment>
+`;

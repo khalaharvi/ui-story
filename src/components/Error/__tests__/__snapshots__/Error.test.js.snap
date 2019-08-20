@@ -1,0 +1,254 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ErrorComponent /> renders correctly 1`] = `
+<div
+  className="dh-error"
+>
+  <header
+    className="dh-error-header"
+  >
+    <div
+      className="dh-error-logo"
+    >
+      <img
+        alt=""
+        src="http://placehold.it/150x30"
+      />
+    </div>
+  </header>
+  <section
+    className="dh-error-section"
+  >
+    <div>
+      <h1>
+        Internal Server Error
+      </h1>
+      <p>
+        We're sorry, but something went wrong. We have been notified about this and we'll take a look at it shortly.
+      </p>
+    </div>
+  </section>
+  <footer
+    className="dh-error-footer"
+  >
+    <small>
+      © 
+      2018
+       
+      Dering Hall, Inc.
+    </small>
+  </footer>
+</div>
+`;
+
+exports[`<ErrorComponent /> renders correctly with copyright 1`] = `
+<div
+  className="dh-error"
+>
+  <header
+    className="dh-error-header"
+  >
+    <div
+      className="dh-error-logo"
+    >
+      <img
+        alt=""
+        src="http://placehold.it/150x30"
+      />
+    </div>
+  </header>
+  <section
+    className="dh-error-section"
+  >
+    <div>
+      <h1>
+        Internal Server Error
+      </h1>
+      <p>
+        We're sorry, but something went wrong. We have been notified about this and we'll take a look at it shortly.
+      </p>
+    </div>
+  </section>
+  <footer
+    className="dh-error-footer"
+  >
+    <small>
+      © 
+      2018
+       
+      Custom Copyright, LLC
+    </small>
+  </footer>
+</div>
+`;
+
+exports[`<ErrorComponent /> renders correctly with custom className 1`] = `
+<div
+  className="dh-error custom-classname"
+>
+  <header
+    className="dh-error-header"
+  >
+    <div
+      className="dh-error-logo"
+    >
+      <img
+        alt=""
+        src="http://placehold.it/150x30"
+      />
+    </div>
+  </header>
+  <section
+    className="dh-error-section"
+  >
+    <div>
+      <h1>
+        Internal Server Error
+      </h1>
+      <p>
+        We're sorry, but something went wrong. We have been notified about this and we'll take a look at it shortly.
+      </p>
+    </div>
+  </section>
+  <footer
+    className="dh-error-footer"
+  >
+    <small>
+      © 
+      2018
+       
+      Dering Hall, Inc.
+    </small>
+  </footer>
+</div>
+`;
+
+exports[`<ErrorComponent /> renders correctly with custom message 1`] = `
+<div
+  className="dh-error"
+>
+  <header
+    className="dh-error-header"
+  >
+    <div
+      className="dh-error-logo"
+    >
+      <img
+        alt=""
+        src="http://placehold.it/150x30"
+      />
+    </div>
+  </header>
+  <section
+    className="dh-error-section"
+  >
+    <div>
+      <h1>
+        Internal Server Error
+      </h1>
+      <p>
+        Custom Message
+      </p>
+    </div>
+  </section>
+  <footer
+    className="dh-error-footer"
+  >
+    <small>
+      © 
+      2018
+       
+      Dering Hall, Inc.
+    </small>
+  </footer>
+</div>
+`;
+
+exports[`<ErrorComponent /> renders correctly with custom title 1`] = `
+<div
+  className="dh-error"
+>
+  <header
+    className="dh-error-header"
+  >
+    <div
+      className="dh-error-logo"
+    >
+      <img
+        alt=""
+        src="http://placehold.it/150x30"
+      />
+    </div>
+  </header>
+  <section
+    className="dh-error-section"
+  >
+    <div>
+      <h1>
+        Custom Title
+      </h1>
+      <p>
+        We're sorry, but something went wrong. We have been notified about this and we'll take a look at it shortly.
+      </p>
+    </div>
+  </section>
+  <footer
+    className="dh-error-footer"
+  >
+    <small>
+      © 
+      2018
+       
+      Dering Hall, Inc.
+    </small>
+  </footer>
+</div>
+`;
+
+exports[`<ErrorComponent /> renders correctly with link 1`] = `
+<div
+  className="dh-error"
+>
+  <header
+    className="dh-error-header"
+  >
+    <div
+      className="dh-error-logo"
+    >
+      <img
+        alt=""
+        src="http://placehold.it/150x30"
+      />
+    </div>
+  </header>
+  <section
+    className="dh-error-section"
+  >
+    <div>
+      <h1>
+        Internal Server Error
+      </h1>
+      <p>
+        We're sorry, but something went wrong. We have been notified about this and we'll take a look at it shortly.
+      </p>
+      <p>
+        <a
+          href="/"
+        >
+          Back to Homepage
+        </a>
+      </p>
+    </div>
+  </section>
+  <footer
+    className="dh-error-footer"
+  >
+    <small>
+      © 
+      2018
+       
+      Dering Hall, Inc.
+    </small>
+  </footer>
+</div>
+`;

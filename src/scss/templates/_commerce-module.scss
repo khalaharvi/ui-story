@@ -1,0 +1,23 @@
+.#{$namespace}-commerce-module {
+  .#{$namespace}-product-detail & {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: col-span(4);
+    padding-bottom: 50px;
+
+    @include mq($until: large) {
+      width: col-span(4, large);
+    }
+
+    @include mq($until: medium) {
+      position: static;
+      width: 100%;
+      padding-bottom: 31px;
+    }
+
+    @include mq($until: small) {
+      padding-bottom: 16px;
+    }
+  }
+}

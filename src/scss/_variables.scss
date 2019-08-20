@@ -1,0 +1,101 @@
+$namespace: 'dh' !default;
+$gutter: 30px !default;
+$gutter--small: 20px !default;
+
+// $breakpoints: (
+//   xlarge: "(min-width: 1240px)",
+//   large: "(max-width: 1240px)",
+//   medium: "(max-width: 970px)",
+//   small: "(max-width: 730px)",
+
+//   navigation: "(min-width: 971px)",
+//   narrowHeight: "(max-height: 768px)"
+// );
+
+/* Columns */
+$columns_widths: (
+  xlarge: 1170px,
+  large: 930px,
+  medium: 690px,
+  small: 100%
+);
+
+/* Responsive */
+$mq-breakpoints: (
+  small:  730px,
+  medium:  970px,
+  large: 1240px
+);
+
+// $mq-show-breakpoints: (small, medium, large);
+
+/* Misc */
+$poweredby-size: (
+  width: 126px,
+  height: 13px
+);
+$facets-overlay-width: 290px;
+$navbar-items-spacings: (
+  medium: 40px,
+  small: 25px
+);
+
+/* Dering Hall Main Colors */
+$dh_red: #B90A0A;
+$dh_red--hover: #9d0909;
+$dh_gold: #AF9B79;
+$dh_gold--hover: #83745b;
+
+/* Dering Hall Grayscale Colors */
+$color__black: #000;
+$color__black--90: #1a1a1a;
+$color__black--50: #808080;
+$color__black--40: #999999;
+$color__black--28: #b8b8b8;
+$color__black--25: #bfbfbf;
+$color__black--15: #d9d9d9;
+$color__black--10: #e6e6e6;
+$color__black--5: #f2f2f2;
+$color__black--3-5: #F7F7F6;
+$color__black--2: #fbfbfb;
+$color__white: #fff;
+
+/* Main Colors — use these! */
+$color_primary: $dh_red !default;
+$color_primary--hover: $dh_red--hover !default;
+$color_secondary: $dh_gold !default;
+$color_secondary--hover: $dh_gold--hover !default;
+
+/* Colors — use these! */
+$color__titles: $color_primary !default;
+$color__text: $color__black--90 !default;
+$color__text__secondary: $color__black--40 !default;
+$color__stroke: $color__black--15 !default;
+$color__stroke--hover: $color__black--28 !default;
+$color__stroke--handle: $color__black--25 !default;
+$color__stroke--facets: $color__black--10 !default;
+$color__stroke--facets-toggler: rgba($color__black, .1) !default;
+$color__stroke--mobile-navbar: $color__black--28 !default;
+$color__links: $color_secondary !default;
+$color__links--hover: $color_secondary--hover !default;
+
+/* Inputs */
+$color__text--disabled: $color__black--15 !default;
+$color__placeholder: $color__black--15 !default;
+$color__bg--disabled: $color__black--3-5 !default;
+
+/* Backgrounds Colors — use these! */
+$color__bg--body: $color__white !default;
+$color__bg--active-facet: $color__black--5 !default;
+$color__bg--selected-hit: $color__black--3-5 !default;
+$color__bg--range-facet: $color__black--10 !default;
+$color__bg--facets: $color__black--3-5 !default;
+$color__bg--facets-toggler: rgba($color__white, .95) !default;
+
+/* Buttons Colors — use these! */
+$btn-primary-color__text: $color__white !default;
+$btn-primary-color__bg: $color_primary !default;
+$btn-primary-color__bg--hover: $color_primary--hover !default;
+
+$btn-secondary-color__text--hover: $color__white !default;
+$btn-secondary-color__bg: $color__white !default;

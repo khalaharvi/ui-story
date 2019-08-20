@@ -1,0 +1,28 @@
+.#{$namespace}-breadcrumb {
+  &-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+    list-style-type: none;
+  }
+
+  &-item,
+  &-separator {
+    margin-right: 10px;
+    color: $color__text__secondary;
+  }
+
+  &-item:last-child {
+    margin-right: 0;
+  }
+
+  &-link {
+    color: $color__text__secondary;
+    text-decoration: none;
+
+    &:hover {
+      color: $color__text;
+    }
+  }
+}

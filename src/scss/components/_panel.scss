@@ -1,0 +1,23 @@
+.#{$namespace}-panel {
+  &:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  &-header {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+
+    text-transform: uppercase;
+    border-bottom: 1px solid $color__stroke;
+
+    &--has-action {
+      display: flex;
+      justify-content: space-beetween;
+      align-items: center;
+
+      span {
+        flex: 1 1 0%;
+      }
+    }
+  }
+}

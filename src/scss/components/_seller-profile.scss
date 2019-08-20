@@ -1,0 +1,112 @@
+$baseClass: '.#{$namespace}-seller-profile';
+
+#{$baseClass}-info {
+  margin-bottom: 88px;
+
+  @include mq($until: small) {
+    margin-bottom: 38px;
+  }
+
+  & + #{$baseClass}-memberships {
+    @include mq($from: small) {
+      margin-top: -88px;
+    }
+  }
+
+  .columns .columns .col {
+    width: col-span(3);
+    margin-left: 0;
+
+    &:first-child {
+      width: 185px;
+    }
+
+    @include mq($until: large) {
+      width: col-span(3, large);
+
+      &:first-child {
+        width: 185px;
+      }
+    }
+
+    @include mq($until: medium) {
+      width: 100%;
+
+      &:first-child {
+        display: none;
+      }
+    }
+  }
+
+  &-logo {
+    display: block;
+    width: 100%;
+    max-width: 170px;
+    height: auto;
+  }
+
+  &-image {
+    display: block;
+    max-height: 530px;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin: 0 auto 40px;
+    object-fit: contain;
+    overflow: hidden;
+
+    .no-objectFit & {
+      width: auto;
+    }
+
+    @include mq($until: large) {
+      max-height: 420px;
+    }
+
+    @include mq($until: medium) {
+      max-height: 310px;
+    }
+
+    @include mq($until: small) {
+      margin-bottom: 30px;
+      max-height: none;
+      width: 100%;
+    }
+  }
+
+  &-name {
+    // @include font--interstate--m--title;
+    margin-top: -3px;
+    margin-bottom: 15px;
+  }
+
+  &-social-links {
+    margin-bottom: 15px;
+
+    li {
+      margin-bottom: 5px;
+    }
+
+    a {
+      color: $color__text__secondary;
+
+      &:hover {
+        color: $color__text;
+      }
+    }
+  }
+
+  &-summary {
+    line-height: 30px;
+    margin-top: -6px;
+    margin-bottom: 13px;
+  }
+
+  &-contact {
+    margin: 0;
+
+    a {
+      display: inline-block;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.#{$namespace}-product-detail {
+  @extend %container;
+
+  &-inner {
+    position: relative;
+    padding-right: col-span(4) + $gutter;
+
+    @include mq($until: large) {
+      padding-right: col-span(4, large) + $gutter;
+    }
+
+    @include mq($until: medium) {
+      padding-right: 0;
+    }
+  }
+}

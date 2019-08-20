@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GeoSearch /> renders correctly 1`] = `
+<div
+  className="dh-geosearch"
+>
+  <div
+    className="dh-geosearch-select dh-geosearch-select--disabled"
+  >
+    <select
+      disabled={true}
+      onChange={[Function]}
+    >
+      <option
+        value={0}
+      >
+        Distance
+      </option>
+      <option
+        key="geosearch-radius-10"
+        value={10}
+      >
+        Within 10 miles
+      </option>
+      <option
+        key="geosearch-radius-25"
+        value={25}
+      >
+        Within 25 miles
+      </option>
+    </select>
+  </div>
+  <WithTheme(PlaceAutocomplete)
+    className="dh-geosearch-autocomplete"
+    onPlaceSelected={[Function]}
+    onReset={[Function]}
+    placeholder="Current Location"
+  />
+</div>
+`;
+
+exports[`<GeoSearch /> renders correctly with custom classname 1`] = `
+<div
+  className="dh-geosearch"
+>
+  <div
+    className="dh-geosearch-select dh-geosearch-select--disabled"
+  >
+    <select
+      disabled={true}
+      onChange={[Function]}
+    >
+      <option
+        value={0}
+      >
+        Distance
+      </option>
+      <option
+        key="geosearch-radius-10"
+        value={10}
+      >
+        Within 10 miles
+      </option>
+      <option
+        key="geosearch-radius-25"
+        value={25}
+      >
+        Within 25 miles
+      </option>
+    </select>
+  </div>
+  <WithTheme(PlaceAutocomplete)
+    className="dh-geosearch-autocomplete"
+    onPlaceSelected={[Function]}
+    onReset={[Function]}
+    placeholder="Current Location"
+  />
+</div>
+`;
+
+exports[`<GeoSearch /> renders correctly with radiuses 1`] = `
+<div
+  className="dh-geosearch"
+>
+  <div
+    className="dh-geosearch-select dh-geosearch-select--disabled"
+  >
+    <select
+      disabled={true}
+      onChange={[Function]}
+    >
+      <option
+        value={0}
+      >
+        Distance
+      </option>
+      <option
+        key="geosearch-radius-1"
+        value={1}
+      >
+        Within 1 miles
+      </option>
+      <option
+        key="geosearch-radius-2"
+        value={2}
+      >
+        Within 2 miles
+      </option>
+      <option
+        key="geosearch-radius-3"
+        value={3}
+      >
+        Within 3 miles
+      </option>
+    </select>
+  </div>
+  <WithTheme(PlaceAutocomplete)
+    className="dh-geosearch-autocomplete"
+    onPlaceSelected={[Function]}
+    onReset={[Function]}
+    placeholder="Current Location"
+  />
+</div>
+`;

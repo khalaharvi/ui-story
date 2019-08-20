@@ -1,0 +1,369 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductDetailSwatches /> renders correctly 1`] = `
+<div
+  className="dh-product-detail-swatches"
+>
+  <h2
+    className="dh-product-detail-title"
+  >
+    Available Finishes
+  </h2>
+  <ul
+    className="dh-product-detail-swatches-list"
+  >
+    <li
+      className="dh-product-detail-swatches-list-item"
+      key="dh-swatch-satin-brass"
+    >
+      <figure>
+        <img
+          alt="Satin Brass"
+          src="https://cdn.deringhall.com/swatch/image/50cdedfe-b5fe-4386-87cd-98c8c6af768c_satin.brass.jpg?auto=format&h=210&q=60&w=210"
+        />
+        <figcaption>
+          Satin Brass
+        </figcaption>
+      </figure>
+    </li>
+    <li
+      className="dh-product-detail-swatches-list-item"
+      key="dh-swatch-antiqued-bronze"
+    >
+      <figure>
+        <img
+          alt="Antiqued Bronze"
+          src="https://cdn.deringhall.com/swatch/image/afaf2371-2e28-45ed-80a1-a35a905328ba_antiqued.bronze.jpg?auto=format&h=210&q=60&w=210"
+        />
+        <figcaption>
+          Antiqued Bronze
+        </figcaption>
+      </figure>
+    </li>
+    <li
+      className="dh-product-detail-swatches-list-item"
+      key="dh-swatch-nickel"
+    >
+      <figure>
+        <img
+          alt="Nickel"
+          src="https://cdn.deringhall.com/swatch/image/e2162837-d502-4fcc-91a4-bc8aba8687fb_nickel.jpg?auto=format&h=210&q=60&w=210"
+        />
+        <figcaption>
+          Nickel
+        </figcaption>
+      </figure>
+    </li>
+    <li
+      className="dh-product-detail-swatches-list-item"
+      key="dh-swatch-polished-brass"
+    >
+      <figure>
+        <img
+          alt="Polished Brass"
+          src="https://cdn.deringhall.com/swatch/image/8461198b-cb91-4d4e-a90b-b79ffd43bb2a_polished.brass.jpg?auto=format&h=210&q=60&w=210"
+        />
+        <figcaption>
+          Polished Brass
+        </figcaption>
+      </figure>
+    </li>
+    <li
+      className="dh-product-detail-swatches-list-item"
+      key="dh-swatch-satin-brass"
+    >
+      <figure>
+        <img
+          alt="Satin Brass"
+          src="https://cdn.deringhall.com/swatch/image/50cdedfe-b5fe-4386-87cd-98c8c6af768c_satin.brass.jpg?auto=format&h=210&q=60&w=210"
+        />
+        <figcaption>
+          Satin Brass
+        </figcaption>
+      </figure>
+    </li>
+    <li
+      className="dh-product-detail-swatches-list-item"
+      key="dh-swatch-antiqued-bronze"
+    >
+      <figure>
+        <img
+          alt="Antiqued Bronze"
+          src="https://cdn.deringhall.com/swatch/image/afaf2371-2e28-45ed-80a1-a35a905328ba_antiqued.bronze.jpg?auto=format&h=210&q=60&w=210"
+        />
+        <figcaption>
+          Antiqued Bronze
+        </figcaption>
+      </figure>
+    </li>
+    <li
+      className="dh-product-detail-swatches-list-item"
+      key="dh-swatch-nickel"
+    >
+      <figure>
+        <img
+          alt="Nickel"
+          src="https://cdn.deringhall.com/swatch/image/e2162837-d502-4fcc-91a4-bc8aba8687fb_nickel.jpg?auto=format&h=210&q=60&w=210"
+        />
+        <figcaption>
+          Nickel
+        </figcaption>
+      </figure>
+    </li>
+    <li
+      className="dh-product-detail-swatches-list-item"
+      key="dh-swatch-polished-brass"
+    >
+      <figure>
+        <img
+          alt="Polished Brass"
+          src="https://cdn.deringhall.com/swatch/image/8461198b-cb91-4d4e-a90b-b79ffd43bb2a_polished.brass.jpg?auto=format&h=210&q=60&w=210"
+        />
+        <figcaption>
+          Polished Brass
+        </figcaption>
+      </figure>
+    </li>
+    <li
+      className="dh-product-detail-swatches-list-item"
+      key="dh-swatch-satin-brass"
+    >
+      <figure>
+        <img
+          alt="Satin Brass"
+          src="https://cdn.deringhall.com/swatch/image/50cdedfe-b5fe-4386-87cd-98c8c6af768c_satin.brass.jpg?auto=format&h=210&q=60&w=210"
+        />
+        <figcaption>
+          Satin Brass
+        </figcaption>
+      </figure>
+    </li>
+    <li
+      className="dh-product-detail-swatches-list-item"
+      key="dh-swatch-antiqued-bronze"
+    >
+      <figure>
+        <img
+          alt="Antiqued Bronze"
+          src="https://cdn.deringhall.com/swatch/image/afaf2371-2e28-45ed-80a1-a35a905328ba_antiqued.bronze.jpg?auto=format&h=210&q=60&w=210"
+        />
+        <figcaption>
+          Antiqued Bronze
+        </figcaption>
+      </figure>
+    </li>
+    <li
+      className="dh-product-detail-swatches-list-item"
+      key="dh-swatch-nickel"
+    >
+      <figure>
+        <img
+          alt="Nickel"
+          src="https://cdn.deringhall.com/swatch/image/e2162837-d502-4fcc-91a4-bc8aba8687fb_nickel.jpg?auto=format&h=210&q=60&w=210"
+        />
+        <figcaption>
+          Nickel
+        </figcaption>
+      </figure>
+    </li>
+    <li
+      className="dh-product-detail-swatches-list-item"
+      key="dh-swatch-polished-brass"
+    >
+      <figure>
+        <img
+          alt="Polished Brass"
+          src="https://cdn.deringhall.com/swatch/image/8461198b-cb91-4d4e-a90b-b79ffd43bb2a_polished.brass.jpg?auto=format&h=210&q=60&w=210"
+        />
+        <figcaption>
+          Polished Brass
+        </figcaption>
+      </figure>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<ProductDetailSwatches /> renders correctly with custom title 1`] = `
+<div
+  className="dh-product-detail-swatches"
+>
+  <h2
+    className="dh-product-detail-title"
+  >
+    Available Swatches
+  </h2>
+  <ul
+    className="dh-product-detail-swatches-list"
+  >
+    <li
+      className="dh-product-detail-swatches-list-item"
+      key="dh-swatch-satin-brass"
+    >
+      <figure>
+        <img
+          alt="Satin Brass"
+          src="https://cdn.deringhall.com/swatch/image/50cdedfe-b5fe-4386-87cd-98c8c6af768c_satin.brass.jpg?auto=format&h=210&q=60&w=210"
+        />
+        <figcaption>
+          Satin Brass
+        </figcaption>
+      </figure>
+    </li>
+    <li
+      className="dh-product-detail-swatches-list-item"
+      key="dh-swatch-antiqued-bronze"
+    >
+      <figure>
+        <img
+          alt="Antiqued Bronze"
+          src="https://cdn.deringhall.com/swatch/image/afaf2371-2e28-45ed-80a1-a35a905328ba_antiqued.bronze.jpg?auto=format&h=210&q=60&w=210"
+        />
+        <figcaption>
+          Antiqued Bronze
+        </figcaption>
+      </figure>
+    </li>
+    <li
+      className="dh-product-detail-swatches-list-item"
+      key="dh-swatch-nickel"
+    >
+      <figure>
+        <img
+          alt="Nickel"
+          src="https://cdn.deringhall.com/swatch/image/e2162837-d502-4fcc-91a4-bc8aba8687fb_nickel.jpg?auto=format&h=210&q=60&w=210"
+        />
+        <figcaption>
+          Nickel
+        </figcaption>
+      </figure>
+    </li>
+    <li
+      className="dh-product-detail-swatches-list-item"
+      key="dh-swatch-polished-brass"
+    >
+      <figure>
+        <img
+          alt="Polished Brass"
+          src="https://cdn.deringhall.com/swatch/image/8461198b-cb91-4d4e-a90b-b79ffd43bb2a_polished.brass.jpg?auto=format&h=210&q=60&w=210"
+        />
+        <figcaption>
+          Polished Brass
+        </figcaption>
+      </figure>
+    </li>
+    <li
+      className="dh-product-detail-swatches-list-item"
+      key="dh-swatch-satin-brass"
+    >
+      <figure>
+        <img
+          alt="Satin Brass"
+          src="https://cdn.deringhall.com/swatch/image/50cdedfe-b5fe-4386-87cd-98c8c6af768c_satin.brass.jpg?auto=format&h=210&q=60&w=210"
+        />
+        <figcaption>
+          Satin Brass
+        </figcaption>
+      </figure>
+    </li>
+    <li
+      className="dh-product-detail-swatches-list-item"
+      key="dh-swatch-antiqued-bronze"
+    >
+      <figure>
+        <img
+          alt="Antiqued Bronze"
+          src="https://cdn.deringhall.com/swatch/image/afaf2371-2e28-45ed-80a1-a35a905328ba_antiqued.bronze.jpg?auto=format&h=210&q=60&w=210"
+        />
+        <figcaption>
+          Antiqued Bronze
+        </figcaption>
+      </figure>
+    </li>
+    <li
+      className="dh-product-detail-swatches-list-item"
+      key="dh-swatch-nickel"
+    >
+      <figure>
+        <img
+          alt="Nickel"
+          src="https://cdn.deringhall.com/swatch/image/e2162837-d502-4fcc-91a4-bc8aba8687fb_nickel.jpg?auto=format&h=210&q=60&w=210"
+        />
+        <figcaption>
+          Nickel
+        </figcaption>
+      </figure>
+    </li>
+    <li
+      className="dh-product-detail-swatches-list-item"
+      key="dh-swatch-polished-brass"
+    >
+      <figure>
+        <img
+          alt="Polished Brass"
+          src="https://cdn.deringhall.com/swatch/image/8461198b-cb91-4d4e-a90b-b79ffd43bb2a_polished.brass.jpg?auto=format&h=210&q=60&w=210"
+        />
+        <figcaption>
+          Polished Brass
+        </figcaption>
+      </figure>
+    </li>
+    <li
+      className="dh-product-detail-swatches-list-item"
+      key="dh-swatch-satin-brass"
+    >
+      <figure>
+        <img
+          alt="Satin Brass"
+          src="https://cdn.deringhall.com/swatch/image/50cdedfe-b5fe-4386-87cd-98c8c6af768c_satin.brass.jpg?auto=format&h=210&q=60&w=210"
+        />
+        <figcaption>
+          Satin Brass
+        </figcaption>
+      </figure>
+    </li>
+    <li
+      className="dh-product-detail-swatches-list-item"
+      key="dh-swatch-antiqued-bronze"
+    >
+      <figure>
+        <img
+          alt="Antiqued Bronze"
+          src="https://cdn.deringhall.com/swatch/image/afaf2371-2e28-45ed-80a1-a35a905328ba_antiqued.bronze.jpg?auto=format&h=210&q=60&w=210"
+        />
+        <figcaption>
+          Antiqued Bronze
+        </figcaption>
+      </figure>
+    </li>
+    <li
+      className="dh-product-detail-swatches-list-item"
+      key="dh-swatch-nickel"
+    >
+      <figure>
+        <img
+          alt="Nickel"
+          src="https://cdn.deringhall.com/swatch/image/e2162837-d502-4fcc-91a4-bc8aba8687fb_nickel.jpg?auto=format&h=210&q=60&w=210"
+        />
+        <figcaption>
+          Nickel
+        </figcaption>
+      </figure>
+    </li>
+    <li
+      className="dh-product-detail-swatches-list-item"
+      key="dh-swatch-polished-brass"
+    >
+      <figure>
+        <img
+          alt="Polished Brass"
+          src="https://cdn.deringhall.com/swatch/image/8461198b-cb91-4d4e-a90b-b79ffd43bb2a_polished.brass.jpg?auto=format&h=210&q=60&w=210"
+        />
+        <figcaption>
+          Polished Brass
+        </figcaption>
+      </figure>
+    </li>
+  </ul>
+</div>
+`;

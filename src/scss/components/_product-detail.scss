@@ -1,0 +1,199 @@
+$baseClass: '.#{$namespace}-product-detail';
+
+#{$baseClass} {
+  &-gallery {
+    margin-bottom: 26px;
+
+    .image-gallery-thumbnails .image-gallery-thumbnails-container {
+      text-align: left;
+    }
+
+    .image-gallery-thumbnail {
+      width: 105px;
+    }
+  }
+
+  &-title {
+    margin-bottom: 38px;
+  }
+
+  &-description {
+    padding-top: 13px;
+    padding-bottom: 38px;
+    padding-right: 35px;
+
+    @include mq($until: large) {
+      padding-bottom: 43px;
+    }
+
+    @include mq($until: medium) {
+      padding-top: 8px;
+    }
+
+    @include mq($until: small) {
+      padding-bottom: 23px;
+      padding-right: 0;
+    }
+
+    p {
+      line-height: 30px;
+      margin-bottom: 30px;
+    }
+  }
+
+  &-specs {
+    display: flex;
+    flex-wrap: wrap;
+
+    @include mq($until: large) {
+      padding-bottom: 51px;
+    }
+
+    #{$baseClass}-title {
+      margin-bottom: 0;
+      padding-bottom: 18px;
+      border-bottom: 1px solid $color__stroke;
+    }
+
+    .col {
+      width: col-span(4);
+      padding-bottom: 61px;
+      padding-top: 0;
+
+      @include mq($until: large) {
+        width: col-span(4, large);
+      }
+
+      @include mq($until: medium) {
+        width: col-span(6, medium);
+      }
+
+      @include mq($until: small) {
+        width: 100%;
+        padding-bottom: 0;
+      }
+    }
+
+    dl {
+      margin-bottom: 0;
+    }
+
+    dt {
+      margin: 0;
+      padding-top: 11px;
+    }
+
+    dd {
+      margin: 0;
+      padding-bottom: 13px;
+      border-bottom: 1px solid $color__stroke;
+      color: $color__text__secondary;
+
+      @include mq($until: medium) {
+        padding-right: 30px;
+      }
+
+      @include mq($until: small) {
+        padding-right: 0;
+      }
+    }
+  }
+
+  &-about {
+    padding-bottom: 30px;
+    margin-left: 0;
+    margin-right: 0;
+
+    @include mq($until: large) {
+      padding-bottom: 28px;
+    }
+
+    @include mq($until: medium) {
+      padding-bottom: 29px;
+    }
+
+    @include mq($until: small) {
+      padding-bottom: 8px;
+    }
+
+    #{$baseClass}-title {
+      padding-bottom: 18px;
+      margin-bottom: 29px;
+      border-bottom: 1px solid $color__stroke;
+    }
+
+    .col {
+      width: col-span(4);
+      margin-left: 0;
+      margin-right: 0;
+
+      & + .col {
+        margin-left: $gutter;
+        padding-right: 35px;
+      }
+
+      @include mq($until: large) {
+        width: col-span(4, large);
+      }
+
+      @include mq($until: medium) {
+        width: col-span(6, medium);
+      }
+
+      @include mq($until: small) {
+        width: 100%;
+
+        & + .col {
+          margin-left: 0;
+          padding-top: 29px;
+        }
+      }
+
+      p:first-child {
+        margin-top: -3px;
+      }
+
+      .link {
+        display: inline-block;
+        margin-top: 10px;
+      }
+    }
+
+    .#{$namespace}-designer-about-img {
+      max-width: 100%;
+    }
+  }
+
+  &-swatches {
+    $spacing: 28px;
+
+    &-list {
+      display: flex;
+      flex-flow: row wrap;
+      margin: 0 (-$spacing / 2) (-$spacing);
+    }
+
+    &-list-item {
+      margin: 0 ($spacing / 2) $spacing;
+      width: 105px;
+      min-height: 125px;
+      color: $color__text__secondary;
+      text-align: center;
+
+      figure {
+        margin: 0;
+      }
+
+      img {
+        display: block;
+        border-radius: 50%;
+        height: 105px;
+        width: 105px;
+      }
+
+      figcaption {
+        margin-top: 15px;
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+.#{$namespace}-products-search {
+  @extend %container;
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 40px;
+  padding-bottom: 70px;
+}

@@ -1,0 +1,10 @@
+.#{$namespace}-sortby-facet {
+  @include customSelect();
+
+  width: 200px;
+
+  .#{$namespace}-facets & {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}

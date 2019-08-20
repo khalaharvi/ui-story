@@ -1,0 +1,36 @@
+$baseClassname: '.#{$namespace}-seller-profile';
+
+#{$baseClassname}-memberships {
+  padding-top: 0;
+
+  &-list {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+
+    @include mq($until: small) {
+      justify-content: space-between;
+    }
+  }
+
+  &-list-item {
+    margin: 0 30px 28px 0;
+
+    @include mq($until: small) {
+      flex: 0 1 50%;
+      margin-right: 0;
+    }
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: 100px;
+    max-height: 100px;
+
+    @include mq($until: small) {
+      margin: 0 auto;
+    }
+  }
+}

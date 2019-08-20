@@ -1,0 +1,19 @@
+$baseClassname: '.#{$namespace}-related-module';
+
+#{$baseClassname} {
+  position: relative;
+  padding-top: 42px;
+  padding-bottom: 30px;
+
+  &:not(.#{$namespace}-seller-profile-memberships) {
+    @include dividing-line(0);
+  }
+
+  &-title {
+    margin: 0 0 33px;
+
+    @include mq($until: small) {
+      text-align: center;
+    }
+  }
+}

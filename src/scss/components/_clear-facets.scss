@@ -1,0 +1,15 @@
+.#{$namespace}-clear-facets {
+  .#{$namespace}-panel-header & {
+    flex: 0 0 auto;
+  }
+
+  &-button {
+    @include cleanBtn;
+
+    color: $color__links;
+
+    &:hover {
+      color: $color__links--hover;
+    }
+  }
+}

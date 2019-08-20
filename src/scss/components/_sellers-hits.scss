@@ -1,0 +1,78 @@
+.#{$namespace}-sellers-hits {
+  &-list {
+    @extend %columns;
+    padding: 0;
+
+    list-style-type: none;
+  }
+
+  &-list-item {
+    @extend %col;
+    flex: none;
+    width: 33.3333%;
+    text-align: center;
+
+    @include mq($from: medium) {
+      &:not(:nth-child(-n+3)) {
+        margin-top: 45px;
+      }
+    }
+
+    @include mq($from: small, $until: medium) {
+      width: 50%;
+
+      &:not(:nth-child(-n+2)) {
+        margin-top: 45px;
+      }
+    }
+
+    @include mq($until: small) {
+      width: 100%;
+
+      &:not(:first-child) {
+        margin-top: 35px;
+      }
+    }
+
+    &-link {
+      display: block;
+
+      color: $color__text;
+      text-decoration: none;
+    }
+
+    &-img {
+      display: flex;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+      justify-content: center;
+      margin-bottom: 12px;
+
+      img {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+      }
+    }
+
+    &-name {
+      display: block;
+
+      font-weight: normal;
+    }
+
+    &-types {
+      display: block;
+
+      color: $color__text__secondary;
+      font-style: normal;
+    }
+  }
+
+  &-load-more {
+    margin: 80px auto 0;
+    display: block;
+  }
+}

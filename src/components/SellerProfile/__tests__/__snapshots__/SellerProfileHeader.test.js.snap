@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SellerProfileHeader /> renders correctly 1`] = `
+<SectionHeaderTemplate
+  className="dh-section-header--brand"
+  subtitle="Location"
+  title="Name"
+/>
+`;
+
+exports[`<SellerProfileHeader /> renders correctly with website 1`] = `
+<SectionHeaderTemplate
+  className="dh-section-header--brand"
+  subtitle="Location"
+  title="Name"
+>
+  <ul
+    className="dh-section-header-brand-tools"
+  >
+    <li
+      className="dh-section-header-brand-tool dh-section-header-brand-tool--www"
+    >
+      <LinkWithIcon
+        external={true}
+        icon={<NewWindow />}
+        label="Official Website"
+        to="https://deringhall.com"
+      />
+    </li>
+  </ul>
+</SectionHeaderTemplate>
+`;

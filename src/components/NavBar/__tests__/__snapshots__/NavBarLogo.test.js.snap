@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavBarLogo /> renders correctly 1`] = `
+<div
+  className="dh-navbar-logo"
+>
+  <Image
+    alt="Logo"
+    src="https://placehold.it/125x35"
+  />
+</div>
+`;
+
+exports[`<NavBarLogo /> renders correctly with a custom element 1`] = `
+<div
+  className="dh-navbar-logo"
+>
+  <Logo />
+</div>
+`;

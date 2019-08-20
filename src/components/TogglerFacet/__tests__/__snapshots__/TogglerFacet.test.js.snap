@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TogglerFacet /> renders correctly 1`] = `
+<div
+  className="dh-toggler-facet"
+>
+  <ul
+    className="dh-toggler-facet-list"
+  >
+    <TogglerFacetItem
+      checked="checked"
+      item={
+        Object {
+          "attribute": "vintage",
+          "label": "Vintage",
+        }
+      }
+      key="dh-toggler-vintage"
+      namespace="dh-toggler"
+      onChange={[Function]}
+    />
+    <TogglerFacetItem
+      item={
+        Object {
+          "attribute": "outdoor",
+          "label": "Outdoor",
+        }
+      }
+      key="dh-toggler-outdoor"
+      namespace="dh-toggler"
+      onChange={[Function]}
+    />
+  </ul>
+</div>
+`;
+
+exports[`<TogglerFacet /> renders correctly with className 1`] = `
+<div
+  className="dh-toggler-facet custom-classname"
+>
+  <ul
+    className="dh-toggler-facet-list"
+  >
+    <TogglerFacetItem
+      checked="checked"
+      item={
+        Object {
+          "attribute": "vintage",
+          "label": "Vintage",
+        }
+      }
+      key="dh-toggler-vintage"
+      namespace="dh-toggler"
+      onChange={[Function]}
+    />
+    <TogglerFacetItem
+      item={
+        Object {
+          "attribute": "outdoor",
+          "label": "Outdoor",
+        }
+      }
+      key="dh-toggler-outdoor"
+      namespace="dh-toggler"
+      onChange={[Function]}
+    />
+  </ul>
+</div>
+`;

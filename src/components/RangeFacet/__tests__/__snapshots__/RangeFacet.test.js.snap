@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RangeFacet /> renders correctly 1`] = `""`;
+
+exports[`<RangeFacet /> renders correctly with className 1`] = `""`;
+
+exports[`<RangeFacet /> renders correctly with transformLabel 1`] = `""`;

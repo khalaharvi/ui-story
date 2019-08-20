@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SellerHit /> renders correctly 1`] = `
+<div
+  className="dh-sellers-hits-list-item-link"
+>
+  <div
+    className="dh-sellers-hits-list-item-img"
+  >
+    <Image
+      alt="Brand Name"
+      src="https://placehold.it/370x220"
+    />
+  </div>
+  <b
+    className="dh-sellers-hits-list-item-name"
+  >
+    Brand Name
+  </b>
+  <i
+    className="dh-sellers-hits-list-item-types"
+  >
+    Interior Designer
+  </i>
+</div>
+`;
+
+exports[`<SellerHit /> renders correctly with transformHitImageUrl 1`] = `
+<div
+  className="dh-sellers-hits-list-item-link"
+>
+  <div
+    className="dh-sellers-hits-list-item-img"
+  >
+    <Image
+      alt="Brand Name"
+      src="https://placehold.it/370x220"
+    />
+  </div>
+  <b
+    className="dh-sellers-hits-list-item-name"
+  >
+    Brand Name
+  </b>
+  <i
+    className="dh-sellers-hits-list-item-types"
+  >
+    Interior Designer
+  </i>
+</div>
+`;

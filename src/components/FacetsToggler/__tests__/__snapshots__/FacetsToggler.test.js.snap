@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FacetsToggler /> renders correctly 1`] = `
+<div
+  className="dh-facets-toggler"
+>
+  <ButtonComponent
+    className="dh-facets-toggler-toggle"
+    disabled={false}
+    hidden={false}
+    iconAfter={false}
+    inverted={false}
+    label="Refine Search"
+    loading={false}
+    onClick={[Function]}
+    primary={false}
+    secondary={false}
+    type="secondary"
+    white={false}
+  />
+</div>
+`;
+
+exports[`<FacetsToggler /> renders correctly with a custom className 1`] = `
+<div
+  className="dh-facets-toggler custom-classname"
+>
+  <ButtonComponent
+    className="dh-facets-toggler-toggle"
+    disabled={false}
+    hidden={false}
+    iconAfter={false}
+    inverted={false}
+    label="Refine Search"
+    loading={false}
+    onClick={[Function]}
+    primary={false}
+    secondary={false}
+    type="secondary"
+    white={false}
+  />
+</div>
+`;

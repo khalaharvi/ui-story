@@ -1,0 +1,305 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> can use theme from a ThemeProvider 1`] = `
+.emotion-0 {
+  padding: 0 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  outline: 0;
+  background: none;
+  cursor: pointer;
+  line-height: 45px;
+  background-color: transparent;
+  color: #242424;
+  line-height: 43px;
+  cursor: pointer;
+  border: 1px solid #242424;
+}
+
+.emotion-0:hover {
+  background-color: #242424;
+  border-color: #242424;
+  color: #fff;
+}
+
+.emotion-0 svg {
+  margin: 0 5px 0 0;
+  fill: currentColor;
+}
+
+<ButtonComponent
+  disabled={false}
+  hidden={false}
+  iconAfter={false}
+  inverted={false}
+  loading={false}
+  primary={true}
+  secondary={false}
+  white={false}
+>
+  <Styled(button)
+    disabled={false}
+    hidden={false}
+    icon={false}
+    iconAfter={false}
+    inverted={false}
+    primary={true}
+    secondary={false}
+    white={false}
+  >
+    <button
+      className="emotion-0 emotion-1"
+      disabled={false}
+      hidden={false}
+    >
+      <span>
+        Themed using ThemeProvider
+      </span>
+    </button>
+  </Styled(button)>
+</ButtonComponent>
+`;
+
+exports[`<Button /> renders correctly as primary 1`] = `
+.emotion-0 {
+  padding: 0 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  outline: 0;
+  background: none;
+  cursor: pointer;
+  line-height: 45px;
+  background-color: transparent;
+  color: #242424;
+  line-height: 43px;
+  cursor: pointer;
+  border: 1px solid #242424;
+}
+
+.emotion-0:hover {
+  background-color: #242424;
+  border-color: #242424;
+  color: #fff;
+}
+
+.emotion-0 svg {
+  margin: 0 5px 0 0;
+  fill: currentColor;
+}
+
+<ButtonComponent
+  disabled={false}
+  hidden={false}
+  iconAfter={false}
+  inverted={false}
+  loading={false}
+  primary={true}
+  secondary={false}
+  white={false}
+>
+  <Styled(button)
+    disabled={false}
+    hidden={false}
+    icon={false}
+    iconAfter={false}
+    inverted={false}
+    primary={true}
+    secondary={false}
+    white={false}
+  >
+    <button
+      className="emotion-0 emotion-1"
+      disabled={false}
+      hidden={false}
+    >
+      <span>
+        Primary Button
+      </span>
+    </button>
+  </Styled(button)>
+</ButtonComponent>
+`;
+
+exports[`<Button /> renders correctly as primary and inverted 1`] = `
+.emotion-0 {
+  padding: 0 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  outline: 0;
+  background: none;
+  cursor: pointer;
+  line-height: 45px;
+  background-color: #242424;
+  color: #fff;
+  line-height: 43px;
+  cursor: pointer;
+  border: 1px solid #242424;
+}
+
+.emotion-0:hover {
+  background-color: transparent;
+  color: #242424;
+}
+
+.emotion-0 svg {
+  margin: 0 5px 0 0;
+  fill: currentColor;
+}
+
+<ButtonComponent
+  disabled={false}
+  hidden={false}
+  iconAfter={false}
+  inverted={true}
+  loading={false}
+  primary={true}
+  secondary={false}
+  white={false}
+>
+  <Styled(button)
+    disabled={false}
+    hidden={false}
+    icon={false}
+    iconAfter={false}
+    inverted={true}
+    primary={true}
+    secondary={false}
+    white={false}
+  >
+    <button
+      className="emotion-0 emotion-1"
+      disabled={false}
+      hidden={false}
+    >
+      <span>
+        Primary Inverted Button
+      </span>
+    </button>
+  </Styled(button)>
+</ButtonComponent>
+`;
+
+exports[`<Button /> renders correctly when disabled 1`] = `
+.emotion-0 {
+  padding: 0 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  outline: 0;
+  background: none;
+  cursor: pointer;
+  line-height: 45px;
+  background-color: rgba(36,36,36,0.5);
+  color: #fff;
+  line-height: 45px;
+  cursor: not-allowed;
+}
+
+.emotion-0 svg {
+  margin: 0 5px 0 0;
+  fill: currentColor;
+}
+
+<ButtonComponent
+  disabled={true}
+  hidden={false}
+  iconAfter={false}
+  inverted={false}
+  loading={false}
+  primary={true}
+  secondary={false}
+  white={false}
+>
+  <Styled(button)
+    disabled={true}
+    hidden={false}
+    icon={false}
+    iconAfter={false}
+    inverted={false}
+    primary={true}
+    secondary={false}
+    white={false}
+  >
+    <button
+      className="emotion-0 emotion-1"
+      disabled={true}
+      hidden={false}
+    >
+      <span>
+        Disabled Primary Button
+      </span>
+    </button>
+  </Styled(button)>
+</ButtonComponent>
+`;
+
+exports[`<Button /> renders correctly with className 1`] = `
+.emotion-0 {
+  padding: 0 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  outline: 0;
+  background: none;
+  cursor: pointer;
+  line-height: 45px;
+  background-color: transparent;
+  color: #242424;
+  line-height: 43px;
+  cursor: pointer;
+  border: 1px solid #242424;
+}
+
+.emotion-0:hover {
+  background-color: #242424;
+  border-color: #242424;
+  color: #fff;
+}
+
+.emotion-0 svg {
+  margin: 0 5px 0 0;
+  fill: currentColor;
+}
+
+<ButtonComponent
+  className="my-btn"
+  disabled={false}
+  hidden={false}
+  iconAfter={false}
+  inverted={false}
+  loading={false}
+  primary={true}
+  secondary={false}
+  white={false}
+>
+  <Styled(button)
+    className="my-btn"
+    disabled={false}
+    hidden={false}
+    icon={false}
+    iconAfter={false}
+    inverted={false}
+    primary={true}
+    secondary={false}
+    white={false}
+  >
+    <button
+      className="my-btn emotion-0 emotion-1"
+      disabled={false}
+      hidden={false}
+    >
+      <span>
+        Primary Button with custom className
+      </span>
+    </button>
+  </Styled(button)>
+</ButtonComponent>
+`;

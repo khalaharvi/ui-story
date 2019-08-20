@@ -1,0 +1,99 @@
+.#{$namespace}-commerce-module {
+  &-product-name-wrapper {
+    @extend %float_clear;
+  }
+
+  &-product-name {
+    margin-top: 0;
+    margin-bottom: 13px;
+
+    @include mq($until: small) {
+      padding-top: 2px;
+      margin-bottom: 21px;
+    }
+  }
+
+  &-brand-name {
+    color: $color__text__secondary;
+    margin-bottom: 13px;
+
+    a {
+      color: $color__text__secondary;
+
+      &:hover {
+        color: $color__text;
+      }
+    }
+  }
+
+  p:empty {
+    display: none;
+  }
+
+  .price {
+    padding-right: 22px;
+    color: $color_secondary;
+  }
+
+  dl {
+    @extend %float_clear;
+    margin-bottom: 18px;
+    padding: 20px 0 0;
+
+    border-top: 1px solid $color__stroke;
+    color: $color__black--28;
+  }
+
+  dt {
+    clear: left;
+    display: inline;
+    float: left;
+    width: 100px;
+    margin-bottom: 10px;
+    color: $color__text;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    @include mq($until: small) {
+      width: 100px;
+    }
+  }
+
+  dd {
+    float: left;
+    margin-bottom: 5px;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  .advertise-trade {
+    width: calc(100% - 100px);
+
+    a {
+      @include text-underline(16, $color__black--28, $color__text);
+      color: $color__black--28;
+
+      &:hover {
+        color: $color__text;
+      }
+    }
+  }
+
+  &-phone {
+    margin: 0;
+    display: inline-block;
+
+    a {
+      color: $color_primary;
+      text-decoration: none;
+
+      &:hover {
+        color: $color_primary--hover;
+      }
+    }
+  }
+}

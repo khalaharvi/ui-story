@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SellerProfileSocialLinks /> renders correctly 1`] = `
+<ul
+  className="dh-seller-profile-info-social-links"
+>
+  <li
+    key="website"
+  >
+    <LinkWithIcon
+      external={true}
+      icon={<NewWindow />}
+      label="Official Website"
+      to="https://deringhall.com"
+    />
+  </li>
+  <li
+    key="facebook"
+  >
+    <LinkWithIcon
+      external={true}
+      icon={<Facebook />}
+      label="Facebook"
+      to="https://facebook.com"
+    />
+  </li>
+  <li
+    key="twitter"
+  >
+    <LinkWithIcon
+      external={true}
+      icon={<Twitter />}
+      label="Twitter"
+      to="https://twitter.com"
+    />
+  </li>
+  <li
+    key="pinterest"
+  >
+    <LinkWithIcon
+      external={true}
+      icon={<Pinterest />}
+      label="Pinterest"
+      to="https://pinterest.com"
+    />
+  </li>
+  <li
+    key="instagram"
+  >
+    <LinkWithIcon
+      external={true}
+      icon={<Instagram />}
+      label="Instagram"
+      to="https://instagram.com"
+    />
+  </li>
+</ul>
+`;

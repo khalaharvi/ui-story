@@ -1,0 +1,52 @@
+.columns {
+  @extend %float_clear;
+  margin: 0 (-($gutter/2));
+  clear: both;
+
+  @include mq($until: small) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.col {
+  display: inline;
+  float: left;
+  width: col-span(6);
+  margin-left: $gutter/2;
+  margin-right: $gutter/2;
+
+  @include mq($until: large) {
+    width: col-span(6, large);
+  }
+
+  @include mq($until: medium) {
+    width: col-span(6, medium);
+  }
+
+  @include mq($until: small) {
+    display: block;
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.columns--4x {
+  .col {
+    width: col-span(3);
+
+    @include mq($until: large) {
+      width: col-span(3, large);
+    }
+
+    @include mq($until: medium) {
+      width: col-span(3, medium);
+    }
+
+    @include mq($until: small) {
+      width: 100%;
+    }
+  }
+}

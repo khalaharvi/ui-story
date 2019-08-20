@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ActiveFacets /> renders correctly 1`] = `
+<div
+  className="dh-active-facets dh-active-facets--noRefinement"
+>
+  <ul
+    className="dh-active-facets-list dh-active-facets-list--noRefinement"
+  />
+</div>
+`;
+
+exports[`<ActiveFacets /> renders correctly with className 1`] = `
+<div
+  className="dh-active-facets dh-active-facets--noRefinement custom-active-facets"
+>
+  <ul
+    className="dh-active-facets-list dh-active-facets-list--noRefinement"
+  />
+</div>
+`;
+
+exports[`<ActiveFacets /> renders correctly without refinements 1`] = `
+<div
+  className="dh-active-facets"
+>
+  <ul
+    className="dh-active-facets-list"
+  >
+    <li
+      className="dh-active-facets-item"
+      key="materials: Wood"
+    >
+      <span
+        className="dh-active-facets-category"
+      >
+        materials: Wood
+        <button
+          className="dh-active-facets-delete"
+          onClick={[Function]}
+        >
+          x
+        </button>
+      </span>
+    </li>
+    <li
+      className="dh-active-facets-item"
+      key="category:"
+    >
+      <span
+        className="dh-active-facets-label"
+      >
+        category:
+      </span>
+      <span
+        className="dh-active-facets-category"
+        key="Furniture"
+      >
+        <span
+          className="dh-active-facets-categoryLabel"
+        >
+          Furniture
+        </span>
+        <button
+          className="dh-active-facets-delete"
+          onClick={[Function]}
+        >
+          x
+        </button>
+      </span>
+      <span
+        className="dh-active-facets-category"
+        key="Bed"
+      >
+        <span
+          className="dh-active-facets-categoryLabel"
+        >
+          Bed
+        </span>
+        <button
+          className="dh-active-facets-delete"
+          onClick={[Function]}
+        >
+          x
+        </button>
+      </span>
+    </li>
+  </ul>
+</div>
+`;

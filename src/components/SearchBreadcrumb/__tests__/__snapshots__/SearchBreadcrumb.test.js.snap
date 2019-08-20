@@ -1,0 +1,393 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchBreadcrumb /> has a separator prop that can be a custom component 1`] = `
+.emotion-0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+<div
+  className="dh-breadcrumb"
+>
+  <Styled(ul)
+    className="dh-breadcrumb-list"
+  >
+    <Styled(li)
+      className="dh-breadcrumb-item"
+    >
+      <Link
+        className="dh-breadcrumb-link emotion-0"
+        external={false}
+        noFollow={false}
+        onClick={[Function]}
+        to="#"
+      >
+        Home
+      </Link>
+    </Styled(li)>
+    <Styled(li)
+      className="dh-breadcrumb-item"
+      key="white"
+    >
+      <Styled(span)
+        className="dh-breadcrumb-separator"
+      >
+        <span
+          aria-label="separator"
+          role="img"
+        >
+          🔍
+        </span>
+      </Styled(span)>
+      <Link
+        className="dh-breadcrumb-link emotion-0"
+        external={false}
+        noFollow={false}
+        onClick={[Function]}
+        to="#"
+      >
+        white
+      </Link>
+    </Styled(li)>
+    <Styled(li)
+      className="dh-breadcrumb-item"
+      key="white > white1"
+    >
+      <Styled(span)
+        className="dh-breadcrumb-separator"
+      >
+        <span
+          aria-label="separator"
+          role="img"
+        >
+          🔍
+        </span>
+      </Styled(span)>
+      <Link
+        className="dh-breadcrumb-link emotion-0"
+        external={false}
+        noFollow={false}
+        onClick={[Function]}
+        to="#"
+      >
+        white1
+      </Link>
+    </Styled(li)>
+    <Styled(li)
+      className="dh-breadcrumb-item dh-breadcrumb-item--selected"
+      key="white > white1 > white1.1"
+    >
+      <Styled(span)
+        className="dh-breadcrumb-separator"
+      >
+        <span
+          aria-label="separator"
+          role="img"
+        >
+          🔍
+        </span>
+      </Styled(span)>
+      white1.1
+    </Styled(li)>
+  </Styled(ul)>
+</div>
+`;
+
+exports[`<SearchBreadcrumb /> renders correctly 1`] = `
+.emotion-0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+<div
+  className="dh-breadcrumb"
+>
+  <Styled(ul)
+    className="dh-breadcrumb-list"
+  >
+    <Styled(li)
+      className="dh-breadcrumb-item"
+    >
+      <Link
+        className="dh-breadcrumb-link emotion-0"
+        external={false}
+        noFollow={false}
+        onClick={[Function]}
+        to="#"
+      >
+        Home
+      </Link>
+    </Styled(li)>
+    <Styled(li)
+      className="dh-breadcrumb-item"
+      key="white"
+    >
+      <Styled(span)
+        className="dh-breadcrumb-separator"
+      >
+        &gt;
+      </Styled(span)>
+      <Link
+        className="dh-breadcrumb-link emotion-0"
+        external={false}
+        noFollow={false}
+        onClick={[Function]}
+        to="#"
+      >
+        white
+      </Link>
+    </Styled(li)>
+    <Styled(li)
+      className="dh-breadcrumb-item"
+      key="white > white1"
+    >
+      <Styled(span)
+        className="dh-breadcrumb-separator"
+      >
+        &gt;
+      </Styled(span)>
+      <Link
+        className="dh-breadcrumb-link emotion-0"
+        external={false}
+        noFollow={false}
+        onClick={[Function]}
+        to="#"
+      >
+        white1
+      </Link>
+    </Styled(li)>
+    <Styled(li)
+      className="dh-breadcrumb-item dh-breadcrumb-item--selected"
+      key="white > white1 > white1.1"
+    >
+      <Styled(span)
+        className="dh-breadcrumb-separator"
+      >
+        &gt;
+      </Styled(span)>
+      white1.1
+    </Styled(li)>
+  </Styled(ul)>
+</div>
+`;
+
+exports[`<SearchBreadcrumb /> renders correctly with alwaysShowRoot 1`] = `
+.emotion-0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+<div
+  className="dh-breadcrumb dh-breadcrumb--noRefinement"
+>
+  <Styled(ul)
+    className="dh-breadcrumb-list"
+  >
+    <Styled(li)
+      className="dh-breadcrumb-item"
+    >
+      <Link
+        className="dh-breadcrumb-link emotion-0"
+        external={false}
+        noFollow={false}
+        onClick={[Function]}
+        to="#"
+      >
+        Home
+      </Link>
+    </Styled(li)>
+    <Styled(li)
+      className="dh-breadcrumb-item"
+      key="white"
+    >
+      <Styled(span)
+        className="dh-breadcrumb-separator"
+      >
+        &gt;
+      </Styled(span)>
+      <Link
+        className="dh-breadcrumb-link emotion-0"
+        external={false}
+        noFollow={false}
+        onClick={[Function]}
+        to="#"
+      >
+        white
+      </Link>
+    </Styled(li)>
+    <Styled(li)
+      className="dh-breadcrumb-item"
+      key="white > white1"
+    >
+      <Styled(span)
+        className="dh-breadcrumb-separator"
+      >
+        &gt;
+      </Styled(span)>
+      <Link
+        className="dh-breadcrumb-link emotion-0"
+        external={false}
+        noFollow={false}
+        onClick={[Function]}
+        to="#"
+      >
+        white1
+      </Link>
+    </Styled(li)>
+    <Styled(li)
+      className="dh-breadcrumb-item dh-breadcrumb-item--selected"
+      key="white > white1 > white1.1"
+    >
+      <Styled(span)
+        className="dh-breadcrumb-separator"
+      >
+        &gt;
+      </Styled(span)>
+      white1.1
+    </Styled(li)>
+  </Styled(ul)>
+</div>
+`;
+
+exports[`<SearchBreadcrumb /> renders correctly with no refinements 1`] = `
+.emotion-0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+<div
+  className="dh-breadcrumb dh-breadcrumb--noRefinement"
+>
+  <Styled(ul)
+    className="dh-breadcrumb-list"
+  >
+    <Styled(li)
+      className="dh-breadcrumb-item"
+      key="white"
+    >
+      <Styled(span)
+        className="dh-breadcrumb-separator"
+      >
+        &gt;
+      </Styled(span)>
+      <Link
+        className="dh-breadcrumb-link emotion-0"
+        external={false}
+        noFollow={false}
+        onClick={[Function]}
+        to="#"
+      >
+        white
+      </Link>
+    </Styled(li)>
+    <Styled(li)
+      className="dh-breadcrumb-item"
+      key="white > white1"
+    >
+      <Styled(span)
+        className="dh-breadcrumb-separator"
+      >
+        &gt;
+      </Styled(span)>
+      <Link
+        className="dh-breadcrumb-link emotion-0"
+        external={false}
+        noFollow={false}
+        onClick={[Function]}
+        to="#"
+      >
+        white1
+      </Link>
+    </Styled(li)>
+    <Styled(li)
+      className="dh-breadcrumb-item dh-breadcrumb-item--selected"
+      key="white > white1 > white1.1"
+    >
+      <Styled(span)
+        className="dh-breadcrumb-separator"
+      >
+        &gt;
+      </Styled(span)>
+      white1.1
+    </Styled(li)>
+  </Styled(ul)>
+</div>
+`;
+
+exports[`<SearchBreadcrumb /> renders correctly with rootLabel 1`] = `
+.emotion-0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+<div
+  className="dh-breadcrumb"
+>
+  <Styled(ul)
+    className="dh-breadcrumb-list"
+  >
+    <Styled(li)
+      className="dh-breadcrumb-item"
+    >
+      <Link
+        className="dh-breadcrumb-link emotion-0"
+        external={false}
+        noFollow={false}
+        onClick={[Function]}
+        to="#"
+      >
+        Homepage
+      </Link>
+    </Styled(li)>
+    <Styled(li)
+      className="dh-breadcrumb-item"
+      key="white"
+    >
+      <Styled(span)
+        className="dh-breadcrumb-separator"
+      >
+        &gt;
+      </Styled(span)>
+      <Link
+        className="dh-breadcrumb-link emotion-0"
+        external={false}
+        noFollow={false}
+        onClick={[Function]}
+        to="#"
+      >
+        white
+      </Link>
+    </Styled(li)>
+    <Styled(li)
+      className="dh-breadcrumb-item"
+      key="white > white1"
+    >
+      <Styled(span)
+        className="dh-breadcrumb-separator"
+      >
+        &gt;
+      </Styled(span)>
+      <Link
+        className="dh-breadcrumb-link emotion-0"
+        external={false}
+        noFollow={false}
+        onClick={[Function]}
+        to="#"
+      >
+        white1
+      </Link>
+    </Styled(li)>
+    <Styled(li)
+      className="dh-breadcrumb-item dh-breadcrumb-item--selected"
+      key="white > white1 > white1.1"
+    >
+      <Styled(span)
+        className="dh-breadcrumb-separator"
+      >
+        &gt;
+      </Styled(span)>
+      white1.1
+    </Styled(li)>
+  </Styled(ul)>
+</div>
+`;

@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductsHits /> renders correctly 1`] = `
+<div
+  className="dh-products-hits"
+>
+  <ul
+    className="dh-products-hits-list"
+  >
+    <li
+      className="dh-products-hits-list-item"
+      key="12345"
+    >
+      <productHitComponent
+        hit={
+          Object {
+            "brand_name": "Brand Name",
+            "objectID": "12345",
+            "price": 1000,
+            "primary_image_url": "https://placehold.it/270x270",
+            "product_path": "/product",
+            "title": "Product Title",
+          }
+        }
+      />
+    </li>
+  </ul>
+  <ButtonComponent
+    className="dh-products-hits-load-more"
+    disabled={false}
+    hidden={false}
+    iconAfter={false}
+    inverted={false}
+    loading={false}
+    onClick={[Function]}
+    primary={false}
+    secondary={true}
+    white={false}
+  >
+    Load More
+  </ButtonComponent>
+</div>
+`;
+
+exports[`<ProductsHits /> renders correctly with className 1`] = `
+<div
+  className="dh-products-hits custom-products-hits"
+>
+  <ul
+    className="dh-products-hits-list"
+  >
+    <li
+      className="dh-products-hits-list-item"
+      key="12345"
+    >
+      <productHitComponent
+        hit={
+          Object {
+            "brand_name": "Brand Name",
+            "objectID": "12345",
+            "price": 1000,
+            "primary_image_url": "https://placehold.it/270x270",
+            "product_path": "/product",
+            "title": "Product Title",
+          }
+        }
+      />
+    </li>
+  </ul>
+  <ButtonComponent
+    className="dh-products-hits-load-more"
+    disabled={false}
+    hidden={false}
+    iconAfter={false}
+    inverted={false}
+    loading={false}
+    onClick={[Function]}
+    primary={false}
+    secondary={true}
+    white={false}
+  >
+    Load More
+  </ButtonComponent>
+</div>
+`;

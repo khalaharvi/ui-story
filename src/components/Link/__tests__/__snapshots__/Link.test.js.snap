@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Link /> renders correctly 1`] = `
+<Styled(a)
+  className="dh-link"
+  href="https://deringhall.com"
+  onClick={null}
+>
+  Visit Dering Hall
+</Styled(a)>
+`;
+
+exports[`<Link /> renders correctly with a child element 1`] = `
+<Styled(a)
+  className="dh-link"
+  href="https://deringhall.com"
+  onClick={null}
+>
+  <Element />
+</Styled(a)>
+`;
+
+exports[`<Link /> renders correctly with className prop 1`] = `
+<Styled(a)
+  className="dh-link custom-classname"
+  href="https://deringhall.com"
+  onClick={null}
+>
+  Visit Dering Hall
+</Styled(a)>
+`;
+
+exports[`<LinkWithIcon /> renders correctly 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-0 span:first-child {
+  display: inline-block;
+  width: 17px;
+  margin-right: 12px;
+}
+
+.emotion-0 svg {
+  fill: currentColor;
+  display: block;
+  margin: 0 auto;
+}
+
+<Link
+  className="dh-link--icon emotion-0"
+  external={false}
+  noFollow={false}
+  to="https://deringhall.com"
+>
+  <span>
+    <i>
+      custom-icon
+    </i>
+  </span>
+  <span>
+    Label
+  </span>
+</Link>
+`;

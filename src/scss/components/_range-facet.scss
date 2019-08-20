@@ -1,0 +1,50 @@
+$handle-size: 18px;
+
+.#{$namespace}-range-facet {
+  position: relative;
+
+  &-label {
+    display: block;
+
+    color: $color__text__secondary;
+  }
+
+  .rheostat {
+    overflow: visible;
+    margin: 10px ($handle-size / 2) 0;
+  }
+
+  .rheostat-background {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 4px;
+    width: 100%;
+
+    background-color: $color__bg--range-facet;
+  }
+
+  .rheostat-progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 4px;
+
+    background-color: $color_secondary;
+  }
+
+  .rheostat-handle {
+    position: relative;
+    z-index: 1;
+    margin-left: -($handle-size / 2);
+    top: 50%;
+    transform: translateY(-50%);
+    width: $handle-size;
+    height: $handle-size;
+
+    background-color: $color__white;
+    border: 1px solid $color__stroke--handle;
+    border-radius: 50%;
+    cursor: grab;
+  }
+}

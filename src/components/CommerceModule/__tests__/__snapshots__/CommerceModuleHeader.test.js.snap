@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CommerceModuleHeader /> renders correctly 1`] = `
+<div
+  className="dh-commerce-module-header"
+>
+  <div
+    className="dh-commerce-module-product-name-wrapper"
+  >
+    <h1
+      className="dh-commerce-module-product-name"
+      itemProp="name"
+    >
+      Product Name
+    </h1>
+  </div>
+  <p
+    className="dh-commerce-module-brand-name"
+    itemProp="brand"
+  >
+    Brand Name
+  </p>
+</div>
+`;

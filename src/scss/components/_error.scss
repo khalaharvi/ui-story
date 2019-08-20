@@ -1,0 +1,85 @@
+$baseClassname: '.#{$namespace}-error';
+
+#{$baseClassname} {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  text-align: center;
+
+  a {
+    text-decoration: none;
+    color: $color_primary;
+
+    &:hover {
+      color: $color_primary--hover;
+    }
+  }
+
+  &-header {
+    padding: 20px 0;
+    border-bottom: 1px solid $color__stroke;
+    margin-bottom: 40px;
+    max-height: 80px;
+  }
+
+  &-logo {
+    margin: 0 auto;
+    padding: 0 30px;
+
+    a { display: block; }
+
+    img,
+    svg {
+      margin: 0 auto;
+      display: block;
+      max-width: 100%;
+      width: auto;
+      max-height: 30px;
+    }
+  }
+
+  &-section {
+    display: flex;
+    align-items: center;
+    flex-flow: center;
+    align-content: space-around;
+    flex: 1;
+    margin: auto;
+    padding: 0 30px;
+
+    & > div {
+      padding-bottom: 30px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      margin: 0 0 30px;
+
+      & + p {
+        margin-bottom: 50px;
+
+        @include mq($until: small) {
+          margin-bottom: 25px;
+        }
+      }
+    }
+
+    p {
+      max-width: 460px;
+      margin: 0 auto;
+    }
+  }
+
+  &-footer {
+    padding: 40px 0;
+
+    @include mq($until: small) {
+      padding: 20px 0;
+    }
+
+    small {
+      display: block;
+      color: $color__text__secondary;
+    }
+  }
+}

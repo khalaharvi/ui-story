@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SortByFacet /> renders correctly 1`] = `
+<Select
+  className="dh-sortby-facet"
+  items={
+    Array [
+      Object {
+        "label": "index name 1",
+        "value": "index1",
+      },
+      Object {
+        "label": "index name 2",
+        "value": "index2",
+      },
+      Object {
+        "label": "index name 3",
+        "value": "index3",
+      },
+      Object {
+        "label": "index name 4",
+        "value": "index4",
+      },
+    ]
+  }
+  onChange={[Function]}
+  value="index1"
+/>
+`;
+
+exports[`<SortByFacet /> renders correctly with className 1`] = `
+<Select
+  className="dh-sortby-facet custom-sortby-facet"
+  items={
+    Array [
+      Object {
+        "label": "index name 1",
+        "value": "index1",
+      },
+      Object {
+        "label": "index name 2",
+        "value": "index2",
+      },
+      Object {
+        "label": "index name 3",
+        "value": "index3",
+      },
+      Object {
+        "label": "index name 4",
+        "value": "index4",
+      },
+    ]
+  }
+  onChange={[Function]}
+  value="index1"
+/>
+`;

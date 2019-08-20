@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductDetailDescription /> renders correctly 1`] = `
+<div
+  className="dh-product-detail-description"
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum quisquam numquam eos, porro illum sapiente molestiae. In voluptas aspernatur consequatur beatae, reiciendis ut quidem voluptatum omnis laudantium? Amet, ut, earum!",
+    }
+  }
+  itemProp="description"
+/>
+`;

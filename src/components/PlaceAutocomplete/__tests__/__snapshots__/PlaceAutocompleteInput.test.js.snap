@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PlaceAutocompleteInput /> renders correctly 1`] = `
+<Styled(div)>
+  <input />
+  <Styled(button)
+    hidden={true}
+    type="button"
+  >
+    <Plus
+      rotate={true}
+    />
+  </Styled(button)>
+</Styled(div)>
+`;

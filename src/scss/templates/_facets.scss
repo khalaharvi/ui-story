@@ -1,0 +1,32 @@
+.#{$namespace}-facets {
+  width: calc(25% - #{($gutter / 2)});
+  padding-right: $gutter;
+
+  @include mq($until: medium) {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: $facets-overlay-width;
+    padding: 30px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+
+    background-color: rgba($color__bg--facets, .98);
+    border-right: 1px solid $color__stroke--facets;
+    z-index: 4;
+
+    .#{$namespace}-facets-visible & {
+      display: block;
+    }
+  }
+
+  @include mq($until: small) {
+    width: 100%;
+    padding-bottom: 120px;
+
+    border-right: 0;
+    background-color: $color__bg--body;
+  }
+}

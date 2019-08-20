@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SellerProfileMemberships /> renders correctly 1`] = `
+<RelatedModuleTemplate
+  className="dh-seller-profile-memberships"
+  title="Members"
+>
+  <ul
+    className="dh-seller-profile-memberships-list"
+  >
+    <li
+      className="dh-seller-profile-memberships-list-item"
+      key="1"
+    >
+      <img
+        alt="A-List"
+        src="https://cdn.deringhall.com/user/logo/bb82f493-9f8a-4df2-81db-068e357dc20b_miyuki.logo.color.transparent.web.png?auto=format&fit=max&h=170&q=60&w=170"
+      />
+    </li>
+    <li
+      className="dh-seller-profile-memberships-list-item"
+      key="2"
+    >
+      <img
+        alt="B-List"
+        src="https://cdn.deringhall.com/user/logo/bb82f493-9f8a-4df2-81db-068e357dc20b_miyuki.logo.color.transparent.web.png?auto=format&fit=max&h=170&q=60&w=170"
+      />
+    </li>
+  </ul>
+</RelatedModuleTemplate>
+`;

@@ -1,0 +1,914 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListFacetDropdown /> renders correctly 1`] = `
+.emotion-30 {
+  position: relative;
+}
+
+.emotion-16 {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.emotion-16 ul {
+  padding-left: 15px;
+  margin-bottom: 0;
+}
+
+.emotion-18 {
+  display: block;
+  position: relative;
+  color: #6d6d6a;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.emotion-18:hover {
+  color: #242424;
+}
+
+.emotion-18 > a {
+  position: relative;
+  color: #242424;
+}
+
+.emotion-18 > a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transform-origin: top center;
+  -ms-transform-origin: top center;
+  transform-origin: top center;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 13 8'%3E%3Cpath fill='none' stroke='%236d6d6a' d='M0 1.044L6.5 7 13 1' /%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  min-width: 13px;
+  min-height: 8px;
+}
+
+.emotion-18 > a + ul {
+  display: block;
+}
+
+.emotion-2 {
+  display: block;
+  color: #6d6d6a;
+  cursor: pointer;
+}
+
+.emotion-2 + ul {
+  display: none;
+}
+
+.emotion-0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: block;
+  color: #6d6d6a;
+  cursor: pointer;
+}
+
+.emotion-0 + ul {
+  display: none;
+}
+
+.emotion-8 {
+  display: block;
+  position: relative;
+  color: #6d6d6a;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.emotion-8:hover {
+  color: #242424;
+}
+
+.emotion-28 {
+  padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  outline: 0;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  color: #cdcbc5;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.emotion-28:hover {
+  color: #242424;
+}
+
+.emotion-28[disabled] {
+  display: none;
+}
+
+<ListFacetDropdown
+  canRefine={true}
+  createURL={[Function]}
+  items={
+    Array [
+      Object {
+        "count": 10,
+        "items": Array [
+          Object {
+            "count": 3,
+            "label": "white1",
+            "value": "white1",
+          },
+          Object {
+            "count": 4,
+            "label": "white2",
+            "value": "white2",
+          },
+        ],
+        "label": "white",
+        "value": "white",
+      },
+      Object {
+        "count": 20,
+        "label": "black",
+        "value": "black",
+      },
+      Object {
+        "count": 30,
+        "label": "blue",
+        "value": "blue",
+      },
+    ]
+  }
+  limit={2}
+  refine={[Function]}
+  showMore={true}
+  showMoreLimit={4}
+>
+  <WithTheme(ListFacetOptions)
+    canRefine={true}
+    cx={[Function]}
+    items={
+      Array [
+        Object {
+          "count": 10,
+          "items": Array [
+            Object {
+              "count": 3,
+              "label": "white1",
+              "value": "white1",
+            },
+            Object {
+              "count": 4,
+              "label": "white2",
+              "value": "white2",
+            },
+          ],
+          "label": "white",
+          "value": "white",
+        },
+        Object {
+          "count": 20,
+          "label": "black",
+          "value": "black",
+        },
+        Object {
+          "count": 30,
+          "label": "blue",
+          "value": "blue",
+        },
+      ]
+    }
+    limit={2}
+    renderItem={[Function]}
+    showMore={true}
+    showMoreLimit={4}
+  >
+    <ListFacetOptions
+      canRefine={true}
+      cx={[Function]}
+      items={
+        Array [
+          Object {
+            "count": 10,
+            "items": Array [
+              Object {
+                "count": 3,
+                "label": "white1",
+                "value": "white1",
+              },
+              Object {
+                "count": 4,
+                "label": "white2",
+                "value": "white2",
+              },
+            ],
+            "label": "white",
+            "value": "white",
+          },
+          Object {
+            "count": 20,
+            "label": "black",
+            "value": "black",
+          },
+          Object {
+            "count": 30,
+            "label": "blue",
+            "value": "blue",
+          },
+        ]
+      }
+      limit={2}
+      renderItem={[Function]}
+      showMore={true}
+      showMoreLimit={4}
+    >
+      <Styled(div)
+        canRefine={true}
+        className="dh-list-facet"
+      >
+        <div
+          className="dh-list-facet emotion-30 emotion-31"
+        >
+          <Styled(ul)
+            canRefine={true}
+          >
+            <ul
+              className="emotion-16 emotion-17"
+            >
+              <Styled(li)
+                className="dh-list-facet-option dh-list-facet-option--parent"
+                key="white"
+                parent={true}
+              >
+                <li
+                  className="dh-list-facet-option dh-list-facet-option--parent emotion-18 emotion-9"
+                >
+                  <WithTheme(ListFacetDropdownLink)
+                    className="dh-list-facet-option-link"
+                    href="#"
+                    onClick={[Function]}
+                  >
+                    <ListFacetDropdownLink
+                      className="dh-list-facet-option-link"
+                      href="#"
+                      onClick={[Function]}
+                    >
+                      <Link
+                        className="dh-list-facet-option-link emotion-2"
+                        external={false}
+                        href="#"
+                        noFollow={false}
+                        onClick={[Function]}
+                      >
+                        <Styled(a)
+                          className="dh-link dh-list-facet-option-link emotion-2"
+                          onClick={[Function]}
+                        >
+                          <a
+                            className="dh-link dh-list-facet-option-link emotion-0 emotion-1"
+                            onClick={[Function]}
+                          >
+                            <span
+                              className="dh-list-facet-option-label"
+                            >
+                              white
+                            </span>
+                          </a>
+                        </Styled(a)>
+                      </Link>
+                    </ListFacetDropdownLink>
+                  </WithTheme(ListFacetDropdownLink)>
+                  <Styled(ul)>
+                    <ul
+                      className="emotion-16 emotion-17"
+                    >
+                      <Styled(li)
+                        className="dh-list-facet-option"
+                        key="white1"
+                        parent={false}
+                      >
+                        <li
+                          className="dh-list-facet-option emotion-8 emotion-9"
+                        >
+                          <WithTheme(ListFacetDropdownLink)
+                            className="dh-list-facet-option-link"
+                            href="#"
+                            onClick={[Function]}
+                          >
+                            <ListFacetDropdownLink
+                              className="dh-list-facet-option-link"
+                              href="#"
+                              onClick={[Function]}
+                            >
+                              <Link
+                                className="dh-list-facet-option-link emotion-2"
+                                external={false}
+                                href="#"
+                                noFollow={false}
+                                onClick={[Function]}
+                              >
+                                <Styled(a)
+                                  className="dh-link dh-list-facet-option-link emotion-2"
+                                  onClick={[Function]}
+                                >
+                                  <a
+                                    className="dh-link dh-list-facet-option-link emotion-0 emotion-1"
+                                    onClick={[Function]}
+                                  >
+                                    <span
+                                      className="dh-list-facet-option-label"
+                                    >
+                                      white1
+                                    </span>
+                                  </a>
+                                </Styled(a)>
+                              </Link>
+                            </ListFacetDropdownLink>
+                          </WithTheme(ListFacetDropdownLink)>
+                        </li>
+                      </Styled(li)>
+                      <Styled(li)
+                        className="dh-list-facet-option"
+                        key="white2"
+                        parent={false}
+                      >
+                        <li
+                          className="dh-list-facet-option emotion-8 emotion-9"
+                        >
+                          <WithTheme(ListFacetDropdownLink)
+                            className="dh-list-facet-option-link"
+                            href="#"
+                            onClick={[Function]}
+                          >
+                            <ListFacetDropdownLink
+                              className="dh-list-facet-option-link"
+                              href="#"
+                              onClick={[Function]}
+                            >
+                              <Link
+                                className="dh-list-facet-option-link emotion-2"
+                                external={false}
+                                href="#"
+                                noFollow={false}
+                                onClick={[Function]}
+                              >
+                                <Styled(a)
+                                  className="dh-link dh-list-facet-option-link emotion-2"
+                                  onClick={[Function]}
+                                >
+                                  <a
+                                    className="dh-link dh-list-facet-option-link emotion-0 emotion-1"
+                                    onClick={[Function]}
+                                  >
+                                    <span
+                                      className="dh-list-facet-option-label"
+                                    >
+                                      white2
+                                    </span>
+                                  </a>
+                                </Styled(a)>
+                              </Link>
+                            </ListFacetDropdownLink>
+                          </WithTheme(ListFacetDropdownLink)>
+                        </li>
+                      </Styled(li)>
+                    </ul>
+                  </Styled(ul)>
+                </li>
+              </Styled(li)>
+              <Styled(li)
+                className="dh-list-facet-option"
+                key="black"
+                parent={false}
+              >
+                <li
+                  className="dh-list-facet-option emotion-8 emotion-9"
+                >
+                  <WithTheme(ListFacetDropdownLink)
+                    className="dh-list-facet-option-link"
+                    href="#"
+                    onClick={[Function]}
+                  >
+                    <ListFacetDropdownLink
+                      className="dh-list-facet-option-link"
+                      href="#"
+                      onClick={[Function]}
+                    >
+                      <Link
+                        className="dh-list-facet-option-link emotion-2"
+                        external={false}
+                        href="#"
+                        noFollow={false}
+                        onClick={[Function]}
+                      >
+                        <Styled(a)
+                          className="dh-link dh-list-facet-option-link emotion-2"
+                          onClick={[Function]}
+                        >
+                          <a
+                            className="dh-link dh-list-facet-option-link emotion-0 emotion-1"
+                            onClick={[Function]}
+                          >
+                            <span
+                              className="dh-list-facet-option-label"
+                            >
+                              black
+                            </span>
+                          </a>
+                        </Styled(a)>
+                      </Link>
+                    </ListFacetDropdownLink>
+                  </WithTheme(ListFacetDropdownLink)>
+                </li>
+              </Styled(li)>
+            </ul>
+          </Styled(ul)>
+          <Styled(button)
+            className="dh-list-facet-option--show-more"
+            disabled={false}
+            onClick={[Function]}
+          >
+            <button
+              className="dh-list-facet-option--show-more emotion-28 emotion-29"
+              disabled={false}
+              onClick={[Function]}
+            >
+              View 
+              More
+            </button>
+          </Styled(button)>
+        </div>
+      </Styled(div)>
+    </ListFacetOptions>
+  </WithTheme(ListFacetOptions)>
+</ListFacetDropdown>
+`;
+
+exports[`<ListFacetDropdown /> renders correctly with className 1`] = `
+.emotion-30 {
+  position: relative;
+}
+
+.emotion-16 {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.emotion-16 ul {
+  padding-left: 15px;
+  margin-bottom: 0;
+}
+
+.emotion-18 {
+  display: block;
+  position: relative;
+  color: #6d6d6a;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.emotion-18:hover {
+  color: #242424;
+}
+
+.emotion-18 > a {
+  position: relative;
+  color: #242424;
+}
+
+.emotion-18 > a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transform-origin: top center;
+  -ms-transform-origin: top center;
+  transform-origin: top center;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 13 8'%3E%3Cpath fill='none' stroke='%236d6d6a' d='M0 1.044L6.5 7 13 1' /%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  min-width: 13px;
+  min-height: 8px;
+}
+
+.emotion-18 > a + ul {
+  display: block;
+}
+
+.emotion-2 {
+  display: block;
+  color: #6d6d6a;
+  cursor: pointer;
+}
+
+.emotion-2 + ul {
+  display: none;
+}
+
+.emotion-0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: block;
+  color: #6d6d6a;
+  cursor: pointer;
+}
+
+.emotion-0 + ul {
+  display: none;
+}
+
+.emotion-8 {
+  display: block;
+  position: relative;
+  color: #6d6d6a;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.emotion-8:hover {
+  color: #242424;
+}
+
+.emotion-28 {
+  padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  outline: 0;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  color: #cdcbc5;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.emotion-28:hover {
+  color: #242424;
+}
+
+.emotion-28[disabled] {
+  display: none;
+}
+
+<ListFacetDropdown
+  canRefine={true}
+  className="custom-list-facet-dropdown"
+  createURL={[Function]}
+  items={
+    Array [
+      Object {
+        "count": 10,
+        "items": Array [
+          Object {
+            "count": 3,
+            "label": "white1",
+            "value": "white1",
+          },
+          Object {
+            "count": 4,
+            "label": "white2",
+            "value": "white2",
+          },
+        ],
+        "label": "white",
+        "value": "white",
+      },
+      Object {
+        "count": 20,
+        "label": "black",
+        "value": "black",
+      },
+      Object {
+        "count": 30,
+        "label": "blue",
+        "value": "blue",
+      },
+    ]
+  }
+  limit={2}
+  refine={[Function]}
+  showMore={true}
+  showMoreLimit={4}
+>
+  <WithTheme(ListFacetOptions)
+    canRefine={true}
+    className="custom-list-facet-dropdown"
+    cx={[Function]}
+    items={
+      Array [
+        Object {
+          "count": 10,
+          "items": Array [
+            Object {
+              "count": 3,
+              "label": "white1",
+              "value": "white1",
+            },
+            Object {
+              "count": 4,
+              "label": "white2",
+              "value": "white2",
+            },
+          ],
+          "label": "white",
+          "value": "white",
+        },
+        Object {
+          "count": 20,
+          "label": "black",
+          "value": "black",
+        },
+        Object {
+          "count": 30,
+          "label": "blue",
+          "value": "blue",
+        },
+      ]
+    }
+    limit={2}
+    renderItem={[Function]}
+    showMore={true}
+    showMoreLimit={4}
+  >
+    <ListFacetOptions
+      canRefine={true}
+      className="custom-list-facet-dropdown"
+      cx={[Function]}
+      items={
+        Array [
+          Object {
+            "count": 10,
+            "items": Array [
+              Object {
+                "count": 3,
+                "label": "white1",
+                "value": "white1",
+              },
+              Object {
+                "count": 4,
+                "label": "white2",
+                "value": "white2",
+              },
+            ],
+            "label": "white",
+            "value": "white",
+          },
+          Object {
+            "count": 20,
+            "label": "black",
+            "value": "black",
+          },
+          Object {
+            "count": 30,
+            "label": "blue",
+            "value": "blue",
+          },
+        ]
+      }
+      limit={2}
+      renderItem={[Function]}
+      showMore={true}
+      showMoreLimit={4}
+    >
+      <Styled(div)
+        canRefine={true}
+        className="dh-list-facet custom-list-facet-dropdown"
+      >
+        <div
+          className="dh-list-facet custom-list-facet-dropdown emotion-30 emotion-31"
+        >
+          <Styled(ul)
+            canRefine={true}
+          >
+            <ul
+              className="emotion-16 emotion-17"
+            >
+              <Styled(li)
+                className="dh-list-facet-option dh-list-facet-option--parent"
+                key="white"
+                parent={true}
+              >
+                <li
+                  className="dh-list-facet-option dh-list-facet-option--parent emotion-18 emotion-9"
+                >
+                  <WithTheme(ListFacetDropdownLink)
+                    className="dh-list-facet-option-link"
+                    href="#"
+                    onClick={[Function]}
+                  >
+                    <ListFacetDropdownLink
+                      className="dh-list-facet-option-link"
+                      href="#"
+                      onClick={[Function]}
+                    >
+                      <Link
+                        className="dh-list-facet-option-link emotion-2"
+                        external={false}
+                        href="#"
+                        noFollow={false}
+                        onClick={[Function]}
+                      >
+                        <Styled(a)
+                          className="dh-link dh-list-facet-option-link emotion-2"
+                          onClick={[Function]}
+                        >
+                          <a
+                            className="dh-link dh-list-facet-option-link emotion-0 emotion-1"
+                            onClick={[Function]}
+                          >
+                            <span
+                              className="dh-list-facet-option-label"
+                            >
+                              white
+                            </span>
+                          </a>
+                        </Styled(a)>
+                      </Link>
+                    </ListFacetDropdownLink>
+                  </WithTheme(ListFacetDropdownLink)>
+                  <Styled(ul)>
+                    <ul
+                      className="emotion-16 emotion-17"
+                    >
+                      <Styled(li)
+                        className="dh-list-facet-option"
+                        key="white1"
+                        parent={false}
+                      >
+                        <li
+                          className="dh-list-facet-option emotion-8 emotion-9"
+                        >
+                          <WithTheme(ListFacetDropdownLink)
+                            className="dh-list-facet-option-link"
+                            href="#"
+                            onClick={[Function]}
+                          >
+                            <ListFacetDropdownLink
+                              className="dh-list-facet-option-link"
+                              href="#"
+                              onClick={[Function]}
+                            >
+                              <Link
+                                className="dh-list-facet-option-link emotion-2"
+                                external={false}
+                                href="#"
+                                noFollow={false}
+                                onClick={[Function]}
+                              >
+                                <Styled(a)
+                                  className="dh-link dh-list-facet-option-link emotion-2"
+                                  onClick={[Function]}
+                                >
+                                  <a
+                                    className="dh-link dh-list-facet-option-link emotion-0 emotion-1"
+                                    onClick={[Function]}
+                                  >
+                                    <span
+                                      className="dh-list-facet-option-label"
+                                    >
+                                      white1
+                                    </span>
+                                  </a>
+                                </Styled(a)>
+                              </Link>
+                            </ListFacetDropdownLink>
+                          </WithTheme(ListFacetDropdownLink)>
+                        </li>
+                      </Styled(li)>
+                      <Styled(li)
+                        className="dh-list-facet-option"
+                        key="white2"
+                        parent={false}
+                      >
+                        <li
+                          className="dh-list-facet-option emotion-8 emotion-9"
+                        >
+                          <WithTheme(ListFacetDropdownLink)
+                            className="dh-list-facet-option-link"
+                            href="#"
+                            onClick={[Function]}
+                          >
+                            <ListFacetDropdownLink
+                              className="dh-list-facet-option-link"
+                              href="#"
+                              onClick={[Function]}
+                            >
+                              <Link
+                                className="dh-list-facet-option-link emotion-2"
+                                external={false}
+                                href="#"
+                                noFollow={false}
+                                onClick={[Function]}
+                              >
+                                <Styled(a)
+                                  className="dh-link dh-list-facet-option-link emotion-2"
+                                  onClick={[Function]}
+                                >
+                                  <a
+                                    className="dh-link dh-list-facet-option-link emotion-0 emotion-1"
+                                    onClick={[Function]}
+                                  >
+                                    <span
+                                      className="dh-list-facet-option-label"
+                                    >
+                                      white2
+                                    </span>
+                                  </a>
+                                </Styled(a)>
+                              </Link>
+                            </ListFacetDropdownLink>
+                          </WithTheme(ListFacetDropdownLink)>
+                        </li>
+                      </Styled(li)>
+                    </ul>
+                  </Styled(ul)>
+                </li>
+              </Styled(li)>
+              <Styled(li)
+                className="dh-list-facet-option"
+                key="black"
+                parent={false}
+              >
+                <li
+                  className="dh-list-facet-option emotion-8 emotion-9"
+                >
+                  <WithTheme(ListFacetDropdownLink)
+                    className="dh-list-facet-option-link"
+                    href="#"
+                    onClick={[Function]}
+                  >
+                    <ListFacetDropdownLink
+                      className="dh-list-facet-option-link"
+                      href="#"
+                      onClick={[Function]}
+                    >
+                      <Link
+                        className="dh-list-facet-option-link emotion-2"
+                        external={false}
+                        href="#"
+                        noFollow={false}
+                        onClick={[Function]}
+                      >
+                        <Styled(a)
+                          className="dh-link dh-list-facet-option-link emotion-2"
+                          onClick={[Function]}
+                        >
+                          <a
+                            className="dh-link dh-list-facet-option-link emotion-0 emotion-1"
+                            onClick={[Function]}
+                          >
+                            <span
+                              className="dh-list-facet-option-label"
+                            >
+                              black
+                            </span>
+                          </a>
+                        </Styled(a)>
+                      </Link>
+                    </ListFacetDropdownLink>
+                  </WithTheme(ListFacetDropdownLink)>
+                </li>
+              </Styled(li)>
+            </ul>
+          </Styled(ul)>
+          <Styled(button)
+            className="dh-list-facet-option--show-more"
+            disabled={false}
+            onClick={[Function]}
+          >
+            <button
+              className="dh-list-facet-option--show-more emotion-28 emotion-29"
+              disabled={false}
+              onClick={[Function]}
+            >
+              View 
+              More
+            </button>
+          </Styled(button)>
+        </div>
+      </Styled(div)>
+    </ListFacetOptions>
+  </WithTheme(ListFacetOptions)>
+</ListFacetDropdown>
+`;

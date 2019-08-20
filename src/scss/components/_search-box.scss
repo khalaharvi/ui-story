@@ -1,0 +1,49 @@
+$baseClassname: '.#{$namespace}-search-box';
+
+#{$baseClassname} {
+  &-container {
+    position: relative;
+  }
+
+  &-input-container {
+    position: relative;
+  }
+
+  &-input {
+    width: 100%;
+    padding: 6px 70px 7px 20px;
+
+    border-radius: 2px;
+    border: 1px solid $color__stroke;
+    line-height: 30px; // 44px - 2px (border top and bottom)
+    outline: 0;
+
+    &--open {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+  }
+
+  &-input-button {
+    @include cleanBtn;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 40px;
+    width: 40px;
+  }
+
+  &-input-icon {
+    display: block;
+
+    stroke: $color__text__secondary;
+
+    #{$baseClassname}-input-button:hover & {
+      stroke: $color__text;
+    }
+  }
+}

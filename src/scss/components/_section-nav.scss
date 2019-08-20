@@ -1,0 +1,79 @@
+$baseClassname: '.#{$namespace}-section-nav';
+
+#{$baseClassname} {
+  @include dividing-line(100%);
+  position: relative;
+  z-index: 2;
+  height: 70px;
+  text-align: center;
+  overflow: visible;
+
+  // Large
+  // margin-left: -20px;
+  // margin-right: -20px;
+
+  &:before {
+    z-index: 3;
+  }
+
+  &-inner {
+    @extend %container;
+  }
+
+  &-list {
+    @extend %container;
+    white-space: nowrap;
+    font-size: 0;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: visible;
+    width: 100%;
+    padding: 0;
+    height: 71px;
+
+    // Large
+    // margin-left: calc(((-100vw + 930px) / 2)); // main wrapper width = 930px
+    // margin-right: calc(((-100vw + 930px) / 2)); // main wrapper width = 930px
+    // padding-left: 0;
+    // padding-right: 0;
+    // width: auto;
+  }
+
+  &-list-item {
+    display: inline-block;
+    margin: 0 16px;
+    padding: 0;
+    height: 71px;
+    overflow: visible;
+
+    // Large
+    &:first-child {
+      margin-left: 21px;
+    }
+
+    &:last-child {
+      margin-right: 21px;
+    }
+  }
+
+  &-link {
+    display: block;
+    color: $color__text;
+    padding-top: 21px;
+    margin: 0;
+    height: 71px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: initial;
+    line-height: 25px;
+
+    &:not(#{$baseClassname}-link--active):hover {
+      color: $color__text__secondary;
+    }
+
+    &--active {
+      color: $color_primary;
+      border-bottom: 3px solid $color_primary;
+    }
+  }
+}

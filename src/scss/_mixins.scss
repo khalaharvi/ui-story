@@ -1,0 +1,111 @@
+@mixin cleanBtn() {
+  padding: 0;
+  appearance: none;
+  border: 0;
+  outline: 0;
+  background: none;
+  cursor: pointer;
+}
+
+@mixin customSelect() {
+  position: relative;
+  display: block;
+  border-radius: 2px;
+  border: 1px solid $color__stroke;
+  min-width: 140px;
+  height: 45px;
+
+  &--disabled {
+    background-color: $color__bg--disabled;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 7px;
+    width: 11px;
+
+    opacity: .25;
+    background: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2211%22%20height%3D%227%22%20viewBox%3D%220%200%2011%207%22%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%221.8%22%20d%3D%22M1%20.9l4.5%204.5L10%20.9%22%2F%3E%3C%2Fsvg%3E') top left no-repeat;
+    pointer-events: none;
+  }
+
+  &:not(&--disabled):hover {
+    border-color: $color__stroke--hover;
+
+    &:after {
+      opacity: .9;
+    }
+  }
+
+  select {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: none;
+    outline: 0;
+    appearance: none;
+    border: 0;
+    line-height: 45px;
+    padding: 0 40px 0 20px;
+
+    &[disabled] {
+      color: $color__text--disabled;
+      cursor: not-allowed;
+    }
+  }
+}
+
+@mixin dividing-line($position) {
+  &:before {
+    content: '';
+    height: 1px;
+    background-color: $color__stroke;
+    width: 1300%;
+    position: absolute;
+    top: $position;
+    left: -600%;
+    z-index: 2;
+
+    // @include breakpoint(small) {
+    //   left: -$gutter--small;
+    //   width: calc(100vw);
+    // }
+  }
+}
+
+/*
+  @mixin text-underline
+  Inserts vendor prefixed box shadows
+  Parameters:
+  $off - color
+  $on - color for hover
+  $pos - vertical position
+*/
+@mixin text-underline($pos: 16, $off: $color__black--15, $on: $color__black--90) {
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, rgba($off, 0) 50%, rgba($off, 1) 50%);
+  background-repeat: repeat-x;
+  background-size: 2px 2px;
+  background-position: 0 $pos*1px;
+
+  // to draw the lines below the regular height of the box...
+  padding-bottom: 1px;
+  margin-bottom: -1px;
+
+  &:hover,
+  &:focus {
+    background-image: linear-gradient(to bottom, rgba($on, 0) 50%, rgba($on, 1) 50%);
+  }
+}
+
+@mixin svg-stroke-color-only($color) {
+  path:last-of-type {
+    fill: none;
+    stroke: $color;
+  }
+}

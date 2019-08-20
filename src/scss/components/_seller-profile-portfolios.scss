@@ -1,0 +1,28 @@
+$baseClassname: '.#{$namespace}-seller-profile-portfolios';
+
+#{$baseClassname} {
+  margin-bottom: 20px;
+
+  &-grid {
+    @include mq($from: small) {
+      column-count: 3;
+      column-gap: 30px;
+      column-fill: initial;
+    }
+  }
+
+  &-grid-item {
+    width: 100%;
+    margin-bottom: 30px;
+
+    @include mq($until: small) {
+      margin-bottom: 20px;
+    }
+
+    img {
+      max-width: 100%;
+      width: 100%;
+      display: block;
+    }
+  }
+}

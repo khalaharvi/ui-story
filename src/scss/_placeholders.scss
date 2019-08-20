@@ -1,0 +1,66 @@
+/*
+  xlarge: 1170px,
+  large: 930px,
+  medium: 690px,
+  small: 100%
+ */
+%container {
+  max-width: map-get($columns_widths, xlarge);
+  margin-left: auto;
+  margin-right: auto;
+
+  @include mq($until: large) {
+    max-width: map-get($columns_widths, large);
+  }
+
+  @include mq($until: medium) {
+    max-width: map-get($columns_widths, medium);
+  }
+
+  @include mq($until: small) {
+    max-width: map-get($columns_widths, small);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+%columns {
+  display: flex;
+  flex-flow: row wrap;
+  margin: (-$gutter/2) (-$gutter/2) 0 (-$gutter/2);
+
+  &:first-child {
+    margin-top: (-$gutter/2);
+  }
+
+  &:last-child {
+    margin-bottom: (-$gutter/2);
+  }
+}
+
+%col {
+  display: block;
+  flex: 1 1 0;
+  padding: $gutter/2;
+}
+
+%col-one-third {
+  flex: none;
+  width: 33.3333%;
+}
+
+%col-half {
+  flex: none;
+  width: 50%;
+}
+
+%float_clear {
+  &:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+  }
+}

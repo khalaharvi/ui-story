@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchAutocompleteHit /> renders correctly 1`] = `
+<div
+  className="dh-search-autocomplete-hit"
+>
+  <span
+    className="dh-search-autocomplete-hit-title"
+  >
+    Hit Title
+  </span>
+</div>
+`;
+
+exports[`<SearchAutocompleteHit /> renders correctly with hitImageKey array prop 1`] = `
+<div
+  className="dh-search-autocomplete-hit"
+>
+  <div
+    className="dh-search-autocomplete-hit-image"
+  >
+    <img
+      alt="Hit Title"
+      src="https://placehold.it/50x50"
+    />
+  </div>
+  <span
+    className="dh-search-autocomplete-hit-title"
+  >
+    Hit Title
+  </span>
+</div>
+`;
+
+exports[`<SearchAutocompleteHit /> renders correctly with hitImageKey prop 1`] = `
+<div
+  className="dh-search-autocomplete-hit"
+>
+  <div
+    className="dh-search-autocomplete-hit-image"
+  >
+    <img
+      alt="Hit Title"
+      src="https://placehold.it/50x50"
+    />
+  </div>
+  <span
+    className="dh-search-autocomplete-hit-title"
+  >
+    Hit Title
+  </span>
+</div>
+`;
+
+exports[`<SearchAutocompleteHit /> renders correctly with hitTitleKey array prop 1`] = `
+<div
+  className="dh-search-autocomplete-hit"
+>
+  <span
+    className="dh-search-autocomplete-hit-title"
+  >
+    Hit Title
+  </span>
+</div>
+`;

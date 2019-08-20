@@ -1,0 +1,106 @@
+$baseClassname: '.#{$namespace}-conversion-buttons';
+
+#{$baseClassname} {
+  display: flex;
+
+  .#{$namespace}-commerce-module & {
+    margin-top: 20px;
+    padding-top: 24px;
+
+    border-top: 1px solid $color__stroke;
+  }
+}
+
+#{$baseClassname}-btn {
+  @include cleanBtn;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+
+  border-radius: 50%;
+  border: 1px solid $color__stroke;
+  color: $color__text__secondary;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  @include mq($until: small) {
+    width: 40px;
+    height: 40px;
+  }
+
+  svg {
+    path {
+      fill: currentColor;
+    }
+
+    &.dh-icon-email {
+      @include svg-stroke-color-only(currentColor);
+    }
+  }
+
+  &:hover {
+    color: $color__text;
+
+    &#{$baseClassname}-btn-facebook {
+      color: #49639F;
+    }
+
+    &#{$baseClassname}-btn-twitter {
+      color: #55ACEE;
+    }
+
+    &#{$baseClassname}-btn-pinterest {
+      color: #D20000;
+    }
+  }
+}
+
+@include mq($until: small) {
+  // 80% of their original size
+  #{$baseClassname}-btn-facebook {
+    svg {
+      width: 8px;
+      height: 16px;
+    }
+  }
+
+  #{$baseClassname}-btn-twitter {
+    svg {
+      width: 13.6px;
+      height: 12px;
+    }
+  }
+
+  #{$baseClassname}-btn-pinterest {
+    svg {
+      width: 13.6px;
+      height: 13.6px;
+    }
+  }
+
+  #{$baseClassname}-btn-email {
+    svg {
+      width: 15.2px;
+      height: 13.7px;
+    }
+  }
+
+  #{$baseClassname}-btn-download {
+    svg {
+      width: 15.2px;
+      height: 12.4px;
+    }
+  }
+
+  #{$baseClassname}-btn-print {
+    svg {
+      width: 16px;
+      height: 13.2px;
+    }
+  }
+}

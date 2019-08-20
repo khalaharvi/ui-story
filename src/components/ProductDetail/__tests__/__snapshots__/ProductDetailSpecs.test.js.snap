@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductDetailSpecs /> renders correctly 1`] = `
+<div
+  className="dh-product-detail-specs columns"
+>
+  <div
+    className="col"
+    key="Product Specifications"
+  >
+    <h2
+      className="dh-product-detail-title"
+    >
+      Product Specifications
+    </h2>
+    <dl>
+      <React.Fragment
+        key="Dimensions"
+      >
+        <dt>
+          Dimensions
+        </dt>
+        <dd>
+          Height: 26.5 in. Diameter: 11″ Base: 13″h
+        </dd>
+      </React.Fragment>
+      <React.Fragment
+        key="Materials"
+      >
+        <dt>
+          Materials
+        </dt>
+        <dd>
+          Bluz
+        </dd>
+      </React.Fragment>
+    </dl>
+  </div>
+  <div
+    className="col"
+    key="Vintage Specifications"
+  >
+    <h2
+      className="dh-product-detail-title"
+    >
+      Vintage Specifications
+    </h2>
+    <dl>
+      <React.Fragment
+        key="Period"
+      >
+        <dt>
+          Period
+        </dt>
+        <dd>
+          1940-1949
+        </dd>
+      </React.Fragment>
+      <React.Fragment
+        key="Creator"
+      >
+        <dt>
+          Creator
+        </dt>
+        <dd>
+          Unknown
+        </dd>
+      </React.Fragment>
+      <React.Fragment
+        key="Condition"
+      >
+        <dt>
+          Condition
+        </dt>
+        <dd>
+          Great
+        </dd>
+      </React.Fragment>
+    </dl>
+  </div>
+</div>
+`;

@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CommerceModulePricing /> renders correctly 1`] = `
+<dl
+  className="dh-commerce-module-pricing"
+>
+  <meta
+    itemProp="price"
+  />
+  <dt>
+    List Price:
+  </dt>
+  <dd>
+    <b
+      className="price"
+    >
+      Price on Request
+    </b>
+  </dd>
+  <dt>
+    Trade Price:
+  </dt>
+  <dd
+    className="advertise-trade"
+  >
+    Trade pricing is reserved for members of our Trade Program. 
+    <a
+      href="https://deringhall.com/trade"
+    >
+      Apply Now
+    </a>
+  </dd>
+</dl>
+`;
+
+exports[`<CommerceModulePricing /> renders correctly with priceRaw 1`] = `
+<dl
+  className="dh-commerce-module-pricing"
+>
+  <meta
+    content="USD"
+    itemProp="priceCurrency"
+  />
+  <meta
+    content="USD"
+    itemProp="priceCurrency"
+  />
+  <meta
+    content={1000}
+    itemProp="price"
+  />
+  <dt>
+    List Price:
+  </dt>
+  <dd>
+    <b
+      className="price"
+    >
+      $1,000
+    </b>
+  </dd>
+  <dt>
+    Trade Price:
+  </dt>
+  <dd
+    className="advertise-trade"
+  >
+    Trade pricing is reserved for members of our Trade Program. 
+    <a
+      href="https://deringhall.com/trade"
+    >
+      Apply Now
+    </a>
+  </dd>
+</dl>
+`;

@@ -1,0 +1,3283 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AccordionMenu /> renders correctly 1`] = `
+.emotion-51 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@media (min-width:48em) {
+  .emotion-51 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    text-align: left;
+    -webkit-align-items: flex-start;
+    -webkit-box-align: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+  }
+}
+
+.emotion-51 ul {
+  padding-left: 33px;
+}
+
+.emotion-51 ul a,
+.emotion-51 ul button {
+  color: #6d6d6a;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+@media (min-width:48em) {
+  .emotion-51 ul a,
+  .emotion-51 ul button {
+    font-family: Monument Grotesk,sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+.emotion-51 button {
+  padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  outline: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.emotion-51 a,
+.emotion-51 button {
+  color: #242424;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+@media (min-width:48em) {
+  .emotion-51 a,
+  .emotion-51 button {
+    font-family: Monument Grotesk,sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+.emotion-11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
+}
+
+.emotion-1 {
+  display: inline-block;
+  height: 13px;
+  width: 13.62px;
+}
+
+@media (min-width:48em) {
+  .emotion-1 {
+    width: 22px;
+    height: 21px;
+  }
+}
+
+.emotion-7 svg path {
+  fill: none;
+  stroke: #242424;
+}
+
+.emotion-7:hover svg path {
+  fill: #b33232;
+  stroke: #b33232;
+}
+
+@media (min-width:48em) {
+  .emotion-5 span:not(.emotion-3) {
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+}
+
+@media (min-width:48em) {
+  .emotion-5 .emotion-3 {
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+}
+
+.emotion-5 svg path {
+  fill: none;
+  stroke: #242424;
+}
+
+.emotion-5:hover svg path {
+  fill: #b33232;
+  stroke: #b33232;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 0;
+}
+
+@media (min-width:48em) {
+  .emotion-2 {
+    width: 25px;
+    margin-right: 8px;
+    margin-left: 0;
+  }
+}
+
+.emotion-0 {
+  display: inline-block;
+  height: 13px;
+  width: 13.62px;
+}
+
+.emotion-0 path {
+  fill: none;
+  stroke: currentColor;
+}
+
+@media (min-width:48em) {
+  .emotion-0 {
+    width: 22px;
+    height: 21px;
+  }
+}
+
+.emotion-17 {
+  display: none;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@media (min-width:48em) {
+  .emotion-17 {
+    display: none;
+    text-align: left;
+    -webkit-align-items: flex-start;
+    -webkit-box-align: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+  }
+}
+
+.emotion-17 ul {
+  padding-left: 33px;
+}
+
+.emotion-17 ul a,
+.emotion-17 ul button {
+  color: #6d6d6a;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+@media (min-width:48em) {
+  .emotion-17 ul a,
+  .emotion-17 ul button {
+    font-family: Monument Grotesk,sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+.emotion-17 button {
+  padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  outline: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.emotion-17 a,
+.emotion-17 button {
+  color: #242424;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+@media (min-width:48em) {
+  .emotion-17 a,
+  .emotion-17 button {
+    font-family: Monument Grotesk,sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+.emotion-24 svg {
+  display: inline-block;
+  fill: currentColor;
+  width: 13px;
+  height: 13px;
+}
+
+@media (min-width:48em) {
+  .emotion-24 svg {
+    width: 16px;
+    height: 16px;
+    margin-top: 4px;
+  }
+}
+
+@media (min-width:48em) {
+  .emotion-22 span:not(.emotion-3) {
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+}
+
+@media (min-width:48em) {
+  .emotion-22 .emotion-3 {
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+}
+
+.emotion-22 svg {
+  display: inline-block;
+  fill: currentColor;
+  width: 13px;
+  height: 13px;
+}
+
+@media (min-width:48em) {
+  .emotion-22 svg {
+    width: 16px;
+    height: 16px;
+    margin-top: 4px;
+  }
+}
+
+@media (min-width:48em) {
+  .emotion-34 span:not(.emotion-3) {
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+}
+
+@media (min-width:48em) {
+  .emotion-34 .emotion-3 {
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+}
+
+<AccordionMenu
+  alignRight={false}
+  items={
+    Array [
+      Object {
+        "render": [Function],
+      },
+      Object {
+        "items": Array [
+          Object {
+            "href": "#",
+            "label": "Download",
+          },
+          Object {
+            "attributes": Object {
+              "rel": "nofollow",
+            },
+            "href": "#",
+            "label": "Print",
+          },
+        ],
+        "label": "Tearsheet",
+      },
+      Object {
+        "items": Array [
+          Object {
+            "href": "#",
+            "label": "Facebook",
+          },
+          Object {
+            "href": "#",
+            "label": "Pinterest",
+          },
+          Object {
+            "label": "Copy Link",
+          },
+        ],
+        "label": "Share",
+      },
+    ]
+  }
+  small={false}
+>
+  <Styled(ul)
+    alignRight={false}
+    root={true}
+    small={false}
+  >
+    <ul
+      className="emotion-51 emotion-18"
+    >
+      <Styled(li)
+        alignRight={false}
+        key="0"
+      >
+        <li
+          className="emotion-11 emotion-12"
+        >
+          <AccordionMenuFavoriteButton
+            alignRight={false}
+            small={false}
+          >
+            <Styled(AccordionMenuButton)
+              alignRight={false}
+              icon={
+                <Heart
+                  className="emotion-1"
+                  filled={false}
+                />
+              }
+              small={false}
+            >
+              <AccordionMenuButton
+                alignRight={false}
+                className="emotion-7 emotion-4"
+                icon={
+                  <Heart
+                    className="emotion-1"
+                    filled={false}
+                  />
+                }
+                small={false}
+              >
+                <Styled(button)
+                  alignRight={false}
+                  className="emotion-7 emotion-4"
+                  small={false}
+                  type="button"
+                >
+                  <button
+                    className="emotion-4 emotion-5 emotion-6"
+                    type="button"
+                  >
+                    <Styled(span)
+                      alignRight={false}
+                      small={false}
+                    >
+                      <span
+                        className="emotion-2 emotion-3"
+                      >
+                        <Heart
+                          className="emotion-1"
+                          filled={false}
+                        >
+                          <svg
+                            className="dh-icon-heart emotion-0"
+                            viewBox="0 0 22 21"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M2.37 2.369c-1.828 1.835-1.827 5.855.035 7.73l.395.439 1.044 1.159c1.081 1.198 2.163 2.397 3.176 3.515l.048.053a697.263 697.263 0 0 0 3.167 3.478l.749.811c.229-.254.522-.581.913-1.02l1.642-1.844c.712-.798 1.315-1.473 1.897-2.118l.275-.305c1.664-1.842 2.968-3.244 3.917-4.198 1.828-1.836 1.828-5.849 0-7.685a4.666 4.666 0 0 0-6.617.001l-2.005 2.007-.707-.708-1.314-1.315C8.098 1.479 6.915 1 5.677 1s-2.42.479-3.307 1.369zm7.988 17.863l-.001.001.005-.005-.004.004z"
+                              strokeWidth="2"
+                            />
+                          </svg>
+                        </Heart>
+                      </span>
+                    </Styled(span)>
+                    <span>
+                      Favorite
+                    </span>
+                  </button>
+                </Styled(button)>
+              </AccordionMenuButton>
+            </Styled(AccordionMenuButton)>
+          </AccordionMenuFavoriteButton>
+        </li>
+      </Styled(li)>
+      <Styled(li)
+        alignRight={false}
+        key="1"
+      >
+        <li
+          className="emotion-11 emotion-12"
+        >
+          <Styled(ul)
+            active={false}
+            alignRight={false}
+          >
+            <ul
+              className="emotion-17 emotion-18"
+            >
+              <Styled(li)
+                alignRight={false}
+                key="child-1-0"
+              >
+                <li
+                  className="emotion-11 emotion-12"
+                >
+                  <a
+                    href="#"
+                  >
+                    Download
+                  </a>
+                </li>
+              </Styled(li)>
+              <Styled(li)
+                alignRight={false}
+                key="child-1-1"
+              >
+                <li
+                  className="emotion-11 emotion-12"
+                >
+                  <a
+                    href="#"
+                    rel="nofollow"
+                  >
+                    Print
+                  </a>
+                </li>
+              </Styled(li)>
+            </ul>
+          </Styled(ul)>
+          <AccordionMenuToggle
+            active={false}
+            alignRight={false}
+            onClick={[Function]}
+            small={false}
+          >
+            <Styled(AccordionMenuButton)
+              active={false}
+              alignRight={false}
+              icon={
+                <Plus
+                  rotate={false}
+                />
+              }
+              onClick={[Function]}
+              small={false}
+            >
+              <AccordionMenuButton
+                active={false}
+                alignRight={false}
+                className="emotion-24 emotion-21"
+                icon={
+                  <Plus
+                    rotate={false}
+                  />
+                }
+                onClick={[Function]}
+                small={false}
+              >
+                <Styled(button)
+                  active={false}
+                  alignRight={false}
+                  className="emotion-24 emotion-21"
+                  onClick={[Function]}
+                  small={false}
+                  type="button"
+                >
+                  <button
+                    className="emotion-21 emotion-22 emotion-6"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <Styled(span)
+                      alignRight={false}
+                      small={false}
+                    >
+                      <span
+                        className="emotion-2 emotion-3"
+                      >
+                        <Plus
+                          rotate={false}
+                        >
+                          <svg
+                            className="dh-icon-plus"
+                            viewBox="0 0 16 16"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M9 9v7H7V9H0V7h7V0h2v7h7v2H9z"
+                            />
+                          </svg>
+                        </Plus>
+                      </span>
+                    </Styled(span)>
+                    <span>
+                      Tearsheet
+                    </span>
+                  </button>
+                </Styled(button)>
+              </AccordionMenuButton>
+            </Styled(AccordionMenuButton)>
+          </AccordionMenuToggle>
+        </li>
+      </Styled(li)>
+      <Styled(li)
+        alignRight={false}
+        key="2"
+      >
+        <li
+          className="emotion-11 emotion-12"
+        >
+          <Styled(ul)
+            active={false}
+            alignRight={false}
+          >
+            <ul
+              className="emotion-17 emotion-18"
+            >
+              <Styled(li)
+                alignRight={false}
+                key="child-2-0"
+              >
+                <li
+                  className="emotion-11 emotion-12"
+                >
+                  <a
+                    href="#"
+                  >
+                    Facebook
+                  </a>
+                </li>
+              </Styled(li)>
+              <Styled(li)
+                alignRight={false}
+                key="child-2-1"
+              >
+                <li
+                  className="emotion-11 emotion-12"
+                >
+                  <a
+                    href="#"
+                  >
+                    Pinterest
+                  </a>
+                </li>
+              </Styled(li)>
+              <Styled(li)
+                alignRight={false}
+                key="child-2-2"
+              >
+                <li
+                  className="emotion-11 emotion-12"
+                >
+                  <AccordionMenuButton
+                    alignRight={false}
+                  >
+                    <Styled(button)
+                      alignRight={false}
+                      type="button"
+                    >
+                      <button
+                        className="emotion-34 emotion-6"
+                        type="button"
+                      >
+                        <span>
+                          Copy Link
+                        </span>
+                      </button>
+                    </Styled(button)>
+                  </AccordionMenuButton>
+                </li>
+              </Styled(li)>
+            </ul>
+          </Styled(ul)>
+          <AccordionMenuToggle
+            active={false}
+            alignRight={false}
+            onClick={[Function]}
+            small={false}
+          >
+            <Styled(AccordionMenuButton)
+              active={false}
+              alignRight={false}
+              icon={
+                <Plus
+                  rotate={false}
+                />
+              }
+              onClick={[Function]}
+              small={false}
+            >
+              <AccordionMenuButton
+                active={false}
+                alignRight={false}
+                className="emotion-24 emotion-21"
+                icon={
+                  <Plus
+                    rotate={false}
+                  />
+                }
+                onClick={[Function]}
+                small={false}
+              >
+                <Styled(button)
+                  active={false}
+                  alignRight={false}
+                  className="emotion-24 emotion-21"
+                  onClick={[Function]}
+                  small={false}
+                  type="button"
+                >
+                  <button
+                    className="emotion-21 emotion-22 emotion-6"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <Styled(span)
+                      alignRight={false}
+                      small={false}
+                    >
+                      <span
+                        className="emotion-2 emotion-3"
+                      >
+                        <Plus
+                          rotate={false}
+                        >
+                          <svg
+                            className="dh-icon-plus"
+                            viewBox="0 0 16 16"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M9 9v7H7V9H0V7h7V0h2v7h7v2H9z"
+                            />
+                          </svg>
+                        </Plus>
+                      </span>
+                    </Styled(span)>
+                    <span>
+                      Share
+                    </span>
+                  </button>
+                </Styled(button)>
+              </AccordionMenuButton>
+            </Styled(AccordionMenuButton)>
+          </AccordionMenuToggle>
+        </li>
+      </Styled(li)>
+    </ul>
+  </Styled(ul)>
+</AccordionMenu>
+`;
+
+exports[`<AccordionMenu /> renders correctly when right aligned 1`] = `
+.emotion-1 {
+  display: inline-block;
+  height: 13px;
+  width: 13.62px;
+}
+
+@media (min-width:48em) {
+  .emotion-1 {
+    width: 22px;
+    height: 21px;
+  }
+}
+
+.emotion-7 svg path {
+  fill: none;
+  stroke: #242424;
+}
+
+.emotion-7:hover svg path {
+  fill: #b33232;
+  stroke: #b33232;
+}
+
+.emotion-0 {
+  display: inline-block;
+  height: 13px;
+  width: 13.62px;
+}
+
+.emotion-0 path {
+  fill: none;
+  stroke: currentColor;
+}
+
+@media (min-width:48em) {
+  .emotion-0 {
+    width: 22px;
+    height: 21px;
+  }
+}
+
+.emotion-24 svg {
+  display: inline-block;
+  fill: currentColor;
+  width: 13px;
+  height: 13px;
+}
+
+@media (min-width:48em) {
+  .emotion-24 svg {
+    width: 16px;
+    height: 16px;
+    margin-top: 4px;
+  }
+}
+
+.emotion-51 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@media (min-width:48em) {
+  .emotion-51 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    text-align: right;
+    -webkit-align-items: flex-end;
+    -webkit-box-align: flex-end;
+    -ms-flex-align: flex-end;
+    align-items: flex-end;
+  }
+}
+
+.emotion-51 ul {
+  padding-right: 33px;
+}
+
+.emotion-51 ul a,
+.emotion-51 ul button {
+  color: #6d6d6a;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+@media (min-width:48em) {
+  .emotion-51 ul a,
+  .emotion-51 ul button {
+    font-family: Monument Grotesk,sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+.emotion-51 button {
+  padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  outline: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.emotion-51 a,
+.emotion-51 button {
+  color: #242424;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+@media (min-width:48em) {
+  .emotion-51 a,
+  .emotion-51 button {
+    font-family: Monument Grotesk,sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+.emotion-11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
+}
+
+@media (min-width:48em) {
+  .emotion-5 span:not(.emotion-3) {
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+}
+
+@media (min-width:48em) {
+  .emotion-5 .emotion-3 {
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+}
+
+.emotion-5 svg path {
+  fill: none;
+  stroke: #242424;
+}
+
+.emotion-5:hover svg path {
+  fill: #b33232;
+  stroke: #b33232;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 8px;
+}
+
+@media (min-width:48em) {
+  .emotion-2 {
+    width: 25px;
+    margin-right: 0;
+    margin-left: 8px;
+  }
+}
+
+.emotion-17 {
+  display: none;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@media (min-width:48em) {
+  .emotion-17 {
+    display: none;
+    text-align: right;
+    -webkit-align-items: flex-end;
+    -webkit-box-align: flex-end;
+    -ms-flex-align: flex-end;
+    align-items: flex-end;
+  }
+}
+
+.emotion-17 ul {
+  padding-right: 33px;
+}
+
+.emotion-17 ul a,
+.emotion-17 ul button {
+  color: #6d6d6a;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+@media (min-width:48em) {
+  .emotion-17 ul a,
+  .emotion-17 ul button {
+    font-family: Monument Grotesk,sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+.emotion-17 button {
+  padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  outline: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.emotion-17 a,
+.emotion-17 button {
+  color: #242424;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+@media (min-width:48em) {
+  .emotion-17 a,
+  .emotion-17 button {
+    font-family: Monument Grotesk,sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+@media (min-width:48em) {
+  .emotion-22 span:not(.emotion-3) {
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+}
+
+@media (min-width:48em) {
+  .emotion-22 .emotion-3 {
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+}
+
+.emotion-22 svg {
+  display: inline-block;
+  fill: currentColor;
+  width: 13px;
+  height: 13px;
+}
+
+@media (min-width:48em) {
+  .emotion-22 svg {
+    width: 16px;
+    height: 16px;
+    margin-top: 4px;
+  }
+}
+
+@media (min-width:48em) {
+  .emotion-34 span:not(.emotion-3) {
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+}
+
+@media (min-width:48em) {
+  .emotion-34 .emotion-3 {
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+}
+
+<AccordionMenu
+  alignRight={true}
+  items={
+    Array [
+      Object {
+        "render": [Function],
+      },
+      Object {
+        "items": Array [
+          Object {
+            "href": "#",
+            "label": "Download",
+          },
+          Object {
+            "attributes": Object {
+              "rel": "nofollow",
+            },
+            "href": "#",
+            "label": "Print",
+          },
+        ],
+        "label": "Tearsheet",
+      },
+      Object {
+        "items": Array [
+          Object {
+            "href": "#",
+            "label": "Facebook",
+          },
+          Object {
+            "href": "#",
+            "label": "Pinterest",
+          },
+          Object {
+            "label": "Copy Link",
+          },
+        ],
+        "label": "Share",
+      },
+    ]
+  }
+  small={false}
+>
+  <Styled(ul)
+    alignRight={true}
+    root={true}
+    small={false}
+  >
+    <ul
+      className="emotion-51 emotion-18"
+    >
+      <Styled(li)
+        alignRight={true}
+        key="0"
+      >
+        <li
+          className="emotion-11 emotion-12"
+        >
+          <AccordionMenuFavoriteButton
+            alignRight={true}
+            small={false}
+          >
+            <Styled(AccordionMenuButton)
+              alignRight={true}
+              icon={
+                <Heart
+                  className="emotion-1"
+                  filled={false}
+                />
+              }
+              small={false}
+            >
+              <AccordionMenuButton
+                alignRight={true}
+                className="emotion-7 emotion-4"
+                icon={
+                  <Heart
+                    className="emotion-1"
+                    filled={false}
+                  />
+                }
+                small={false}
+              >
+                <Styled(button)
+                  alignRight={true}
+                  className="emotion-7 emotion-4"
+                  small={false}
+                  type="button"
+                >
+                  <button
+                    className="emotion-4 emotion-5 emotion-6"
+                    type="button"
+                  >
+                    <Styled(span)
+                      alignRight={true}
+                      small={false}
+                    >
+                      <span
+                        className="emotion-2 emotion-3"
+                      >
+                        <Heart
+                          className="emotion-1"
+                          filled={false}
+                        >
+                          <svg
+                            className="dh-icon-heart emotion-0"
+                            viewBox="0 0 22 21"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M2.37 2.369c-1.828 1.835-1.827 5.855.035 7.73l.395.439 1.044 1.159c1.081 1.198 2.163 2.397 3.176 3.515l.048.053a697.263 697.263 0 0 0 3.167 3.478l.749.811c.229-.254.522-.581.913-1.02l1.642-1.844c.712-.798 1.315-1.473 1.897-2.118l.275-.305c1.664-1.842 2.968-3.244 3.917-4.198 1.828-1.836 1.828-5.849 0-7.685a4.666 4.666 0 0 0-6.617.001l-2.005 2.007-.707-.708-1.314-1.315C8.098 1.479 6.915 1 5.677 1s-2.42.479-3.307 1.369zm7.988 17.863l-.001.001.005-.005-.004.004z"
+                              strokeWidth="2"
+                            />
+                          </svg>
+                        </Heart>
+                      </span>
+                    </Styled(span)>
+                    <span>
+                      Favorite
+                    </span>
+                  </button>
+                </Styled(button)>
+              </AccordionMenuButton>
+            </Styled(AccordionMenuButton)>
+          </AccordionMenuFavoriteButton>
+        </li>
+      </Styled(li)>
+      <Styled(li)
+        alignRight={true}
+        key="1"
+      >
+        <li
+          className="emotion-11 emotion-12"
+        >
+          <Styled(ul)
+            active={false}
+            alignRight={true}
+          >
+            <ul
+              className="emotion-17 emotion-18"
+            >
+              <Styled(li)
+                alignRight={true}
+                key="child-1-0"
+              >
+                <li
+                  className="emotion-11 emotion-12"
+                >
+                  <a
+                    href="#"
+                  >
+                    Download
+                  </a>
+                </li>
+              </Styled(li)>
+              <Styled(li)
+                alignRight={true}
+                key="child-1-1"
+              >
+                <li
+                  className="emotion-11 emotion-12"
+                >
+                  <a
+                    href="#"
+                    rel="nofollow"
+                  >
+                    Print
+                  </a>
+                </li>
+              </Styled(li)>
+            </ul>
+          </Styled(ul)>
+          <AccordionMenuToggle
+            active={false}
+            alignRight={true}
+            onClick={[Function]}
+            small={false}
+          >
+            <Styled(AccordionMenuButton)
+              active={false}
+              alignRight={true}
+              icon={
+                <Plus
+                  rotate={false}
+                />
+              }
+              onClick={[Function]}
+              small={false}
+            >
+              <AccordionMenuButton
+                active={false}
+                alignRight={true}
+                className="emotion-24 emotion-21"
+                icon={
+                  <Plus
+                    rotate={false}
+                  />
+                }
+                onClick={[Function]}
+                small={false}
+              >
+                <Styled(button)
+                  active={false}
+                  alignRight={true}
+                  className="emotion-24 emotion-21"
+                  onClick={[Function]}
+                  small={false}
+                  type="button"
+                >
+                  <button
+                    className="emotion-21 emotion-22 emotion-6"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <Styled(span)
+                      alignRight={true}
+                      small={false}
+                    >
+                      <span
+                        className="emotion-2 emotion-3"
+                      >
+                        <Plus
+                          rotate={false}
+                        >
+                          <svg
+                            className="dh-icon-plus"
+                            viewBox="0 0 16 16"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M9 9v7H7V9H0V7h7V0h2v7h7v2H9z"
+                            />
+                          </svg>
+                        </Plus>
+                      </span>
+                    </Styled(span)>
+                    <span>
+                      Tearsheet
+                    </span>
+                  </button>
+                </Styled(button)>
+              </AccordionMenuButton>
+            </Styled(AccordionMenuButton)>
+          </AccordionMenuToggle>
+        </li>
+      </Styled(li)>
+      <Styled(li)
+        alignRight={true}
+        key="2"
+      >
+        <li
+          className="emotion-11 emotion-12"
+        >
+          <Styled(ul)
+            active={false}
+            alignRight={true}
+          >
+            <ul
+              className="emotion-17 emotion-18"
+            >
+              <Styled(li)
+                alignRight={true}
+                key="child-2-0"
+              >
+                <li
+                  className="emotion-11 emotion-12"
+                >
+                  <a
+                    href="#"
+                  >
+                    Facebook
+                  </a>
+                </li>
+              </Styled(li)>
+              <Styled(li)
+                alignRight={true}
+                key="child-2-1"
+              >
+                <li
+                  className="emotion-11 emotion-12"
+                >
+                  <a
+                    href="#"
+                  >
+                    Pinterest
+                  </a>
+                </li>
+              </Styled(li)>
+              <Styled(li)
+                alignRight={true}
+                key="child-2-2"
+              >
+                <li
+                  className="emotion-11 emotion-12"
+                >
+                  <AccordionMenuButton
+                    alignRight={true}
+                  >
+                    <Styled(button)
+                      alignRight={true}
+                      type="button"
+                    >
+                      <button
+                        className="emotion-34 emotion-6"
+                        type="button"
+                      >
+                        <span>
+                          Copy Link
+                        </span>
+                      </button>
+                    </Styled(button)>
+                  </AccordionMenuButton>
+                </li>
+              </Styled(li)>
+            </ul>
+          </Styled(ul)>
+          <AccordionMenuToggle
+            active={false}
+            alignRight={true}
+            onClick={[Function]}
+            small={false}
+          >
+            <Styled(AccordionMenuButton)
+              active={false}
+              alignRight={true}
+              icon={
+                <Plus
+                  rotate={false}
+                />
+              }
+              onClick={[Function]}
+              small={false}
+            >
+              <AccordionMenuButton
+                active={false}
+                alignRight={true}
+                className="emotion-24 emotion-21"
+                icon={
+                  <Plus
+                    rotate={false}
+                  />
+                }
+                onClick={[Function]}
+                small={false}
+              >
+                <Styled(button)
+                  active={false}
+                  alignRight={true}
+                  className="emotion-24 emotion-21"
+                  onClick={[Function]}
+                  small={false}
+                  type="button"
+                >
+                  <button
+                    className="emotion-21 emotion-22 emotion-6"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <Styled(span)
+                      alignRight={true}
+                      small={false}
+                    >
+                      <span
+                        className="emotion-2 emotion-3"
+                      >
+                        <Plus
+                          rotate={false}
+                        >
+                          <svg
+                            className="dh-icon-plus"
+                            viewBox="0 0 16 16"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M9 9v7H7V9H0V7h7V0h2v7h7v2H9z"
+                            />
+                          </svg>
+                        </Plus>
+                      </span>
+                    </Styled(span)>
+                    <span>
+                      Share
+                    </span>
+                  </button>
+                </Styled(button)>
+              </AccordionMenuButton>
+            </Styled(AccordionMenuButton)>
+          </AccordionMenuToggle>
+        </li>
+      </Styled(li)>
+    </ul>
+  </Styled(ul)>
+</AccordionMenu>
+`;
+
+exports[`<AccordionMenu /> renders correctly when small 1`] = `
+.emotion-11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
+}
+
+.emotion-7 svg path {
+  fill: none;
+  stroke: #242424;
+}
+
+.emotion-7:hover svg path {
+  fill: #b33232;
+  stroke: #b33232;
+}
+
+@media (min-width:48em) {
+  .emotion-5 span:not(.emotion-3) {
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+}
+
+@media (min-width:48em) {
+  .emotion-5 .emotion-3 {
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+}
+
+.emotion-5 svg path {
+  fill: none;
+  stroke: #242424;
+}
+
+.emotion-5:hover svg path {
+  fill: #b33232;
+  stroke: #b33232;
+}
+
+.emotion-17 {
+  display: none;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@media (min-width:48em) {
+  .emotion-17 {
+    display: none;
+    text-align: left;
+    -webkit-align-items: flex-start;
+    -webkit-box-align: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+  }
+}
+
+.emotion-17 ul {
+  padding-left: 33px;
+}
+
+.emotion-17 ul a,
+.emotion-17 ul button {
+  color: #6d6d6a;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+@media (min-width:48em) {
+  .emotion-17 ul a,
+  .emotion-17 ul button {
+    font-family: Monument Grotesk,sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+.emotion-17 button {
+  padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  outline: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.emotion-17 a,
+.emotion-17 button {
+  color: #242424;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+@media (min-width:48em) {
+  .emotion-17 a,
+  .emotion-17 button {
+    font-family: Monument Grotesk,sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+@media (min-width:48em) {
+  .emotion-34 span:not(.emotion-3) {
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+}
+
+@media (min-width:48em) {
+  .emotion-34 .emotion-3 {
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+}
+
+.emotion-51 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@media (min-width:48em) {
+  .emotion-51 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    text-align: left;
+    -webkit-align-items: flex-start;
+    -webkit-box-align: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+  }
+}
+
+.emotion-51 ul {
+  padding-left: 22px;
+}
+
+.emotion-51 ul a,
+.emotion-51 ul button {
+  color: #6d6d6a;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.emotion-51 button {
+  padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  outline: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.emotion-51 a,
+.emotion-51 button {
+  color: #242424;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.emotion-1 {
+  display: inline-block;
+  height: 13px;
+  width: 13.62px;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 8px;
+  margin-left: 0;
+  width: 14px;
+}
+
+.emotion-0 {
+  display: inline-block;
+  height: 13px;
+  width: 13.62px;
+}
+
+.emotion-0 path {
+  fill: none;
+  stroke: currentColor;
+}
+
+.emotion-24 svg {
+  display: inline-block;
+  fill: currentColor;
+  width: 13px;
+  height: 13px;
+}
+
+@media (min-width:48em) {
+  .emotion-22 span:not(.emotion-3) {
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+}
+
+@media (min-width:48em) {
+  .emotion-22 .emotion-3 {
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+}
+
+.emotion-22 svg {
+  display: inline-block;
+  fill: currentColor;
+  width: 13px;
+  height: 13px;
+}
+
+<AccordionMenu
+  alignRight={false}
+  items={
+    Array [
+      Object {
+        "render": [Function],
+      },
+      Object {
+        "items": Array [
+          Object {
+            "href": "#",
+            "label": "Download",
+          },
+          Object {
+            "attributes": Object {
+              "rel": "nofollow",
+            },
+            "href": "#",
+            "label": "Print",
+          },
+        ],
+        "label": "Tearsheet",
+      },
+      Object {
+        "items": Array [
+          Object {
+            "href": "#",
+            "label": "Facebook",
+          },
+          Object {
+            "href": "#",
+            "label": "Pinterest",
+          },
+          Object {
+            "label": "Copy Link",
+          },
+        ],
+        "label": "Share",
+      },
+    ]
+  }
+  small={true}
+>
+  <Styled(ul)
+    alignRight={false}
+    root={true}
+    small={true}
+  >
+    <ul
+      className="emotion-51 emotion-18"
+    >
+      <Styled(li)
+        alignRight={false}
+        key="0"
+      >
+        <li
+          className="emotion-11 emotion-12"
+        >
+          <AccordionMenuFavoriteButton
+            alignRight={false}
+            small={true}
+          >
+            <Styled(AccordionMenuButton)
+              alignRight={false}
+              icon={
+                <Heart
+                  className="emotion-1"
+                  filled={false}
+                />
+              }
+              small={true}
+            >
+              <AccordionMenuButton
+                alignRight={false}
+                className="emotion-7 emotion-4"
+                icon={
+                  <Heart
+                    className="emotion-1"
+                    filled={false}
+                  />
+                }
+                small={true}
+              >
+                <Styled(button)
+                  alignRight={false}
+                  className="emotion-7 emotion-4"
+                  small={true}
+                  type="button"
+                >
+                  <button
+                    className="emotion-4 emotion-5 emotion-6"
+                    type="button"
+                  >
+                    <Styled(span)
+                      alignRight={false}
+                      small={true}
+                    >
+                      <span
+                        className="emotion-2 emotion-3"
+                      >
+                        <Heart
+                          className="emotion-1"
+                          filled={false}
+                        >
+                          <svg
+                            className="dh-icon-heart emotion-0"
+                            viewBox="0 0 22 21"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M2.37 2.369c-1.828 1.835-1.827 5.855.035 7.73l.395.439 1.044 1.159c1.081 1.198 2.163 2.397 3.176 3.515l.048.053a697.263 697.263 0 0 0 3.167 3.478l.749.811c.229-.254.522-.581.913-1.02l1.642-1.844c.712-.798 1.315-1.473 1.897-2.118l.275-.305c1.664-1.842 2.968-3.244 3.917-4.198 1.828-1.836 1.828-5.849 0-7.685a4.666 4.666 0 0 0-6.617.001l-2.005 2.007-.707-.708-1.314-1.315C8.098 1.479 6.915 1 5.677 1s-2.42.479-3.307 1.369zm7.988 17.863l-.001.001.005-.005-.004.004z"
+                              strokeWidth="2"
+                            />
+                          </svg>
+                        </Heart>
+                      </span>
+                    </Styled(span)>
+                    <span>
+                      Favorite
+                    </span>
+                  </button>
+                </Styled(button)>
+              </AccordionMenuButton>
+            </Styled(AccordionMenuButton)>
+          </AccordionMenuFavoriteButton>
+        </li>
+      </Styled(li)>
+      <Styled(li)
+        alignRight={false}
+        key="1"
+      >
+        <li
+          className="emotion-11 emotion-12"
+        >
+          <Styled(ul)
+            active={false}
+            alignRight={false}
+          >
+            <ul
+              className="emotion-17 emotion-18"
+            >
+              <Styled(li)
+                alignRight={false}
+                key="child-1-0"
+              >
+                <li
+                  className="emotion-11 emotion-12"
+                >
+                  <a
+                    href="#"
+                  >
+                    Download
+                  </a>
+                </li>
+              </Styled(li)>
+              <Styled(li)
+                alignRight={false}
+                key="child-1-1"
+              >
+                <li
+                  className="emotion-11 emotion-12"
+                >
+                  <a
+                    href="#"
+                    rel="nofollow"
+                  >
+                    Print
+                  </a>
+                </li>
+              </Styled(li)>
+            </ul>
+          </Styled(ul)>
+          <AccordionMenuToggle
+            active={false}
+            alignRight={false}
+            onClick={[Function]}
+            small={true}
+          >
+            <Styled(AccordionMenuButton)
+              active={false}
+              alignRight={false}
+              icon={
+                <Plus
+                  rotate={false}
+                />
+              }
+              onClick={[Function]}
+              small={true}
+            >
+              <AccordionMenuButton
+                active={false}
+                alignRight={false}
+                className="emotion-24 emotion-21"
+                icon={
+                  <Plus
+                    rotate={false}
+                  />
+                }
+                onClick={[Function]}
+                small={true}
+              >
+                <Styled(button)
+                  active={false}
+                  alignRight={false}
+                  className="emotion-24 emotion-21"
+                  onClick={[Function]}
+                  small={true}
+                  type="button"
+                >
+                  <button
+                    className="emotion-21 emotion-22 emotion-6"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <Styled(span)
+                      alignRight={false}
+                      small={true}
+                    >
+                      <span
+                        className="emotion-2 emotion-3"
+                      >
+                        <Plus
+                          rotate={false}
+                        >
+                          <svg
+                            className="dh-icon-plus"
+                            viewBox="0 0 16 16"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M9 9v7H7V9H0V7h7V0h2v7h7v2H9z"
+                            />
+                          </svg>
+                        </Plus>
+                      </span>
+                    </Styled(span)>
+                    <span>
+                      Tearsheet
+                    </span>
+                  </button>
+                </Styled(button)>
+              </AccordionMenuButton>
+            </Styled(AccordionMenuButton)>
+          </AccordionMenuToggle>
+        </li>
+      </Styled(li)>
+      <Styled(li)
+        alignRight={false}
+        key="2"
+      >
+        <li
+          className="emotion-11 emotion-12"
+        >
+          <Styled(ul)
+            active={false}
+            alignRight={false}
+          >
+            <ul
+              className="emotion-17 emotion-18"
+            >
+              <Styled(li)
+                alignRight={false}
+                key="child-2-0"
+              >
+                <li
+                  className="emotion-11 emotion-12"
+                >
+                  <a
+                    href="#"
+                  >
+                    Facebook
+                  </a>
+                </li>
+              </Styled(li)>
+              <Styled(li)
+                alignRight={false}
+                key="child-2-1"
+              >
+                <li
+                  className="emotion-11 emotion-12"
+                >
+                  <a
+                    href="#"
+                  >
+                    Pinterest
+                  </a>
+                </li>
+              </Styled(li)>
+              <Styled(li)
+                alignRight={false}
+                key="child-2-2"
+              >
+                <li
+                  className="emotion-11 emotion-12"
+                >
+                  <AccordionMenuButton
+                    alignRight={false}
+                  >
+                    <Styled(button)
+                      alignRight={false}
+                      type="button"
+                    >
+                      <button
+                        className="emotion-34 emotion-6"
+                        type="button"
+                      >
+                        <span>
+                          Copy Link
+                        </span>
+                      </button>
+                    </Styled(button)>
+                  </AccordionMenuButton>
+                </li>
+              </Styled(li)>
+            </ul>
+          </Styled(ul)>
+          <AccordionMenuToggle
+            active={false}
+            alignRight={false}
+            onClick={[Function]}
+            small={true}
+          >
+            <Styled(AccordionMenuButton)
+              active={false}
+              alignRight={false}
+              icon={
+                <Plus
+                  rotate={false}
+                />
+              }
+              onClick={[Function]}
+              small={true}
+            >
+              <AccordionMenuButton
+                active={false}
+                alignRight={false}
+                className="emotion-24 emotion-21"
+                icon={
+                  <Plus
+                    rotate={false}
+                  />
+                }
+                onClick={[Function]}
+                small={true}
+              >
+                <Styled(button)
+                  active={false}
+                  alignRight={false}
+                  className="emotion-24 emotion-21"
+                  onClick={[Function]}
+                  small={true}
+                  type="button"
+                >
+                  <button
+                    className="emotion-21 emotion-22 emotion-6"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <Styled(span)
+                      alignRight={false}
+                      small={true}
+                    >
+                      <span
+                        className="emotion-2 emotion-3"
+                      >
+                        <Plus
+                          rotate={false}
+                        >
+                          <svg
+                            className="dh-icon-plus"
+                            viewBox="0 0 16 16"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M9 9v7H7V9H0V7h7V0h2v7h7v2H9z"
+                            />
+                          </svg>
+                        </Plus>
+                      </span>
+                    </Styled(span)>
+                    <span>
+                      Share
+                    </span>
+                  </button>
+                </Styled(button)>
+              </AccordionMenuButton>
+            </Styled(AccordionMenuButton)>
+          </AccordionMenuToggle>
+        </li>
+      </Styled(li)>
+    </ul>
+  </Styled(ul)>
+</AccordionMenu>
+`;
+
+exports[`<AccordionMenu /> renders correctly when small and right aligned 1`] = `
+.emotion-7 svg path {
+  fill: none;
+  stroke: #242424;
+}
+
+.emotion-7:hover svg path {
+  fill: #b33232;
+  stroke: #b33232;
+}
+
+.emotion-11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
+}
+
+@media (min-width:48em) {
+  .emotion-5 span:not(.emotion-3) {
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+}
+
+@media (min-width:48em) {
+  .emotion-5 .emotion-3 {
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+}
+
+.emotion-5 svg path {
+  fill: none;
+  stroke: #242424;
+}
+
+.emotion-5:hover svg path {
+  fill: #b33232;
+  stroke: #b33232;
+}
+
+.emotion-17 {
+  display: none;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@media (min-width:48em) {
+  .emotion-17 {
+    display: none;
+    text-align: right;
+    -webkit-align-items: flex-end;
+    -webkit-box-align: flex-end;
+    -ms-flex-align: flex-end;
+    align-items: flex-end;
+  }
+}
+
+.emotion-17 ul {
+  padding-right: 33px;
+}
+
+.emotion-17 ul a,
+.emotion-17 ul button {
+  color: #6d6d6a;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+@media (min-width:48em) {
+  .emotion-17 ul a,
+  .emotion-17 ul button {
+    font-family: Monument Grotesk,sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+.emotion-17 button {
+  padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  outline: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.emotion-17 a,
+.emotion-17 button {
+  color: #242424;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+@media (min-width:48em) {
+  .emotion-17 a,
+  .emotion-17 button {
+    font-family: Monument Grotesk,sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+@media (min-width:48em) {
+  .emotion-34 span:not(.emotion-3) {
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+}
+
+@media (min-width:48em) {
+  .emotion-34 .emotion-3 {
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+}
+
+.emotion-1 {
+  display: inline-block;
+  height: 13px;
+  width: 13.62px;
+}
+
+.emotion-0 {
+  display: inline-block;
+  height: 13px;
+  width: 13.62px;
+}
+
+.emotion-0 path {
+  fill: none;
+  stroke: currentColor;
+}
+
+.emotion-24 svg {
+  display: inline-block;
+  fill: currentColor;
+  width: 13px;
+  height: 13px;
+}
+
+.emotion-51 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@media (min-width:48em) {
+  .emotion-51 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    text-align: right;
+    -webkit-align-items: flex-end;
+    -webkit-box-align: flex-end;
+    -ms-flex-align: flex-end;
+    align-items: flex-end;
+  }
+}
+
+.emotion-51 ul {
+  padding-right: 22px;
+}
+
+.emotion-51 ul a,
+.emotion-51 ul button {
+  color: #6d6d6a;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.emotion-51 button {
+  padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  outline: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.emotion-51 a,
+.emotion-51 button {
+  color: #242424;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 0;
+  margin-left: 8px;
+  width: 14px;
+}
+
+@media (min-width:48em) {
+  .emotion-22 span:not(.emotion-3) {
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+}
+
+@media (min-width:48em) {
+  .emotion-22 .emotion-3 {
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+}
+
+.emotion-22 svg {
+  display: inline-block;
+  fill: currentColor;
+  width: 13px;
+  height: 13px;
+}
+
+<AccordionMenu
+  alignRight={true}
+  items={
+    Array [
+      Object {
+        "render": [Function],
+      },
+      Object {
+        "items": Array [
+          Object {
+            "href": "#",
+            "label": "Download",
+          },
+          Object {
+            "attributes": Object {
+              "rel": "nofollow",
+            },
+            "href": "#",
+            "label": "Print",
+          },
+        ],
+        "label": "Tearsheet",
+      },
+      Object {
+        "items": Array [
+          Object {
+            "href": "#",
+            "label": "Facebook",
+          },
+          Object {
+            "href": "#",
+            "label": "Pinterest",
+          },
+          Object {
+            "label": "Copy Link",
+          },
+        ],
+        "label": "Share",
+      },
+    ]
+  }
+  small={true}
+>
+  <Styled(ul)
+    alignRight={true}
+    root={true}
+    small={true}
+  >
+    <ul
+      className="emotion-51 emotion-18"
+    >
+      <Styled(li)
+        alignRight={true}
+        key="0"
+      >
+        <li
+          className="emotion-11 emotion-12"
+        >
+          <AccordionMenuFavoriteButton
+            alignRight={true}
+            small={true}
+          >
+            <Styled(AccordionMenuButton)
+              alignRight={true}
+              icon={
+                <Heart
+                  className="emotion-1"
+                  filled={false}
+                />
+              }
+              small={true}
+            >
+              <AccordionMenuButton
+                alignRight={true}
+                className="emotion-7 emotion-4"
+                icon={
+                  <Heart
+                    className="emotion-1"
+                    filled={false}
+                  />
+                }
+                small={true}
+              >
+                <Styled(button)
+                  alignRight={true}
+                  className="emotion-7 emotion-4"
+                  small={true}
+                  type="button"
+                >
+                  <button
+                    className="emotion-4 emotion-5 emotion-6"
+                    type="button"
+                  >
+                    <Styled(span)
+                      alignRight={true}
+                      small={true}
+                    >
+                      <span
+                        className="emotion-2 emotion-3"
+                      >
+                        <Heart
+                          className="emotion-1"
+                          filled={false}
+                        >
+                          <svg
+                            className="dh-icon-heart emotion-0"
+                            viewBox="0 0 22 21"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M2.37 2.369c-1.828 1.835-1.827 5.855.035 7.73l.395.439 1.044 1.159c1.081 1.198 2.163 2.397 3.176 3.515l.048.053a697.263 697.263 0 0 0 3.167 3.478l.749.811c.229-.254.522-.581.913-1.02l1.642-1.844c.712-.798 1.315-1.473 1.897-2.118l.275-.305c1.664-1.842 2.968-3.244 3.917-4.198 1.828-1.836 1.828-5.849 0-7.685a4.666 4.666 0 0 0-6.617.001l-2.005 2.007-.707-.708-1.314-1.315C8.098 1.479 6.915 1 5.677 1s-2.42.479-3.307 1.369zm7.988 17.863l-.001.001.005-.005-.004.004z"
+                              strokeWidth="2"
+                            />
+                          </svg>
+                        </Heart>
+                      </span>
+                    </Styled(span)>
+                    <span>
+                      Favorite
+                    </span>
+                  </button>
+                </Styled(button)>
+              </AccordionMenuButton>
+            </Styled(AccordionMenuButton)>
+          </AccordionMenuFavoriteButton>
+        </li>
+      </Styled(li)>
+      <Styled(li)
+        alignRight={true}
+        key="1"
+      >
+        <li
+          className="emotion-11 emotion-12"
+        >
+          <Styled(ul)
+            active={false}
+            alignRight={true}
+          >
+            <ul
+              className="emotion-17 emotion-18"
+            >
+              <Styled(li)
+                alignRight={true}
+                key="child-1-0"
+              >
+                <li
+                  className="emotion-11 emotion-12"
+                >
+                  <a
+                    href="#"
+                  >
+                    Download
+                  </a>
+                </li>
+              </Styled(li)>
+              <Styled(li)
+                alignRight={true}
+                key="child-1-1"
+              >
+                <li
+                  className="emotion-11 emotion-12"
+                >
+                  <a
+                    href="#"
+                    rel="nofollow"
+                  >
+                    Print
+                  </a>
+                </li>
+              </Styled(li)>
+            </ul>
+          </Styled(ul)>
+          <AccordionMenuToggle
+            active={false}
+            alignRight={true}
+            onClick={[Function]}
+            small={true}
+          >
+            <Styled(AccordionMenuButton)
+              active={false}
+              alignRight={true}
+              icon={
+                <Plus
+                  rotate={false}
+                />
+              }
+              onClick={[Function]}
+              small={true}
+            >
+              <AccordionMenuButton
+                active={false}
+                alignRight={true}
+                className="emotion-24 emotion-21"
+                icon={
+                  <Plus
+                    rotate={false}
+                  />
+                }
+                onClick={[Function]}
+                small={true}
+              >
+                <Styled(button)
+                  active={false}
+                  alignRight={true}
+                  className="emotion-24 emotion-21"
+                  onClick={[Function]}
+                  small={true}
+                  type="button"
+                >
+                  <button
+                    className="emotion-21 emotion-22 emotion-6"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <Styled(span)
+                      alignRight={true}
+                      small={true}
+                    >
+                      <span
+                        className="emotion-2 emotion-3"
+                      >
+                        <Plus
+                          rotate={false}
+                        >
+                          <svg
+                            className="dh-icon-plus"
+                            viewBox="0 0 16 16"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M9 9v7H7V9H0V7h7V0h2v7h7v2H9z"
+                            />
+                          </svg>
+                        </Plus>
+                      </span>
+                    </Styled(span)>
+                    <span>
+                      Tearsheet
+                    </span>
+                  </button>
+                </Styled(button)>
+              </AccordionMenuButton>
+            </Styled(AccordionMenuButton)>
+          </AccordionMenuToggle>
+        </li>
+      </Styled(li)>
+      <Styled(li)
+        alignRight={true}
+        key="2"
+      >
+        <li
+          className="emotion-11 emotion-12"
+        >
+          <Styled(ul)
+            active={false}
+            alignRight={true}
+          >
+            <ul
+              className="emotion-17 emotion-18"
+            >
+              <Styled(li)
+                alignRight={true}
+                key="child-2-0"
+              >
+                <li
+                  className="emotion-11 emotion-12"
+                >
+                  <a
+                    href="#"
+                  >
+                    Facebook
+                  </a>
+                </li>
+              </Styled(li)>
+              <Styled(li)
+                alignRight={true}
+                key="child-2-1"
+              >
+                <li
+                  className="emotion-11 emotion-12"
+                >
+                  <a
+                    href="#"
+                  >
+                    Pinterest
+                  </a>
+                </li>
+              </Styled(li)>
+              <Styled(li)
+                alignRight={true}
+                key="child-2-2"
+              >
+                <li
+                  className="emotion-11 emotion-12"
+                >
+                  <AccordionMenuButton
+                    alignRight={true}
+                  >
+                    <Styled(button)
+                      alignRight={true}
+                      type="button"
+                    >
+                      <button
+                        className="emotion-34 emotion-6"
+                        type="button"
+                      >
+                        <span>
+                          Copy Link
+                        </span>
+                      </button>
+                    </Styled(button)>
+                  </AccordionMenuButton>
+                </li>
+              </Styled(li)>
+            </ul>
+          </Styled(ul)>
+          <AccordionMenuToggle
+            active={false}
+            alignRight={true}
+            onClick={[Function]}
+            small={true}
+          >
+            <Styled(AccordionMenuButton)
+              active={false}
+              alignRight={true}
+              icon={
+                <Plus
+                  rotate={false}
+                />
+              }
+              onClick={[Function]}
+              small={true}
+            >
+              <AccordionMenuButton
+                active={false}
+                alignRight={true}
+                className="emotion-24 emotion-21"
+                icon={
+                  <Plus
+                    rotate={false}
+                  />
+                }
+                onClick={[Function]}
+                small={true}
+              >
+                <Styled(button)
+                  active={false}
+                  alignRight={true}
+                  className="emotion-24 emotion-21"
+                  onClick={[Function]}
+                  small={true}
+                  type="button"
+                >
+                  <button
+                    className="emotion-21 emotion-22 emotion-6"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <Styled(span)
+                      alignRight={true}
+                      small={true}
+                    >
+                      <span
+                        className="emotion-2 emotion-3"
+                      >
+                        <Plus
+                          rotate={false}
+                        >
+                          <svg
+                            className="dh-icon-plus"
+                            viewBox="0 0 16 16"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M9 9v7H7V9H0V7h7V0h2v7h7v2H9z"
+                            />
+                          </svg>
+                        </Plus>
+                      </span>
+                    </Styled(span)>
+                    <span>
+                      Share
+                    </span>
+                  </button>
+                </Styled(button)>
+              </AccordionMenuButton>
+            </Styled(AccordionMenuButton)>
+          </AccordionMenuToggle>
+        </li>
+      </Styled(li)>
+    </ul>
+  </Styled(ul)>
+</AccordionMenu>
+`;
+
+exports[`<AccordionMenu /> should update 'active' prop when toggle is clicked 1`] = `
+<Styled(ul)
+  alignRight={false}
+  root={true}
+  small={false}
+>
+  <Styled(li)
+    alignRight={false}
+    key="0"
+  >
+    <AccordionMenuButton
+      alignRight={false}
+    >
+      First item
+    </AccordionMenuButton>
+  </Styled(li)>
+  <Styled(li)
+    alignRight={false}
+    key="1"
+  >
+    <Styled(ul)
+      active={true}
+      alignRight={false}
+    >
+      <Styled(li)
+        alignRight={false}
+        key="child-1-0"
+      >
+        <a
+          href="#"
+        >
+          Download
+        </a>
+      </Styled(li)>
+      <Styled(li)
+        alignRight={false}
+        key="child-1-1"
+      >
+        <a
+          href="#"
+        >
+          Print
+        </a>
+      </Styled(li)>
+    </Styled(ul)>
+    <AccordionMenuToggle
+      active={true}
+      alignRight={false}
+      onClick={[Function]}
+      small={false}
+    >
+      Tearsheet
+    </AccordionMenuToggle>
+  </Styled(li)>
+</Styled(ul)>
+`;
+
+exports[`<AccordionMenuList /> renders correctly 1`] = `
+.emotion-0 {
+  display: none;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@media (min-width:48em) {
+  .emotion-0 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    text-align: left;
+    -webkit-align-items: flex-start;
+    -webkit-box-align: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+  }
+}
+
+.emotion-0 ul {
+  padding-left: 33px;
+}
+
+.emotion-0 ul a,
+.emotion-0 ul button {
+  color: #6d6d6a;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+@media (min-width:48em) {
+  .emotion-0 ul a,
+  .emotion-0 ul button {
+    font-family: Monument Grotesk,sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+.emotion-0 button {
+  padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  outline: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.emotion-0 a,
+.emotion-0 button {
+  color: #242424;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+@media (min-width:48em) {
+  .emotion-0 a,
+  .emotion-0 button {
+    font-family: Monument Grotesk,sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+<Styled(ul)>
+  <ul
+    className="emotion-0 emotion-1"
+  >
+    <li>
+      Item
+    </li>
+  </ul>
+</Styled(ul)>
+`;
+
+exports[`<AccordionMenuList /> renders correctly when not active 1`] = `
+.emotion-0 {
+  display: none;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@media (min-width:48em) {
+  .emotion-0 {
+    display: none;
+    text-align: left;
+    -webkit-align-items: flex-start;
+    -webkit-box-align: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+  }
+}
+
+.emotion-0 ul {
+  padding-left: 33px;
+}
+
+.emotion-0 ul a,
+.emotion-0 ul button {
+  color: #6d6d6a;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+@media (min-width:48em) {
+  .emotion-0 ul a,
+  .emotion-0 ul button {
+    font-family: Monument Grotesk,sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+.emotion-0 button {
+  padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  outline: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.emotion-0 a,
+.emotion-0 button {
+  color: #242424;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+@media (min-width:48em) {
+  .emotion-0 a,
+  .emotion-0 button {
+    font-family: Monument Grotesk,sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+<Styled(ul)
+  active={false}
+>
+  <ul
+    className="emotion-0 emotion-1"
+  >
+    <li>
+      Item
+    </li>
+  </ul>
+</Styled(ul)>
+`;
+
+exports[`<AccordionMenuToggle /> renders correctly 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 0;
+}
+
+@media (min-width:48em) {
+  .emotion-0 {
+    width: 25px;
+    margin-right: 8px;
+    margin-left: 0;
+  }
+}
+
+.emotion-5 svg {
+  display: inline-block;
+  fill: currentColor;
+  width: 13px;
+  height: 13px;
+}
+
+@media (min-width:48em) {
+  .emotion-5 svg {
+    width: 16px;
+    height: 16px;
+    margin-top: 4px;
+  }
+}
+
+@media (min-width:48em) {
+  .emotion-3 span:not(.emotion-1) {
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+}
+
+@media (min-width:48em) {
+  .emotion-3 .emotion-1 {
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+}
+
+.emotion-3 svg {
+  display: inline-block;
+  fill: currentColor;
+  width: 13px;
+  height: 13px;
+}
+
+@media (min-width:48em) {
+  .emotion-3 svg {
+    width: 16px;
+    height: 16px;
+    margin-top: 4px;
+  }
+}
+
+<AccordionMenuToggle>
+  <Styled(AccordionMenuButton)
+    icon={
+      <Plus
+        rotate={false}
+      />
+    }
+  >
+    <AccordionMenuButton
+      className="emotion-5 emotion-2"
+      icon={
+        <Plus
+          rotate={false}
+        />
+      }
+    >
+      <Styled(button)
+        className="emotion-5 emotion-2"
+        type="button"
+      >
+        <button
+          className="emotion-2 emotion-3 emotion-4"
+          type="button"
+        >
+          <Styled(span)>
+            <span
+              className="emotion-0 emotion-1"
+            >
+              <Plus
+                rotate={false}
+              >
+                <svg
+                  className="dh-icon-plus"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9 9v7H7V9H0V7h7V0h2v7h7v2H9z"
+                  />
+                </svg>
+              </Plus>
+            </span>
+          </Styled(span)>
+          <span>
+            Toggle
+          </span>
+        </button>
+      </Styled(button)>
+    </AccordionMenuButton>
+  </Styled(AccordionMenuButton)>
+</AccordionMenuToggle>
+`;
+
+exports[`<AccordionMenuToggle /> renders correctly with active 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 0;
+}
+
+@media (min-width:48em) {
+  .emotion-0 {
+    width: 25px;
+    margin-right: 8px;
+    margin-left: 0;
+  }
+}
+
+.emotion-5 svg {
+  display: inline-block;
+  fill: currentColor;
+  width: 13px;
+  height: 13px;
+}
+
+@media (min-width:48em) {
+  .emotion-5 svg {
+    width: 16px;
+    height: 16px;
+    margin-top: 5px;
+  }
+}
+
+@media (min-width:48em) {
+  .emotion-3 span:not(.emotion-1) {
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+}
+
+@media (min-width:48em) {
+  .emotion-3 .emotion-1 {
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+}
+
+.emotion-3 svg {
+  display: inline-block;
+  fill: currentColor;
+  width: 13px;
+  height: 13px;
+}
+
+@media (min-width:48em) {
+  .emotion-3 svg {
+    width: 16px;
+    height: 16px;
+    margin-top: 5px;
+  }
+}
+
+<AccordionMenuToggle
+  active={true}
+>
+  <Styled(AccordionMenuButton)
+    active={true}
+    icon={
+      <Plus
+        rotate={true}
+      />
+    }
+  >
+    <AccordionMenuButton
+      active={true}
+      className="emotion-5 emotion-2"
+      icon={
+        <Plus
+          rotate={true}
+        />
+      }
+    >
+      <Styled(button)
+        active={true}
+        className="emotion-5 emotion-2"
+        type="button"
+      >
+        <button
+          className="emotion-2 emotion-3 emotion-4"
+          type="button"
+        >
+          <Styled(span)>
+            <span
+              className="emotion-0 emotion-1"
+            >
+              <Plus
+                rotate={true}
+              >
+                <svg
+                  className="dh-icon-plus"
+                  viewBox="0 0 14 14"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7.849 7l5.223 5.223-.868.868-5.223-5.223-5.223 5.223-.868-.868L6.114 7 .891 1.777l.868-.868 5.223 5.223L12.205.909l.868.868L7.849 7z"
+                  />
+                </svg>
+              </Plus>
+            </span>
+          </Styled(span)>
+          <span>
+            Toggle
+          </span>
+        </button>
+      </Styled(button)>
+    </AccordionMenuButton>
+  </Styled(AccordionMenuButton)>
+</AccordionMenuToggle>
+`;

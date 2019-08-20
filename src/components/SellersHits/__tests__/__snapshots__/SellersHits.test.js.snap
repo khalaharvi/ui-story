@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SellersHits /> renders correctly 1`] = `
+<div
+  className="dh-sellers-hits"
+>
+  <ul
+    className="dh-sellers-hits-list"
+  >
+    <li
+      className="dh-sellers-hits-list-item"
+      key="123"
+    >
+      <sellerHitComponent
+        hit={
+          Object {
+            "name": "Designer Name",
+            "objectID": "123",
+            "primary_image_url": "https://placehold.it/370x220",
+            "primary_type": "architect",
+            "seller_types": Array [
+              "architect",
+            ],
+            "slug": "/designer-name",
+          }
+        }
+      />
+    </li>
+  </ul>
+  <ButtonComponent
+    className="dh-sellers-hits-load-more"
+    disabled={false}
+    hidden={false}
+    iconAfter={false}
+    inverted={false}
+    loading={false}
+    onClick={[Function]}
+    primary={false}
+    secondary={true}
+    white={false}
+  >
+    Load More
+  </ButtonComponent>
+</div>
+`;
+
+exports[`<SellersHits /> renders correctly with className 1`] = `
+<div
+  className="dh-sellers-hits custom-products-hits"
+>
+  <ul
+    className="dh-sellers-hits-list"
+  >
+    <li
+      className="dh-sellers-hits-list-item"
+      key="123"
+    >
+      <sellerHitComponent
+        hit={
+          Object {
+            "name": "Designer Name",
+            "objectID": "123",
+            "primary_image_url": "https://placehold.it/370x220",
+            "primary_type": "architect",
+            "seller_types": Array [
+              "architect",
+            ],
+            "slug": "/designer-name",
+          }
+        }
+      />
+    </li>
+  </ul>
+  <ButtonComponent
+    className="dh-sellers-hits-load-more"
+    disabled={false}
+    hidden={false}
+    iconAfter={false}
+    inverted={false}
+    loading={false}
+    onClick={[Function]}
+    primary={false}
+    secondary={true}
+    white={false}
+  >
+    Load More
+  </ButtonComponent>
+</div>
+`;

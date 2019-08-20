@@ -1,0 +1,1301 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Breadcrumb /> has a itemComponent prop that can be a custom component 1`] = `
+.emotion-2 {
+  color: #6d6d6a;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-21 {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.emotion-5 {
+  margin-right: 10px;
+  color: #6d6d6a;
+}
+
+.emotion-5:last-child {
+  margin-right: 0;
+}
+
+.emotion-0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #6d6d6a;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-7 {
+  margin-right: 10px;
+  color: #6d6d6a;
+}
+
+<WithTheme(Breadcrumb)
+  itemComponent={[Function]}
+  items={
+    Array [
+      Object {
+        "href": "/white",
+        "label": "white",
+      },
+      Object {
+        "href": "/white/white1",
+        "label": "white1",
+      },
+      Object {
+        "href": "white/white1/white11",
+        "label": "white1.1",
+      },
+    ]
+  }
+>
+  <Breadcrumb
+    itemComponent={[Function]}
+    items={
+      Array [
+        Object {
+          "href": "/white",
+          "label": "white",
+        },
+        Object {
+          "href": "/white/white1",
+          "label": "white1",
+        },
+        Object {
+          "href": "white/white1/white11",
+          "label": "white1.1",
+        },
+      ]
+    }
+    rootComponent={[Function]}
+    rootLabel="Home"
+    rootURL={null}
+    separator=" > "
+  >
+    <div
+      className="dh-breadcrumb"
+    >
+      <Styled(ul)
+        className="dh-breadcrumb-list"
+      >
+        <ul
+          className="dh-breadcrumb-list emotion-21 emotion-22"
+        >
+          <Styled(li)
+            className="dh-breadcrumb-item"
+          >
+            <li
+              className="dh-breadcrumb-item emotion-5 emotion-6"
+            >
+              <rootComponent
+                className="dh-breadcrumb-link emotion-2"
+                href={null}
+                label="Home"
+              >
+                <Link
+                  className="dh-breadcrumb-link emotion-2"
+                  external={false}
+                  noFollow={false}
+                  to={null}
+                >
+                  <Styled(a)
+                    className="dh-link dh-breadcrumb-link emotion-2"
+                    href={null}
+                    onClick={null}
+                  >
+                    <a
+                      className="dh-link dh-breadcrumb-link emotion-0 emotion-1"
+                      href={null}
+                      onClick={null}
+                    >
+                      Home
+                    </a>
+                  </Styled(a)>
+                </Link>
+              </rootComponent>
+            </li>
+          </Styled(li)>
+          <Styled(li)
+            className="dh-breadcrumb-item"
+            key="/white"
+          >
+            <li
+              className="dh-breadcrumb-item emotion-5 emotion-6"
+            >
+              <Styled(span)
+                className="dh-breadcrumb-separator"
+              >
+                <span
+                  className="dh-breadcrumb-separator emotion-7 emotion-8"
+                >
+                  &gt;
+                </span>
+              </Styled(span)>
+              <itemComponent
+                className="dh-breadcrumb-link emotion-2"
+                item={
+                  Object {
+                    "href": "/white",
+                    "label": "white",
+                  }
+                }
+              >
+                <span>
+                  white
+                </span>
+              </itemComponent>
+            </li>
+          </Styled(li)>
+          <Styled(li)
+            className="dh-breadcrumb-item"
+            key="/white/white1"
+          >
+            <li
+              className="dh-breadcrumb-item emotion-5 emotion-6"
+            >
+              <Styled(span)
+                className="dh-breadcrumb-separator"
+              >
+                <span
+                  className="dh-breadcrumb-separator emotion-7 emotion-8"
+                >
+                  &gt;
+                </span>
+              </Styled(span)>
+              <itemComponent
+                className="dh-breadcrumb-link emotion-2"
+                item={
+                  Object {
+                    "href": "/white/white1",
+                    "label": "white1",
+                  }
+                }
+              >
+                <span>
+                  white1
+                </span>
+              </itemComponent>
+            </li>
+          </Styled(li)>
+          <Styled(li)
+            className="dh-breadcrumb-item dh-breadcrumb-item--selected"
+            key="white/white1/white11"
+          >
+            <li
+              className="dh-breadcrumb-item dh-breadcrumb-item--selected emotion-5 emotion-6"
+            >
+              <Styled(span)
+                className="dh-breadcrumb-separator"
+              >
+                <span
+                  className="dh-breadcrumb-separator emotion-7 emotion-8"
+                >
+                  &gt;
+                </span>
+              </Styled(span)>
+              white1.1
+            </li>
+          </Styled(li)>
+        </ul>
+      </Styled(ul)>
+    </div>
+  </Breadcrumb>
+</WithTheme(Breadcrumb)>
+`;
+
+exports[`<Breadcrumb /> has a rootComponent prop that can be a custom component 1`] = `
+.emotion-0 {
+  color: #6d6d6a;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-25 {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.emotion-1 {
+  margin-right: 10px;
+  color: #6d6d6a;
+}
+
+.emotion-1:last-child {
+  margin-right: 0;
+}
+
+.emotion-5 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #6d6d6a;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-3 {
+  margin-right: 10px;
+  color: #6d6d6a;
+}
+
+<WithTheme(Breadcrumb)
+  items={
+    Array [
+      Object {
+        "href": "/white",
+        "label": "white",
+      },
+      Object {
+        "href": "/white/white1",
+        "label": "white1",
+      },
+      Object {
+        "href": "white/white1/white11",
+        "label": "white1.1",
+      },
+    ]
+  }
+  rootComponent={[Function]}
+>
+  <Breadcrumb
+    itemComponent={[Function]}
+    items={
+      Array [
+        Object {
+          "href": "/white",
+          "label": "white",
+        },
+        Object {
+          "href": "/white/white1",
+          "label": "white1",
+        },
+        Object {
+          "href": "white/white1/white11",
+          "label": "white1.1",
+        },
+      ]
+    }
+    rootComponent={[Function]}
+    rootLabel="Home"
+    rootURL={null}
+    separator=" > "
+  >
+    <div
+      className="dh-breadcrumb"
+    >
+      <Styled(ul)
+        className="dh-breadcrumb-list"
+      >
+        <ul
+          className="dh-breadcrumb-list emotion-25 emotion-26"
+        >
+          <Styled(li)
+            className="dh-breadcrumb-item"
+          >
+            <li
+              className="dh-breadcrumb-item emotion-1 emotion-2"
+            >
+              <rootComponent
+                className="dh-breadcrumb-link emotion-0"
+                href={null}
+                label="Home"
+              >
+                <span>
+                  Home
+                </span>
+              </rootComponent>
+            </li>
+          </Styled(li)>
+          <Styled(li)
+            className="dh-breadcrumb-item"
+            key="/white"
+          >
+            <li
+              className="dh-breadcrumb-item emotion-1 emotion-2"
+            >
+              <Styled(span)
+                className="dh-breadcrumb-separator"
+              >
+                <span
+                  className="dh-breadcrumb-separator emotion-3 emotion-4"
+                >
+                  &gt;
+                </span>
+              </Styled(span)>
+              <itemComponent
+                className="dh-breadcrumb-link emotion-0"
+                item={
+                  Object {
+                    "href": "/white",
+                    "label": "white",
+                  }
+                }
+              >
+                <Link
+                  className="dh-breadcrumb-link emotion-0"
+                  external={false}
+                  noFollow={false}
+                  to="/white"
+                >
+                  <Styled(a)
+                    className="dh-link dh-breadcrumb-link emotion-0"
+                    href="/white"
+                    onClick={null}
+                  >
+                    <a
+                      className="dh-link dh-breadcrumb-link emotion-5 emotion-6"
+                      href="/white"
+                      onClick={null}
+                    >
+                      white
+                    </a>
+                  </Styled(a)>
+                </Link>
+              </itemComponent>
+            </li>
+          </Styled(li)>
+          <Styled(li)
+            className="dh-breadcrumb-item"
+            key="/white/white1"
+          >
+            <li
+              className="dh-breadcrumb-item emotion-1 emotion-2"
+            >
+              <Styled(span)
+                className="dh-breadcrumb-separator"
+              >
+                <span
+                  className="dh-breadcrumb-separator emotion-3 emotion-4"
+                >
+                  &gt;
+                </span>
+              </Styled(span)>
+              <itemComponent
+                className="dh-breadcrumb-link emotion-0"
+                item={
+                  Object {
+                    "href": "/white/white1",
+                    "label": "white1",
+                  }
+                }
+              >
+                <Link
+                  className="dh-breadcrumb-link emotion-0"
+                  external={false}
+                  noFollow={false}
+                  to="/white/white1"
+                >
+                  <Styled(a)
+                    className="dh-link dh-breadcrumb-link emotion-0"
+                    href="/white/white1"
+                    onClick={null}
+                  >
+                    <a
+                      className="dh-link dh-breadcrumb-link emotion-5 emotion-6"
+                      href="/white/white1"
+                      onClick={null}
+                    >
+                      white1
+                    </a>
+                  </Styled(a)>
+                </Link>
+              </itemComponent>
+            </li>
+          </Styled(li)>
+          <Styled(li)
+            className="dh-breadcrumb-item dh-breadcrumb-item--selected"
+            key="white/white1/white11"
+          >
+            <li
+              className="dh-breadcrumb-item dh-breadcrumb-item--selected emotion-1 emotion-2"
+            >
+              <Styled(span)
+                className="dh-breadcrumb-separator"
+              >
+                <span
+                  className="dh-breadcrumb-separator emotion-3 emotion-4"
+                >
+                  &gt;
+                </span>
+              </Styled(span)>
+              white1.1
+            </li>
+          </Styled(li)>
+        </ul>
+      </Styled(ul)>
+    </div>
+  </Breadcrumb>
+</WithTheme(Breadcrumb)>
+`;
+
+exports[`<Breadcrumb /> has a separator prop that can be a custom component 1`] = `
+.emotion-2 {
+  color: #6d6d6a;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-29 {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.emotion-5 {
+  margin-right: 10px;
+  color: #6d6d6a;
+}
+
+.emotion-5:last-child {
+  margin-right: 0;
+}
+
+.emotion-0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #6d6d6a;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-7 {
+  margin-right: 10px;
+  color: #6d6d6a;
+}
+
+<WithTheme(Breadcrumb)
+  items={
+    Array [
+      Object {
+        "href": "/white",
+        "label": "white",
+      },
+      Object {
+        "href": "/white/white1",
+        "label": "white1",
+      },
+      Object {
+        "href": "white/white1/white11",
+        "label": "white1.1",
+      },
+    ]
+  }
+  separator={
+    <span
+      aria-label="separator"
+      role="img"
+    >
+      🔍
+    </span>
+  }
+>
+  <Breadcrumb
+    itemComponent={[Function]}
+    items={
+      Array [
+        Object {
+          "href": "/white",
+          "label": "white",
+        },
+        Object {
+          "href": "/white/white1",
+          "label": "white1",
+        },
+        Object {
+          "href": "white/white1/white11",
+          "label": "white1.1",
+        },
+      ]
+    }
+    rootComponent={[Function]}
+    rootLabel="Home"
+    rootURL={null}
+    separator={
+      <span
+        aria-label="separator"
+        role="img"
+      >
+        🔍
+      </span>
+    }
+  >
+    <div
+      className="dh-breadcrumb"
+    >
+      <Styled(ul)
+        className="dh-breadcrumb-list"
+      >
+        <ul
+          className="dh-breadcrumb-list emotion-29 emotion-30"
+        >
+          <Styled(li)
+            className="dh-breadcrumb-item"
+          >
+            <li
+              className="dh-breadcrumb-item emotion-5 emotion-6"
+            >
+              <rootComponent
+                className="dh-breadcrumb-link emotion-2"
+                href={null}
+                label="Home"
+              >
+                <Link
+                  className="dh-breadcrumb-link emotion-2"
+                  external={false}
+                  noFollow={false}
+                  to={null}
+                >
+                  <Styled(a)
+                    className="dh-link dh-breadcrumb-link emotion-2"
+                    href={null}
+                    onClick={null}
+                  >
+                    <a
+                      className="dh-link dh-breadcrumb-link emotion-0 emotion-1"
+                      href={null}
+                      onClick={null}
+                    >
+                      Home
+                    </a>
+                  </Styled(a)>
+                </Link>
+              </rootComponent>
+            </li>
+          </Styled(li)>
+          <Styled(li)
+            className="dh-breadcrumb-item"
+            key="/white"
+          >
+            <li
+              className="dh-breadcrumb-item emotion-5 emotion-6"
+            >
+              <Styled(span)
+                className="dh-breadcrumb-separator"
+              >
+                <span
+                  className="dh-breadcrumb-separator emotion-7 emotion-8"
+                >
+                  <span
+                    aria-label="separator"
+                    role="img"
+                  >
+                    🔍
+                  </span>
+                </span>
+              </Styled(span)>
+              <itemComponent
+                className="dh-breadcrumb-link emotion-2"
+                item={
+                  Object {
+                    "href": "/white",
+                    "label": "white",
+                  }
+                }
+              >
+                <Link
+                  className="dh-breadcrumb-link emotion-2"
+                  external={false}
+                  noFollow={false}
+                  to="/white"
+                >
+                  <Styled(a)
+                    className="dh-link dh-breadcrumb-link emotion-2"
+                    href="/white"
+                    onClick={null}
+                  >
+                    <a
+                      className="dh-link dh-breadcrumb-link emotion-0 emotion-1"
+                      href="/white"
+                      onClick={null}
+                    >
+                      white
+                    </a>
+                  </Styled(a)>
+                </Link>
+              </itemComponent>
+            </li>
+          </Styled(li)>
+          <Styled(li)
+            className="dh-breadcrumb-item"
+            key="/white/white1"
+          >
+            <li
+              className="dh-breadcrumb-item emotion-5 emotion-6"
+            >
+              <Styled(span)
+                className="dh-breadcrumb-separator"
+              >
+                <span
+                  className="dh-breadcrumb-separator emotion-7 emotion-8"
+                >
+                  <span
+                    aria-label="separator"
+                    role="img"
+                  >
+                    🔍
+                  </span>
+                </span>
+              </Styled(span)>
+              <itemComponent
+                className="dh-breadcrumb-link emotion-2"
+                item={
+                  Object {
+                    "href": "/white/white1",
+                    "label": "white1",
+                  }
+                }
+              >
+                <Link
+                  className="dh-breadcrumb-link emotion-2"
+                  external={false}
+                  noFollow={false}
+                  to="/white/white1"
+                >
+                  <Styled(a)
+                    className="dh-link dh-breadcrumb-link emotion-2"
+                    href="/white/white1"
+                    onClick={null}
+                  >
+                    <a
+                      className="dh-link dh-breadcrumb-link emotion-0 emotion-1"
+                      href="/white/white1"
+                      onClick={null}
+                    >
+                      white1
+                    </a>
+                  </Styled(a)>
+                </Link>
+              </itemComponent>
+            </li>
+          </Styled(li)>
+          <Styled(li)
+            className="dh-breadcrumb-item dh-breadcrumb-item--selected"
+            key="white/white1/white11"
+          >
+            <li
+              className="dh-breadcrumb-item dh-breadcrumb-item--selected emotion-5 emotion-6"
+            >
+              <Styled(span)
+                className="dh-breadcrumb-separator"
+              >
+                <span
+                  className="dh-breadcrumb-separator emotion-7 emotion-8"
+                >
+                  <span
+                    aria-label="separator"
+                    role="img"
+                  >
+                    🔍
+                  </span>
+                </span>
+              </Styled(span)>
+              white1.1
+            </li>
+          </Styled(li)>
+        </ul>
+      </Styled(ul)>
+    </div>
+  </Breadcrumb>
+</WithTheme(Breadcrumb)>
+`;
+
+exports[`<Breadcrumb /> renders correctly 1`] = `
+.emotion-2 {
+  color: #6d6d6a;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-29 {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.emotion-5 {
+  margin-right: 10px;
+  color: #6d6d6a;
+}
+
+.emotion-5:last-child {
+  margin-right: 0;
+}
+
+.emotion-0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #6d6d6a;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-7 {
+  margin-right: 10px;
+  color: #6d6d6a;
+}
+
+<WithTheme(Breadcrumb)
+  items={
+    Array [
+      Object {
+        "href": "/white",
+        "label": "white",
+      },
+      Object {
+        "href": "/white/white1",
+        "label": "white1",
+      },
+      Object {
+        "href": "white/white1/white11",
+        "label": "white1.1",
+      },
+    ]
+  }
+>
+  <Breadcrumb
+    itemComponent={[Function]}
+    items={
+      Array [
+        Object {
+          "href": "/white",
+          "label": "white",
+        },
+        Object {
+          "href": "/white/white1",
+          "label": "white1",
+        },
+        Object {
+          "href": "white/white1/white11",
+          "label": "white1.1",
+        },
+      ]
+    }
+    rootComponent={[Function]}
+    rootLabel="Home"
+    rootURL={null}
+    separator=" > "
+  >
+    <div
+      className="dh-breadcrumb"
+    >
+      <Styled(ul)
+        className="dh-breadcrumb-list"
+      >
+        <ul
+          className="dh-breadcrumb-list emotion-29 emotion-30"
+        >
+          <Styled(li)
+            className="dh-breadcrumb-item"
+          >
+            <li
+              className="dh-breadcrumb-item emotion-5 emotion-6"
+            >
+              <rootComponent
+                className="dh-breadcrumb-link emotion-2"
+                href={null}
+                label="Home"
+              >
+                <Link
+                  className="dh-breadcrumb-link emotion-2"
+                  external={false}
+                  noFollow={false}
+                  to={null}
+                >
+                  <Styled(a)
+                    className="dh-link dh-breadcrumb-link emotion-2"
+                    href={null}
+                    onClick={null}
+                  >
+                    <a
+                      className="dh-link dh-breadcrumb-link emotion-0 emotion-1"
+                      href={null}
+                      onClick={null}
+                    >
+                      Home
+                    </a>
+                  </Styled(a)>
+                </Link>
+              </rootComponent>
+            </li>
+          </Styled(li)>
+          <Styled(li)
+            className="dh-breadcrumb-item"
+            key="/white"
+          >
+            <li
+              className="dh-breadcrumb-item emotion-5 emotion-6"
+            >
+              <Styled(span)
+                className="dh-breadcrumb-separator"
+              >
+                <span
+                  className="dh-breadcrumb-separator emotion-7 emotion-8"
+                >
+                  &gt;
+                </span>
+              </Styled(span)>
+              <itemComponent
+                className="dh-breadcrumb-link emotion-2"
+                item={
+                  Object {
+                    "href": "/white",
+                    "label": "white",
+                  }
+                }
+              >
+                <Link
+                  className="dh-breadcrumb-link emotion-2"
+                  external={false}
+                  noFollow={false}
+                  to="/white"
+                >
+                  <Styled(a)
+                    className="dh-link dh-breadcrumb-link emotion-2"
+                    href="/white"
+                    onClick={null}
+                  >
+                    <a
+                      className="dh-link dh-breadcrumb-link emotion-0 emotion-1"
+                      href="/white"
+                      onClick={null}
+                    >
+                      white
+                    </a>
+                  </Styled(a)>
+                </Link>
+              </itemComponent>
+            </li>
+          </Styled(li)>
+          <Styled(li)
+            className="dh-breadcrumb-item"
+            key="/white/white1"
+          >
+            <li
+              className="dh-breadcrumb-item emotion-5 emotion-6"
+            >
+              <Styled(span)
+                className="dh-breadcrumb-separator"
+              >
+                <span
+                  className="dh-breadcrumb-separator emotion-7 emotion-8"
+                >
+                  &gt;
+                </span>
+              </Styled(span)>
+              <itemComponent
+                className="dh-breadcrumb-link emotion-2"
+                item={
+                  Object {
+                    "href": "/white/white1",
+                    "label": "white1",
+                  }
+                }
+              >
+                <Link
+                  className="dh-breadcrumb-link emotion-2"
+                  external={false}
+                  noFollow={false}
+                  to="/white/white1"
+                >
+                  <Styled(a)
+                    className="dh-link dh-breadcrumb-link emotion-2"
+                    href="/white/white1"
+                    onClick={null}
+                  >
+                    <a
+                      className="dh-link dh-breadcrumb-link emotion-0 emotion-1"
+                      href="/white/white1"
+                      onClick={null}
+                    >
+                      white1
+                    </a>
+                  </Styled(a)>
+                </Link>
+              </itemComponent>
+            </li>
+          </Styled(li)>
+          <Styled(li)
+            className="dh-breadcrumb-item dh-breadcrumb-item--selected"
+            key="white/white1/white11"
+          >
+            <li
+              className="dh-breadcrumb-item dh-breadcrumb-item--selected emotion-5 emotion-6"
+            >
+              <Styled(span)
+                className="dh-breadcrumb-separator"
+              >
+                <span
+                  className="dh-breadcrumb-separator emotion-7 emotion-8"
+                >
+                  &gt;
+                </span>
+              </Styled(span)>
+              white1.1
+            </li>
+          </Styled(li)>
+        </ul>
+      </Styled(ul)>
+    </div>
+  </Breadcrumb>
+</WithTheme(Breadcrumb)>
+`;
+
+exports[`<Breadcrumb /> renders correctly with rootLabel 1`] = `
+.emotion-2 {
+  color: #6d6d6a;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-29 {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.emotion-5 {
+  margin-right: 10px;
+  color: #6d6d6a;
+}
+
+.emotion-5:last-child {
+  margin-right: 0;
+}
+
+.emotion-0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #6d6d6a;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-7 {
+  margin-right: 10px;
+  color: #6d6d6a;
+}
+
+<WithTheme(Breadcrumb)
+  items={
+    Array [
+      Object {
+        "href": "/white",
+        "label": "white",
+      },
+      Object {
+        "href": "/white/white1",
+        "label": "white1",
+      },
+      Object {
+        "href": "white/white1/white11",
+        "label": "white1.1",
+      },
+    ]
+  }
+  rootLabel="Homepage"
+>
+  <Breadcrumb
+    itemComponent={[Function]}
+    items={
+      Array [
+        Object {
+          "href": "/white",
+          "label": "white",
+        },
+        Object {
+          "href": "/white/white1",
+          "label": "white1",
+        },
+        Object {
+          "href": "white/white1/white11",
+          "label": "white1.1",
+        },
+      ]
+    }
+    rootComponent={[Function]}
+    rootLabel="Homepage"
+    rootURL={null}
+    separator=" > "
+  >
+    <div
+      className="dh-breadcrumb"
+    >
+      <Styled(ul)
+        className="dh-breadcrumb-list"
+      >
+        <ul
+          className="dh-breadcrumb-list emotion-29 emotion-30"
+        >
+          <Styled(li)
+            className="dh-breadcrumb-item"
+          >
+            <li
+              className="dh-breadcrumb-item emotion-5 emotion-6"
+            >
+              <rootComponent
+                className="dh-breadcrumb-link emotion-2"
+                href={null}
+                label="Homepage"
+              >
+                <Link
+                  className="dh-breadcrumb-link emotion-2"
+                  external={false}
+                  noFollow={false}
+                  to={null}
+                >
+                  <Styled(a)
+                    className="dh-link dh-breadcrumb-link emotion-2"
+                    href={null}
+                    onClick={null}
+                  >
+                    <a
+                      className="dh-link dh-breadcrumb-link emotion-0 emotion-1"
+                      href={null}
+                      onClick={null}
+                    >
+                      Homepage
+                    </a>
+                  </Styled(a)>
+                </Link>
+              </rootComponent>
+            </li>
+          </Styled(li)>
+          <Styled(li)
+            className="dh-breadcrumb-item"
+            key="/white"
+          >
+            <li
+              className="dh-breadcrumb-item emotion-5 emotion-6"
+            >
+              <Styled(span)
+                className="dh-breadcrumb-separator"
+              >
+                <span
+                  className="dh-breadcrumb-separator emotion-7 emotion-8"
+                >
+                  &gt;
+                </span>
+              </Styled(span)>
+              <itemComponent
+                className="dh-breadcrumb-link emotion-2"
+                item={
+                  Object {
+                    "href": "/white",
+                    "label": "white",
+                  }
+                }
+              >
+                <Link
+                  className="dh-breadcrumb-link emotion-2"
+                  external={false}
+                  noFollow={false}
+                  to="/white"
+                >
+                  <Styled(a)
+                    className="dh-link dh-breadcrumb-link emotion-2"
+                    href="/white"
+                    onClick={null}
+                  >
+                    <a
+                      className="dh-link dh-breadcrumb-link emotion-0 emotion-1"
+                      href="/white"
+                      onClick={null}
+                    >
+                      white
+                    </a>
+                  </Styled(a)>
+                </Link>
+              </itemComponent>
+            </li>
+          </Styled(li)>
+          <Styled(li)
+            className="dh-breadcrumb-item"
+            key="/white/white1"
+          >
+            <li
+              className="dh-breadcrumb-item emotion-5 emotion-6"
+            >
+              <Styled(span)
+                className="dh-breadcrumb-separator"
+              >
+                <span
+                  className="dh-breadcrumb-separator emotion-7 emotion-8"
+                >
+                  &gt;
+                </span>
+              </Styled(span)>
+              <itemComponent
+                className="dh-breadcrumb-link emotion-2"
+                item={
+                  Object {
+                    "href": "/white/white1",
+                    "label": "white1",
+                  }
+                }
+              >
+                <Link
+                  className="dh-breadcrumb-link emotion-2"
+                  external={false}
+                  noFollow={false}
+                  to="/white/white1"
+                >
+                  <Styled(a)
+                    className="dh-link dh-breadcrumb-link emotion-2"
+                    href="/white/white1"
+                    onClick={null}
+                  >
+                    <a
+                      className="dh-link dh-breadcrumb-link emotion-0 emotion-1"
+                      href="/white/white1"
+                      onClick={null}
+                    >
+                      white1
+                    </a>
+                  </Styled(a)>
+                </Link>
+              </itemComponent>
+            </li>
+          </Styled(li)>
+          <Styled(li)
+            className="dh-breadcrumb-item dh-breadcrumb-item--selected"
+            key="white/white1/white11"
+          >
+            <li
+              className="dh-breadcrumb-item dh-breadcrumb-item--selected emotion-5 emotion-6"
+            >
+              <Styled(span)
+                className="dh-breadcrumb-separator"
+              >
+                <span
+                  className="dh-breadcrumb-separator emotion-7 emotion-8"
+                >
+                  &gt;
+                </span>
+              </Styled(span)>
+              white1.1
+            </li>
+          </Styled(li)>
+        </ul>
+      </Styled(ul)>
+    </div>
+  </Breadcrumb>
+</WithTheme(Breadcrumb)>
+`;
+
+exports[`<Breadcrumb /> renders correctly without items 1`] = `
+.emotion-2 {
+  color: #6d6d6a;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-7 {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.emotion-5 {
+  margin-right: 10px;
+  color: #6d6d6a;
+}
+
+.emotion-5:last-child {
+  margin-right: 0;
+}
+
+.emotion-0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #6d6d6a;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+<WithTheme(Breadcrumb)>
+  <Breadcrumb
+    itemComponent={[Function]}
+    items={Array []}
+    rootComponent={[Function]}
+    rootLabel="Home"
+    rootURL={null}
+    separator=" > "
+  >
+    <div
+      className="dh-breadcrumb"
+    >
+      <Styled(ul)
+        className="dh-breadcrumb-list"
+      >
+        <ul
+          className="dh-breadcrumb-list emotion-7 emotion-8"
+        >
+          <Styled(li)
+            className="dh-breadcrumb-item"
+          >
+            <li
+              className="dh-breadcrumb-item emotion-5 emotion-6"
+            >
+              <rootComponent
+                className="dh-breadcrumb-link emotion-2"
+                href={null}
+                label="Home"
+              >
+                <Link
+                  className="dh-breadcrumb-link emotion-2"
+                  external={false}
+                  noFollow={false}
+                  to={null}
+                >
+                  <Styled(a)
+                    className="dh-link dh-breadcrumb-link emotion-2"
+                    href={null}
+                    onClick={null}
+                  >
+                    <a
+                      className="dh-link dh-breadcrumb-link emotion-0 emotion-1"
+                      href={null}
+                      onClick={null}
+                    >
+                      Home
+                    </a>
+                  </Styled(a)>
+                </Link>
+              </rootComponent>
+            </li>
+          </Styled(li)>
+        </ul>
+      </Styled(ul)>
+    </div>
+  </Breadcrumb>
+</WithTheme(Breadcrumb)>
+`;

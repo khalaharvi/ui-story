@@ -1,0 +1,53 @@
+$baseClassname: '.#{$namespace}-active-facets';
+
+#{$baseClassname} {
+  &-list {
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+  }
+
+  &-item {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  &-label,
+  &-category {
+    margin: 0 10px 10px 0;
+
+    line-height: 35px;
+  }
+
+  &-label {
+    text-transform: capitalize;
+  }
+
+  &-category {
+    display: block;
+    padding: 0 15px;
+
+    line-height: 35px;
+    background-color: $color__bg--active-facet;
+    color: $color__text__secondary;
+    border-radius: 2px;
+    cursor: pointer;
+
+    &:hover #{$baseClassname}-delete {
+      color: $color__text;
+    }
+  }
+
+  &-delete {
+    padding: 0;
+    margin-left: 15px;
+
+    appearance: none;
+    border: 0;
+    outline: 0;
+    background: none;
+    color: $color__text__secondary;
+    cursor: pointer;
+  }
+}

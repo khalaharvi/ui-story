@@ -1,0 +1,311 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListFacetOptions /> renders correctly 1`] = `
+.emotion-6 {
+  position: relative;
+}
+
+.emotion-4 {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.emotion-4 ul {
+  padding-left: 15px;
+  margin-bottom: 0;
+}
+
+.emotion-0 {
+  display: block;
+  position: relative;
+  color: #6d6d6a;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.emotion-0:hover {
+  color: #242424;
+}
+
+<WithTheme(ListFacetOptions)
+  cx={[Function]}
+  items={
+    Array [
+      Object {
+        "count": 10,
+        "label": "white",
+        "value": "white",
+      },
+      Object {
+        "count": 20,
+        "label": "black",
+        "value": "black",
+      },
+    ]
+  }
+  renderItem={[Function]}
+>
+  <ListFacetOptions
+    cx={[Function]}
+    items={
+      Array [
+        Object {
+          "count": 10,
+          "label": "white",
+          "value": "white",
+        },
+        Object {
+          "count": 20,
+          "label": "black",
+          "value": "black",
+        },
+      ]
+    }
+    renderItem={[Function]}
+  >
+    <Styled(div)
+      className=""
+    >
+      <div
+        className="emotion-6 emotion-7"
+      >
+        <Styled(ul)>
+          <ul
+            className="emotion-4 emotion-5"
+          >
+            <Styled(li)
+              className={null}
+              key="white"
+              parent={false}
+            >
+              <li
+                className="emotion-0 emotion-1"
+              />
+            </Styled(li)>
+            <Styled(li)
+              className={null}
+              key="black"
+              parent={false}
+            >
+              <li
+                className="emotion-0 emotion-1"
+              />
+            </Styled(li)>
+          </ul>
+        </Styled(ul)>
+      </div>
+    </Styled(div)>
+  </ListFacetOptions>
+</WithTheme(ListFacetOptions)>
+`;
+
+exports[`<ListFacetOptions /> renders correctly with className 1`] = `
+.emotion-6 {
+  position: relative;
+}
+
+.emotion-4 {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.emotion-4 ul {
+  padding-left: 15px;
+  margin-bottom: 0;
+}
+
+.emotion-0 {
+  display: block;
+  position: relative;
+  color: #6d6d6a;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.emotion-0:hover {
+  color: #242424;
+}
+
+<WithTheme(ListFacetOptions)
+  className="custom-list-facet-options"
+  cx={[Function]}
+  items={
+    Array [
+      Object {
+        "count": 10,
+        "label": "white",
+        "value": "white",
+      },
+      Object {
+        "count": 20,
+        "label": "black",
+        "value": "black",
+      },
+    ]
+  }
+  renderItem={[Function]}
+>
+  <ListFacetOptions
+    className="custom-list-facet-options"
+    cx={[Function]}
+    items={
+      Array [
+        Object {
+          "count": 10,
+          "label": "white",
+          "value": "white",
+        },
+        Object {
+          "count": 20,
+          "label": "black",
+          "value": "black",
+        },
+      ]
+    }
+    renderItem={[Function]}
+  >
+    <Styled(div)
+      className="custom-list-facet-options"
+    >
+      <div
+        className="custom-list-facet-options emotion-6 emotion-7"
+      >
+        <Styled(ul)>
+          <ul
+            className="emotion-4 emotion-5"
+          >
+            <Styled(li)
+              className={null}
+              key="white"
+              parent={false}
+            >
+              <li
+                className="emotion-0 emotion-1"
+              />
+            </Styled(li)>
+            <Styled(li)
+              className={null}
+              key="black"
+              parent={false}
+            >
+              <li
+                className="emotion-0 emotion-1"
+              />
+            </Styled(li)>
+          </ul>
+        </Styled(ul)>
+      </div>
+    </Styled(div)>
+  </ListFacetOptions>
+</WithTheme(ListFacetOptions)>
+`;
+
+exports[`<ListFacetOptions /> renders correctly without refinement 1`] = `
+.emotion-6 {
+  position: relative;
+}
+
+.emotion-4 {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.emotion-4 ul {
+  padding-left: 15px;
+  margin-bottom: 0;
+}
+
+.emotion-0 {
+  display: block;
+  position: relative;
+  color: #6d6d6a;
+  font-family: Monument Grotesk,sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.emotion-0:hover {
+  color: #242424;
+}
+
+<WithTheme(ListFacetOptions)
+  canRefine={false}
+  cx={[Function]}
+  items={
+    Array [
+      Object {
+        "count": 10,
+        "label": "white",
+        "value": "white",
+      },
+      Object {
+        "count": 20,
+        "label": "black",
+        "value": "black",
+      },
+    ]
+  }
+  renderItem={[Function]}
+>
+  <ListFacetOptions
+    canRefine={false}
+    cx={[Function]}
+    items={
+      Array [
+        Object {
+          "count": 10,
+          "label": "white",
+          "value": "white",
+        },
+        Object {
+          "count": 20,
+          "label": "black",
+          "value": "black",
+        },
+      ]
+    }
+    renderItem={[Function]}
+  >
+    <Styled(div)
+      canRefine={false}
+      className=""
+    >
+      <div
+        className="emotion-6 emotion-7"
+      >
+        <Styled(ul)
+          canRefine={false}
+        >
+          <ul
+            className="emotion-4 emotion-5"
+          >
+            <Styled(li)
+              className={null}
+              key="white"
+              parent={false}
+            >
+              <li
+                className="emotion-0 emotion-1"
+              />
+            </Styled(li)>
+            <Styled(li)
+              className={null}
+              key="black"
+              parent={false}
+            >
+              <li
+                className="emotion-0 emotion-1"
+              />
+            </Styled(li)>
+          </ul>
+        </Styled(ul)>
+      </div>
+    </Styled(div)>
+  </ListFacetOptions>
+</WithTheme(ListFacetOptions)>
+`;

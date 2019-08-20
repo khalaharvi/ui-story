@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PlaceAutocompleteSuggestion /> renders correctly 1`] = `
+<div>
+  <Styled(span)>
+    New York, NY
+  </Styled(span)>
+</div>
+`;

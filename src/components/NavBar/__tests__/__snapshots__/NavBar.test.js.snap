@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavBar /> renders correctly 1`] = `
+<div
+  className="dh-navbar"
+>
+  <div
+    className="dh-navbar-inner"
+  >
+    <NavBarLogo
+      alt="Logo"
+      src="https://placehold.it/259x28"
+      to={null}
+    />
+    <nav
+      className="dh-navbar-nav"
+    >
+      <ul
+        className="dh-navbar-nav-list"
+      >
+        <li
+          className="dh-navbar-nav-list-item"
+          key=".0"
+        >
+          Item
+        </li>
+      </ul>
+    </nav>
+    <div
+      className="dh-navbar-search"
+    >
+      <searchInputComponent
+        inputRef={[Function]}
+      />
+    </div>
+    <PoweredBy
+      to="https://deringhall.com?ref=ui-kit"
+    />
+  </div>
+</div>
+`;
+
+exports[`<NavBar /> renders correctly with className 1`] = `
+<div
+  className="dh-navbar custom-nav-bar"
+>
+  <div
+    className="dh-navbar-inner"
+  >
+    <NavBarLogo
+      alt="Logo"
+      src="https://placehold.it/259x28"
+      to={null}
+    />
+    <nav
+      className="dh-navbar-nav"
+    >
+      <ul
+        className="dh-navbar-nav-list"
+      >
+        <li
+          className="dh-navbar-nav-list-item"
+          key=".0"
+        >
+          Item
+        </li>
+      </ul>
+    </nav>
+    <div
+      className="dh-navbar-search"
+    >
+      <searchInputComponent
+        inputRef={[Function]}
+      />
+    </div>
+    <PoweredBy
+      to="https://deringhall.com?ref=ui-kit"
+    />
+  </div>
+</div>
+`;
