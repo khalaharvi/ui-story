@@ -107,6 +107,10 @@
     lodash "^4.17.5"
     to-fast-properties "^2.0.0"
 
+"@base2/pretty-print-object@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@base2/pretty-print-object/-/pretty-print-object-1.0.0.tgz#860ce718b0b73f4009e153541faff2cb6b85d047"
+
 "@dering-hall/dh-theme@^0.1.12":
   version "0.1.12"
   resolved "https://registry.yarnpkg.com/@dering-hall/dh-theme/-/dh-theme-0.1.12.tgz#b7cf2cc9ad52dce1b21cb9a7095d5ac266029b14"
@@ -5237,7 +5241,13 @@ is-plain-obj@^1.0.0, is-plain-obj@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/is-plain-obj/-/is-plain-obj-1.1.0.tgz#71a50c8429dfca773c92a390a4a03b39fcd51d3e"
 
-is-plain-object@2.0.4, is-plain-object@^2.0.1, is-plain-object@^2.0.3, is-plain-object@^2.0.4:
+is-plain-object@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/is-plain-object/-/is-plain-object-3.0.0.tgz#47bfc5da1b5d50d64110806c199359482e75a928"
+  dependencies:
+    isobject "^4.0.0"
+
+is-plain-object@^2.0.1, is-plain-object@^2.0.3, is-plain-object@^2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/is-plain-object/-/is-plain-object-2.0.4.tgz#2c163b3fafb1b606d9d17928f05c2a1c38e07677"
   dependencies:
@@ -5352,6 +5362,10 @@ isobject@^2.0.0:
 isobject@^3.0.0, isobject@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
+
+isobject@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/isobject/-/isobject-4.0.0.tgz#3f1c9155e73b192022a80819bacd0343711697b0"
 
 isomorphic-fetch@^2.1.1:
   version "2.2.1"
@@ -6959,7 +6973,7 @@ once@^1.3.0, once@^1.3.1, once@^1.4.0:
 
 onetime@^1.0.0:
   version "1.1.0"
-  resolved "http://registry.npmjs.org/onetime/-/onetime-1.1.0.tgz#a1f7838f8314c516f05ecefcbc4ccfe04b4ed789"
+  resolved "https://registry.npmjs.org/onetime/-/onetime-1.1.0.tgz#a1f7838f8314c516f05ecefcbc4ccfe04b4ed789"
 
 onetime@^2.0.0:
   version "2.0.1"
@@ -7973,12 +7987,12 @@ react-dom@^16.3.0:
     object-assign "^4.1.1"
     prop-types "^15.6.0"
 
-react-element-to-jsx-string@^13.1.0:
-  version "13.2.0"
-  resolved "https://registry.yarnpkg.com/react-element-to-jsx-string/-/react-element-to-jsx-string-13.2.0.tgz#550bb9670e4d8c82977934c14db14469d156a70d"
+react-element-to-jsx-string@^14.0.1:
+  version "14.3.1"
+  resolved "https://registry.yarnpkg.com/react-element-to-jsx-string/-/react-element-to-jsx-string-14.3.1.tgz#a08fa6e46eb76061aca7eabc2e70f433583cb203"
   dependencies:
-    is-plain-object "2.0.4"
-    stringify-object "3.2.2"
+    "@base2/pretty-print-object" "1.0.0"
+    is-plain-object "3.0.0"
 
 react-emotion@^9.2.8:
   version "9.2.8"
@@ -9207,12 +9221,12 @@ stealthy-require@^1.1.0:
   resolved "https://registry.yarnpkg.com/stealthy-require/-/stealthy-require-1.1.1.tgz#35b09875b4ff49f26a777e509b3090a3226bf24b"
 
 storybook-addon-jsx@^5.3.0:
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/storybook-addon-jsx/-/storybook-addon-jsx-5.3.0.tgz#acf54c93d403afbf6d68fe934cf41504d674b94c"
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/storybook-addon-jsx/-/storybook-addon-jsx-5.4.0.tgz#3e703bdecf54621269f2aa394004265cf1e9bda9"
   dependencies:
     js-beautify "^1.7.5"
     react-copy-to-clipboard "^5.0.1"
-    react-element-to-jsx-string "^13.1.0"
+    react-element-to-jsx-string "^14.0.1"
 
 stream-browserify@^2.0.1:
   version "2.0.1"
@@ -9317,7 +9331,7 @@ stringify-entities@^1.0.1:
     is-alphanumerical "^1.0.0"
     is-hexadecimal "^1.0.0"
 
-stringify-object@3.2.2, stringify-object@^3.2.2:
+stringify-object@^3.2.2:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/stringify-object/-/stringify-object-3.2.2.tgz#9853052e5a88fb605a44cd27445aa257ad7ffbcd"
   dependencies:
